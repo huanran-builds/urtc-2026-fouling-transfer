@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============================================
+# URTC 2026 project rules
+# ============================================
+
+# --- environments and caches ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- OS and editor noise ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- NEVER commit these ---
+*.pdf
+*.token
+*.key
+.env
+secrets*
+
+# --- export to CSV and commit the CSV instead ---
+data/raw/*.xlsx
