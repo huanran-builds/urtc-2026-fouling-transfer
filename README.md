@@ -1,4 +1,3 @@
-
 # Cross-Domain Transferability of Nanoscale Surface Descriptors
 
 IEEE MIT Undergraduate Research Technology Conference (URTC) 2026
