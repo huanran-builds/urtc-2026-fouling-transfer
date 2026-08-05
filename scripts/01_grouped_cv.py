@@ -1,0 +1,207 @@
+"""
+Grouped cross-validation re-analysis of Chen et al. 2026 nanoparticle
+antibacterial dataset (Cell Reports Physical Science 7, 103411).
+
+Their reported classification accuracy is 0.79 +/- 0.02 with XGBoost, obtained
+from a stratified random 80/20 split. The 342 rows come from only 65 source
+studies, so rows from the same study appear in both training and test.
+
+This script fits the same model class two ways:
+    random  -> StratifiedKFold, source study ignored (their approach)
+    grouped -> GroupKFold on Ref, no study spans train and test
+
+MIC_class thresholds are external clinical breakpoints, not fitted to this
+data (paper p.13): strong MIC <= 10, moderate 10 < MIC <= 100, weak MIC > 100.
+
+Run from the repo root:
+    python scripts/01_grouped_cv.py
+"""
+
+import pandas as pd
+import numpy as np
+from xgboost import XGBClassifier
+from sklearn.model_selection import StratifiedKFold, GroupKFold, cross_validate
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import OneHotEncoder, LabelEncoder
+
+RANDOM_STATE = 42
+N_SPLITS = 5
+PATH = "data/external/chen2026_nanoparticles/Nanoparticles_MIC_with_class.csv"
+OUT = "outputs/tables/grouped_cv_mic.csv"
+
+# ----------------------------------------------------------------------
+# Load
+# ----------------------------------------------------------------------
+df = pd.read_csv(PATH)
+
+# Ref is a DOI written once at the top of each source study's block and left
+# blank underneath. Forward-fill turns it into a usable study identifier.
+df["Ref"] = df["Ref"].ffill()
+
+# The column labelled "zeta potential" holds only 0.0 and 1.0. Table 1 of the
+# paper confirms zeta was "categorized as positive or negative", so this is a
+# binary charge indicator, not a millivolt measurement.
+df = df.rename(columns={"zeta potential": "zeta_binary"})
+
+# ----------------------------------------------------------------------
+# Features
+# ----------------------------------------------------------------------
+NUM = [c for c in df.columns if c.startswith("MagpieData")] + [
+    "size (nm)",
+    "zeta_binary",
+    "duration",
+    "temperature",
+]
+
+CAT = [
+    "Shape",
+    "bacteria",
+    "gram stain",
+    "motility",
+    "Oxygen Requirement",
+    "Shape.1",
+    "Arrangement",
+]
+
+missing = [c for c in NUM + CAT if c not in df.columns]
+if missing:
+    raise SystemExit(f"Columns not found in the CSV: {missing}")
+
+X = df[NUM + CAT]
+
+# XGBoost needs numeric labels
+le = LabelEncoder()
+y = pd.Series(le.fit_transform(df["MIC_class"]), index=df.index)
+
+groups = df["Ref"]
+
+
+# ----------------------------------------------------------------------
+# Pipeline
+# ----------------------------------------------------------------------
+def build_pipeline():
+    """Imputation and encoding live inside the pipeline so they are fit on
+    training folds only. Doing either beforehand would leak test-fold
+    information through the median and the category list."""
+    return Pipeline(
+        [
+            (
+                "prep",
+                ColumnTransformer(
+                    [
+                        ("num", SimpleImputer(strategy="median"), NUM),
+                        (
+                            "cat",
+                            Pipeline(
+                                [
+                                    (
+                                        "imp",
+                                        SimpleImputer(
+                                            strategy="constant",
+                                            fill_value="missing",
+                                        ),
+                                    ),
+                                    (
+                                        "oh",
+                                        OneHotEncoder(
+                                            handle_unknown="ignore",
+                                            min_frequency=3,
+                                        ),
+                                    ),
+                                ]
+                            ),
+                            CAT,
+                        ),
+                    ]
+                ),
+            ),
+            (
+                "clf",
+                XGBClassifier(
+                    n_estimators=300,
+                    max_depth=4,
+                    learning_rate=0.1,
+                    subsample=0.9,
+                    colsample_bytree=0.9,
+                    objective="multi:softprob",
+                    num_class=3,
+                    random_state=RANDOM_STATE,
+                    n_jobs=-1,
+                    verbosity=0,
+                ),
+            ),
+        ]
+    )
+
+
+SCORING = ["accuracy", "f1_macro"]
+
+# ----------------------------------------------------------------------
+# Evaluate both ways
+# ----------------------------------------------------------------------
+random_cv = cross_validate(
+    build_pipeline(),
+    X,
+    y,
+    scoring=SCORING,
+    cv=StratifiedKFold(N_SPLITS, shuffle=True, random_state=RANDOM_STATE),
+)
+
+grouped_cv = cross_validate(
+    build_pipeline(),
+    X,
+    y,
+    groups=groups,
+    scoring=SCORING,
+    cv=GroupKFold(N_SPLITS),
+)
+
+# ----------------------------------------------------------------------
+# Report
+# ----------------------------------------------------------------------
+baseline = df["MIC_class"].value_counts(normalize=True).max()
+vc = groups.value_counts()
+
+print()
+print("Chen et al. 2026, nanoparticle MIC dataset")
+print(f"  rows              : {len(df)}")
+print(f"  source studies    : {groups.nunique()}")
+print(f"  rows per study    : mean {vc.mean():.1f}, median {vc.median():.0f}, max {vc.max()}")
+print(f"  classes           : {dict(df['MIC_class'].value_counts())}")
+print(f"  majority baseline : {baseline:.3f}")
+print("  paper reports     : 0.79 +/- 0.02 accuracy (XGBoost, random 80/20)")
+print()
+
+rows = []
+for metric in SCORING:
+    r = random_cv[f"test_{metric}"]
+    g = grouped_cv[f"test_{metric}"]
+    drop = r.mean() - g.mean()
+    print(
+        f"  {metric:>9}   random {r.mean():.3f} +/- {r.std():.3f}   "
+        f"grouped {g.mean():.3f} +/- {g.std():.3f}   drop {drop:+.3f}"
+    )
+    rows.append(
+        {
+            "metric": metric,
+            "random_mean": round(r.mean(), 4),
+            "random_std": round(r.std(), 4),
+            "grouped_mean": round(g.mean(), 4),
+            "grouped_std": round(g.std(), 4),
+            "drop": round(drop, 4),
+            "majority_baseline": round(baseline, 4),
+            "n_rows": len(df),
+            "n_studies": int(groups.nunique()),
+            "model": "XGBClassifier",
+        }
+    )
+
+print()
+print("  random  = StratifiedKFold, source study ignored (their approach)")
+print("  grouped = GroupKFold on Ref, no study spans train and test")
+print()
+
+pd.DataFrame(rows).to_csv(OUT, index=False)
+print(f"Saved to {OUT}")

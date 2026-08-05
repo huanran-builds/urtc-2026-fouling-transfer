@@ -1,0 +1,3 @@
+metric,random_mean,random_std,grouped_mean,grouped_std,drop,majority_baseline,n_rows,n_studies,model
+accuracy,0.7279,0.0426,0.3162,0.1222,0.4118,0.4181,342,65,XGBClassifier
+f1_macro,0.7077,0.0483,0.2725,0.1291,0.4351,0.4181,342,65,XGBClassifier
