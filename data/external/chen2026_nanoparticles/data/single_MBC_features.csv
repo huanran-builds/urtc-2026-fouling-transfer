@@ -1,0 +1,134 @@
+No.,Ref,Material 1,Formula,MagpieData mean Number,MagpieData range Number,MagpieData mean Electronegativity,MagpieData range Electronegativity,MagpieData mean MeltingT,MagpieData range MeltingT,MagpieData mean AtomicRadius,MagpieData range AtomicRadius,MagpieData mean AtomicVolume,MagpieData range AtomicVolume,MagpieData mean CovalentRadius,MagpieData range CovalentRadius,MagpieData mean ThermalConductivity,MagpieData range ThermalConductivity,MagpieData mean Density,MagpieData range Density,MagpieData mean FusionEnthalpy,MagpieData range FusionEnthalpy,MagpieData mean Row,MagpieData range Row,MagpieData mean Column,MagpieData range Column,size (nm),Shape,"Synthesis Method	",zeta potential,bacteria,+ / or  -/',motility,Oxygen Requirement,Shape.1,Arrangement,duration,temperature,MBC (�g/mL)
+1,https://doi.org/10.1002/jbm.b.35197,СeO2,CeO2,24.67,50,2.67,2.32,393.53,1016.2,1.02,1.25,12406.39,18557.41,112,138,3.68,10.97,2230.62,6687.57,1.97,5.24,3.33,4,11.67,13,1.5,spherical,chemical synthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,190
+2,10.1088/1748-605X/acd03f,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,80,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,1250
+3,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,80,spherical,chemical synthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,2500
+4,,Co,Co,27,0,1.88,0,1768,0,1.35,0,11,0,126,0,100,0,8900,0,16.2,0,4,0,9,0,28,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,5000
+5,,Co,Co,27,0,1.88,0,1768,0,1.35,0,11,0,126,0,100,0,8900,0,16.2,0,4,0,9,0,28,spherical,chemical synthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,5000
+6,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,65,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,2500
+7,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,65,spherical,chemical synthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,2500
+8,,Zn,Zn,30,0,1.65,0,692.68,0,1.35,0,15.21,0,122,0,120,0,7140,0,7.07,0,4,0,12,0,80,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,1250
+9,,Zn,Zn,30,0,1.65,0,692.68,0,1.35,0,15.21,0,122,0,120,0,7140,0,7.07,0,4,0,12,0,80,spherical,chemical synthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,5000
+10,10.1007/s12088-013-0437-5,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,22.5,spherical,Green synthesis ,0,A. hydrophila,0,1,Facultative anaerobe,Rod,Singles,24,37,322
+11,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,22.5,spherical,Green synthesis ,0,A. bestiarum,0,1,Facultative anaerobe,Rod,Singles,24,37,205
+12,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,22.5,spherical,Green synthesis ,0,P. fluorescens,0,1,Obligate aerobe,Rod,Singles,24,37,183
+13,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,22.5,spherical,Green synthesis ,0,E. tarda,0,1,Facultative anaerobe,Rod,Singles,24,37,128
+14,,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,22.5,spherical,Green synthesis ,1,A. bestiarum,0,1,Facultative anaerobe,Rod,Singles,24,37,294
+15,,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,22.5,spherical,Green synthesis ,1,P. fluorescens,0,1,Obligate aerobe,Rod,Singles,24,37,363
+16,https://doi.org/10.1016/j.jrras.2015.10.002,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,25,spherical,Green synthesis ,0,B. cereus,1,1,Facultative anaerobe,Rod,Chains,24,37,361
+17,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,25,spherical,Green synthesis ,0,B. subtilis,1,1,Facultative anaerobe,Rod,Chains,24,37,282
+18,https://pubs.rsc.org/en/content/articlelanding/2015/ra/c4ra12784f,ZnO,ZnO,19,22,2.54,1.79,373.74,637.88,0.98,0.75,9303.7,18576.99,94,56,60.01,119.97,3570.71,7138.57,3.64,6.85,3,2,14,4,55,rod,Green synthesis ,0,E. coli ,0,1,Facultative anaerobe,Rod,Singles,24,37,50
+19,,ZnO,ZnO,19,22,2.54,1.79,373.74,637.88,0.98,0.75,9303.7,18576.99,94,56,60.01,119.97,3570.71,7138.57,3.64,6.85,3,2,14,4,55,rod,Green synthesis ,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,50
+20,10.1007/s42770-022-00868-1,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,6.2,spherical,Green synthesis ,0,S. enteritidis ,0,1,Facultative anaerobe,Rod,Singles,24,37,25.1
+21,,TiO2,TiO2,12.67,14,2.81,1.9,683.53,1886.2,0.87,0.8,12400.68,18574.56,97.33,94,7.35,21.97,1503.29,4505.57,4.86,13.93,2.67,2,12,12,92.6,irregular,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,60
+22,,TiO2,TiO2,12.67,14,2.81,1.9,683.53,1886.2,0.87,0.8,12400.68,18574.56,97.33,94,7.35,21.97,1503.29,4505.57,4.86,13.93,2.67,2,12,12,92.6,irregular,Green synthesis ,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,60
+23,,TiO2,TiO2,12.67,14,2.81,1.9,683.53,1886.2,0.87,0.8,12400.68,18574.56,97.33,94,7.35,21.97,1503.29,4505.57,4.86,13.93,2.67,2,12,12,92.6,irregular,Green synthesis ,0,S. marcescens,0,1,Facultative anaerobe,Rod,Chains,24,37,20
+24,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,10.7,spherical,Green synthesis ,0,S. marcescens,0,1,Facultative anaerobe,Rod,Chains,24,37,20
+25,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,35.4,irregular,Green synthesis ,0,S. marcescens,0,1,Facultative anaerobe,Rod,Chains,24,37,40
+26,,TiO2,TiO2,12.67,14,2.81,1.9,683.53,1886.2,0.87,0.8,12400.68,18574.56,97.33,94,7.35,21.97,1503.29,4505.57,4.86,13.93,2.67,2,12,12,92.6,irregular,Green synthesis ,0,S. epidermidis,1,0,Facultative anaerobe,Coccus,clusters,24,37,20
+27,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,10.7,spherical,Green synthesis ,0,S. epidermidis,1,0,Facultative anaerobe,Coccus,clusters,24,37,20
+28,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,35.4,irregular,Green synthesis ,0,S. epidermidis,1,0,Facultative anaerobe,Coccus,clusters,24,37,20
+29,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,10.7,spherical,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,60
+30,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,35.4,irregular,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,160
+31,10.14202/vetworld.2023.1301-1311,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,66.6,spherical,Green synthesis ,0,A. xylosoxidans,0,1,Obligate aerobe,Rod,Singles,24,37,32
+32,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,66.6,spherical,Green synthesis ,0,C. freundii,0,1,Facultative anaerobe,Rod,Singles,24,37,256
+33,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,66.6,spherical,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,64
+34,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,66.6,spherical,Green synthesis ,0,K. oxytoca,0,0,Facultative anaerobe,Rod,Pairs,24,37,64
+35,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,66.6,spherical,Green synthesis ,0,M. catarrhalis,0,0,Obligate aerobe,Coccus,Pairs,24,37,128
+36,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,66.6,spherical,Green synthesis ,0,M. morganii,0,1,Facultative anaerobe,Rod,Singles,24,37,128
+37,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,66.6,spherical,Green synthesis ,0,P. aeruginosa,0,1,Obligate aerobe,Rod,Singles,24,37,64
+38,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,59.5,spherical,Green synthesis ,0,A. xylosoxidans,0,1,Obligate aerobe,Rod,Singles,24,37,16
+39,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,59.5,spherical,Green synthesis ,0,C. freundii,0,1,Facultative anaerobe,Rod,Singles,24,37,8
+40,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,59.5,spherical,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,128
+41,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,59.5,spherical,Green synthesis ,0,K. oxytoca,0,0,Facultative anaerobe,Rod,Pairs,24,37,16
+42,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,59.5,spherical,Green synthesis ,0,M. catarrhalis,0,0,Obligate aerobe,Coccus,Pairs,24,37,16
+43,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,59.5,spherical,Green synthesis ,0,M. morganii,0,1,Facultative anaerobe,Rod,Singles,24,37,8
+44,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,59.5,spherical,Green synthesis ,0,P. aeruginosa,0,1,Obligate aerobe,Rod,Singles,24,37,64
+45,https://doi.org/10.3390/antibiotics12020201,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,14.2,spherical,chemical synthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,42.5
+46,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,14.2,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,42.5
+47,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,14.2,spherical,chemical synthesis,0,C. albicans,1,0,Facultative anaerobe,Oval ,Singles,24,37,42.5
+48,10.1007/s12010-022-04120-2,CuO,CuO,18.5,21,2.67,1.54,706.28,1302.97,0.98,0.75,9302.01,18580.37,99,66,200.01,399.97,4460.71,8918.57,6.91,13.38,3,2,13.5,5,9.5,spherical,Green synthesis ,0,K. oxytoca,0,0,Facultative anaerobe,Rod,Pairs,24,37,25
+49,,CuO,CuO,18.5,21,2.67,1.54,706.28,1302.97,0.98,0.75,9302.01,18580.37,99,66,200.01,399.97,4460.71,8918.57,6.91,13.38,3,2,13.5,5,9.5,spherical,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,12.5
+50,,CuO,CuO,18.5,21,2.67,1.54,706.28,1302.97,0.98,0.75,9302.01,18580.37,99,66,200.01,399.97,4460.71,8918.57,6.91,13.38,3,2,13.5,5,9.5,spherical,Green synthesis ,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,50
+51,,CuO,CuO,18.5,21,2.67,1.54,706.28,1302.97,0.98,0.75,9302.01,18580.37,99,66,200.01,399.97,4460.71,8918.57,6.91,13.38,3,2,13.5,5,9.5,spherical,Green synthesis ,0,B. cereus,1,1,Facultative anaerobe,Rod,Chains,24,37,50
+52,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,80,spherical,biosynthesis,0,MRSA,1,0,Facultative anaerobe,Coccus,clusters,22,37,1000
+53,,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,80,spherical,biosynthesis,0,S. pyogenes,1,0,Facultative anaerobe,Coccus,Chains,22,37,1000
+54,,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,80,spherical,biosynthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,22,37,1000
+55, 10.1021/acsinfecdis.4c00860,MoS2,MoS2,24.67,26,2.44,0.42,1224.24,2507.64,1.15,0.45,23.28,11.67,121.33,49,46.47,138.79,4733.33,8320,13.64,35.76,3.67,2,12.67,10,7,quantum dots,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,0.03
+56,,MoS2,MoS2,24.67,26,2.44,0.42,1224.24,2507.64,1.15,0.45,23.28,11.67,121.33,49,46.47,138.79,4733.33,8320,13.64,35.76,3.67,2,12.67,10,7,quantum dots,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,0.06
+57,,MoS2,MoS2,24.67,26,2.44,0.42,1224.24,2507.64,1.15,0.45,23.28,11.67,121.33,49,46.47,138.79,4733.33,8320,13.64,35.76,3.67,2,12.67,10,125,nanosheets,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,2
+58,,MoS2,MoS2,24.67,26,2.44,0.42,1224.24,2507.64,1.15,0.45,23.28,11.67,121.33,49,46.47,138.79,4733.33,8320,13.64,35.76,3.67,2,12.67,10,125,nanosheets,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,1
+59,10.1021/acsomega.2c06789,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,100.54,spherical,Green synthesis ,0,S. mutans,1,0,Facultative anaerobe,Coccus,Pairs,24,37,512
+60,,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,100.54,spherical,Green synthesis ,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,2048
+61,,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,100.54,spherical,Green synthesis ,0,P. aeruginosa,0,1,Obligate aerobe,Rod,Singles,24,37,2048
+62,,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,100.54,spherical,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,512
+63,,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,100.54,spherical,Green synthesis ,0,L. monocytogenes,1,0,Facultative anaerobe,Rod,Singles,24,37,2048
+64,,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,100.54,spherical,Green synthesis ,0,K. pneumoniae,0,0,Facultative anaerobe,Rod,Singles,24,37,512
+65,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,129.51,spherical,Green synthesis ,0,S. mutans,1,0,Facultative anaerobe,Coccus,Pairs,24,37,64
+66,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,129.51,spherical,Green synthesis ,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,256
+67,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,129.51,spherical,Green synthesis ,0,P. aeruginosa,0,1,Obligate aerobe,Rod,Singles,24,37,64
+68,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,129.51,spherical,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,256
+69,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,129.51,spherical,Green synthesis ,0,L. monocytogenes,1,0,Facultative anaerobe,Rod,Singles,24,37,512
+70,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,129.51,spherical,Green synthesis ,0,K. pneumoniae,0,0,Facultative anaerobe,Rod,Singles,24,37,256
+71,10.1080/21691401.2023.2268167,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,75.25,spherical,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,10
+72,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,75.25,spherical,Green synthesis ,0,P. aeruginosa,0,1,Obligate aerobe,Rod,Singles,24,37,10
+73,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,75.25,spherical,Green synthesis ,0,S. mutans,1,0,Facultative anaerobe,Coccus,Pairs,24,37,10
+74,10.3390/plants12112177,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,17.7,spherical,Green synthesis ,0,B. subtilis,1,1,Facultative anaerobe,Rod,Chains,24,37,31.17
+75,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,17.7,spherical,Green synthesis ,0,E. faecalis,1,0,Facultative anaerobe,Coccus,Pairs,24,37,31.37
+76,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,17.7,spherical,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,7.9
+77,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,17.7,spherical,Green synthesis ,0,P. vulgaris,0,1,Facultative anaerobe,Rod,Singles,24,37,15.7
+78,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,17.7,spherical,Green synthesis ,0,C. albicans,1,0,Facultative anaerobe,Oval ,Singles,24,37,63
+79,https://doi.org/10.3390/antiox13070865,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,48.3,Spherical,Green synthesis ,0,B. cereus,1,1,Facultative anaerobe,Rod,Chains,24,37,50
+80,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,48.3,Spherical,Green synthesis ,0,E. faecalis,1,0,Facultative anaerobe,Coccus,Pairs,24,37,50
+81,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,48.3,Spherical,Green synthesis ,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,50
+82,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,48.3,Spherical,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,250
+83,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,48.3,Spherical,Green synthesis ,0,K. quasipneumoniae,0,0,Facultative anaerobe,Rod,Pairs,24,37,250
+84,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,48.3,Spherical,Green synthesis ,0,P. aeruginosa,0,1,Obligate aerobe,Rod,Singles,24,37,250
+85,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,48.3,Spherical,Green synthesis ,0,S. typhimurium,0,1,Facultative anaerobe,Rod,Singles,24,37,250
+86,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,48.3,Spherical,Green synthesis ,0,Shigella sonnei,0,0,Facultative anaerobe,Rod,Singles,24,37,250
+87,10.1007/s00430-017-0525-y,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,35,spherical,chemical synthesis,0,P. aeruginosa,0,1,Obligate aerobe,Rod,Singles,18,37,20000
+88,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,35,spherical,chemical synthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,18,37,30000
+89,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,35,spherical,chemical synthesis,0,B. subtilis,1,1,Facultative anaerobe,Rod,Chains,18,37,20000
+90,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,35,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,18,37,20000
+91,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,25,spherical,Green synthesis ,0,P. aeruginosa,0,1,Obligate aerobe,Rod,Singles,18,37,20000
+92,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,25,spherical,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,18,37,10000
+93,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,25,spherical,Green synthesis ,0,B. subtilis,1,1,Facultative anaerobe,Rod,Chains,18,37,5000
+94,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,25,spherical,Green synthesis ,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,18,37,10000
+95,https://doi.org/10.1186/s13568-024-01707-2,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,52,spherical ,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,50
+96,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,52,spherical ,biosynthesis,0,B. cereus,1,1,Facultative anaerobe,Rod,Chains,24,37,50
+97,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,52,spherical ,biosynthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,250
+98,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,52,spherical ,biosynthesis,0,K. quasipneumoniae,0,0,Facultative anaerobe,Rod,Pairs,24,37,250
+99,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,52,spherical ,biosynthesis,0,P. aeruginosa,0,1,Obligate aerobe,Rod,Singles,24,37,125
+100,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,52,spherical ,biosynthesis,0,S. typhimurium,0,1,Facultative anaerobe,Rod,Singles,24,37,250
+101,,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,52,spherical ,biosynthesis,0,Shigella sonnei,0,0,Facultative anaerobe,Rod,Singles,24,37,75
+102,10.1590/0103-6440202003897,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,28.75,spherical ,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,1.52
+103,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,28.75,spherical ,Green synthesis ,0,E. faecalis,1,0,Facultative anaerobe,Coccus,Pairs,24,37,6.09
+104,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,28.75,spherical ,Green synthesis ,0,P. aeruginosa,0,1,Obligate aerobe,Rod,Singles,24,37,1.52
+105,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,28.75,spherical ,Green synthesis ,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,1.52
+106,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,28.75,spherical ,Green synthesis ,0,S. mutans,1,0,Facultative anaerobe,Coccus,Pairs,24,37,12.15
+107,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,35.9,spherical ,Green synthesis ,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,1.52
+108,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,35.9,spherical ,Green synthesis ,0,E. faecalis,1,0,Facultative anaerobe,Coccus,Pairs,24,37,0.19
+109,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,35.9,spherical ,Green synthesis ,0,P. aeruginosa,0,1,Obligate aerobe,Rod,Singles,24,37,3.04
+110,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,35.9,spherical ,Green synthesis ,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,24.29
+111,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,35.9,spherical ,Green synthesis ,0,S. mutans,1,0,Facultative anaerobe,Coccus,Pairs,24,37,12.15
+112,https://doi.org/10.3390/molecules29133027,AgCu,AgCu,38,18,1.92,0.03,1296.35,122.84,1.48,0.25,14.45,5.25,138.5,13,415,30,9705,1570,12.45,2.3,4.5,1,11,0,4,polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,13
+113,,AgCu,AgCu,38,18,1.92,0.03,1296.35,122.84,1.48,0.25,14.45,5.25,138.5,13,415,30,9705,1570,12.45,2.3,4.5,1,11,0,4,polyhedral,chemical synthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,13
+114,,AgCu,AgCu,38,18,1.92,0.03,1296.35,122.84,1.48,0.25,14.45,5.25,138.5,13,415,30,9705,1570,12.45,2.3,4.5,1,11,0,13,polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,4
+115,,AgCu,AgCu,38,18,1.92,0.03,1296.35,122.84,1.48,0.25,14.45,5.25,138.5,13,415,30,9705,1570,12.45,2.3,4.5,1,11,0,13,polyhedral,chemical synthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,4
+116,10.1038/s41598-021-85584-,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,37.5,rod,biosynthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,0.78
+117,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,37.5,rod,biosynthesis,0,S. epidermidis,1,0,Facultative anaerobe,Coccus,clusters,24,37,0.39
+118,https://doi.org/10.1111/jfd.14003,Cu,Cu,29,0,1.9,0,1357.77,0,1.35,0,11.83,0,132,0,400,0,8920,0,13.6,0,4,0,11,0,44.33,irregular,chemical synthesis,0,A. hydrophila,0,1,Facultative anaerobe,Rod,Singles,24,28,12500
+119,https://doi.org/10.1038/s41598-019-54025-0,TiO₂,TiO2,12.67,14,2.81,1.9,683.53,1886.2,0.87,0.8,12400.68,18574.56,97.33,94,7.35,21.97,1503.29,4505.57,4.86,13.93,2.67,2,12,12,50,spherical,chemical synthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,2000
+120,,TiO₂,TiO2,12.67,14,2.81,1.9,683.53,1886.2,0.87,0.8,12400.68,18574.56,97.33,94,7.35,21.97,1503.29,4505.57,4.86,13.93,2.67,2,12,12,50,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,4000
+121,,TiO₂,TiO2,12.67,14,2.81,1.9,683.53,1886.2,0.87,0.8,12400.68,18574.56,97.33,94,7.35,21.97,1503.29,4505.57,4.86,13.93,2.67,2,12,12,50,spherical,chemical synthesis,0,P. fluorescens,0,1,Obligate aerobe,Rod,Singles,24,37,3000
+122,,TiO₂,TiO2,12.67,14,2.81,1.9,683.53,1886.2,0.87,0.8,12400.68,18574.56,97.33,94,7.35,21.97,1503.29,4505.57,4.86,13.93,2.67,2,12,12,50,spherical,chemical synthesis,0,L. monocytogenes,1,0,Facultative anaerobe,Rod,Singles,24,37,4000
+123,,ZnO,ZnO,19,22,2.54,1.79,373.74,637.88,0.98,0.75,9303.7,18576.99,94,56,60.01,119.97,3570.71,7138.57,3.64,6.85,3,2,14,4,50,spherical,chemical synthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,3000
+124,,ZnO,ZnO,19,22,2.54,1.79,373.74,637.88,0.98,0.75,9303.7,18576.99,94,56,60.01,119.97,3570.71,7138.57,3.64,6.85,3,2,14,4,50,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,4000
+125,,ZnO,ZnO,19,22,2.54,1.79,373.74,637.88,0.98,0.75,9303.7,18576.99,94,56,60.01,119.97,3570.71,7138.57,3.64,6.85,3,2,14,4,50,spherical,chemical synthesis,0,P. fluorescens,0,1,Obligate aerobe,Rod,Singles,24,37,2000
+126,,ZnO,ZnO,19,22,2.54,1.79,373.74,637.88,0.98,0.75,9303.7,18576.99,94,56,60.01,119.97,3570.71,7138.57,3.64,6.85,3,2,14,4,50,spherical,chemical synthesis,0,L. monocytogenes,1,0,Facultative anaerobe,Rod,Singles,24,37,3000
+127,https://doi.org/10.1007/s11274-017-2406-3,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,12.5,spherical,biosynthesis,0,E. coli,0,1,Facultative anaerobe,Rod,Singles,24,37,64
+128,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,12.5,spherical,biosynthesis,0,K. pneumoniae,0,0,Facultative anaerobe,Rod,Singles,24,37,256
+129,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,12.5,spherical,biosynthesis,0,P. aeruginosa,0,1,Obligate aerobe,Rod,Singles,24,37,32
+130,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,12.5,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,384
+131,,Ag,Ag,47,0,1.93,0,1234.93,0,1.6,0,17.08,0,145,0,430,0,10490,0,11.3,0,5,0,11,0,12.5,spherical,biosynthesis,0,B. subtilis,1,1,Facultative anaerobe,Rod,Chains,24,37,64
+132,https://doi.org/10.1016/j.micpath.2024.106546,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,154.74,Polyhedral,Green synthesis ,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,1024
+133,,Au,Au,79,0,2.54,0,1337.33,0,1.35,0,16.95,0,136,0,320,0,19300,0,12.55,0,6,0,11,0,154.74,Polyhedral,Green synthesis ,0,L. monocytogenes,1,0,Facultative anaerobe,Rod,Singles,24,37,2048

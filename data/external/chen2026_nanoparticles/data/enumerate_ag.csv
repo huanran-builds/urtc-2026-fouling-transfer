@@ -1,0 +1,1180 @@
+No.,Ref,Material 1,Formula,MagpieData mean Number,MagpieData mean Electronegativity,MagpieData mean AtomicRadius,MagpieData mean CovalentRadius,MagpieData mean Density,MagpieData mean Row,MagpieData mean Column,size (nm),Shape,Synthesis Method,zeta potential,bacteria,gram stain,motility,Oxygen Requirement,Shape.1,Arrangement,duration,temperature,MIC (ÃÂÃÂµg/mL),MIC_class,MIC_pred (ÃÂµg/mL),MBC_pred (Âµg/mL),MBC_pred (µg/mL)
+1,10.1088/1748-605X/acd03f,Ag,Ag,47,1.93,1.6,145,10490,5,11,0,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,186.13895,133.19112,505.37106
+2,,Ag,Ag,47,1.93,1.6,145,10490,5,11,0,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,67.68884,158.78685,668.2867
+3,,Ag,Ag,47,1.93,1.6,145,10490,5,11,0,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,76.22248,118.02917,487.80557
+4,,Ag,Ag,47,1.93,1.6,145,10490,5,11,0,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,21.139673,94.48596,505.37106
+5,,Ag,Ag,47,1.93,1.6,145,10490,5,11,0,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,2.3225853,133.42097,668.2867
+6,,Ag,Ag,47,1.93,1.6,145,10490,5,11,0,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-18.714256,80.06779,487.80557
+7,,Ag,Ag,47,1.93,1.6,145,10490,5,11,0,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,20.922663,103.877464,505.37106
+8,,Ag,Ag,47,1.93,1.6,145,10490,5,11,0,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-17.492905,142.81245,668.2867
+9,,Ag,Ag,47,1.93,1.6,145,10490,5,11,0,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-18.931244,89.45929,487.80557
+10,,Ag,Ag,47,1.93,1.6,145,10490,5,11,1,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,186.13895,133.19112,505.37106
+11,,Ag,Ag,47,1.93,1.6,145,10490,5,11,1,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,67.68884,158.78685,668.2867
+12,,Ag,Ag,47,1.93,1.6,145,10490,5,11,1,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,76.22248,118.02917,487.80557
+13,,Ag,Ag,47,1.93,1.6,145,10490,5,11,1,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,21.139673,94.48596,505.37106
+14,,Ag,Ag,47,1.93,1.6,145,10490,5,11,1,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,2.3225853,133.42097,668.2867
+15,,Ag,Ag,47,1.93,1.6,145,10490,5,11,1,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-18.714256,80.06779,487.80557
+16,,Ag,Ag,47,1.93,1.6,145,10490,5,11,1,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,20.922663,103.877464,505.37106
+17,,Ag,Ag,47,1.93,1.6,145,10490,5,11,1,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-17.492905,142.81245,668.2867
+18,,Ag,Ag,47,1.93,1.6,145,10490,5,11,1,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-18.931244,89.45929,487.80557
+19,,Ag,Ag,47,1.93,1.6,145,10490,5,11,2,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,186.13895,133.19112,505.37106
+20,,Ag,Ag,47,1.93,1.6,145,10490,5,11,2,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,67.68884,158.78685,668.2867
+21,,Ag,Ag,47,1.93,1.6,145,10490,5,11,2,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,76.22248,118.02917,487.80557
+22,,Ag,Ag,47,1.93,1.6,145,10490,5,11,2,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,21.139673,94.48596,505.37106
+23,,Ag,Ag,47,1.93,1.6,145,10490,5,11,2,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,2.3225853,133.42097,668.2867
+24,,Ag,Ag,47,1.93,1.6,145,10490,5,11,2,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-18.714256,80.06779,487.80557
+25,,Ag,Ag,47,1.93,1.6,145,10490,5,11,2,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,20.922663,103.877464,505.37106
+26,,Ag,Ag,47,1.93,1.6,145,10490,5,11,2,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-17.492905,142.81245,668.2867
+27,,Ag,Ag,47,1.93,1.6,145,10490,5,11,2,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-18.931244,89.45929,487.80557
+28,,Ag,Ag,47,1.93,1.6,145,10490,5,11,3,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,186.13895,133.19112,505.37106
+29,,Ag,Ag,47,1.93,1.6,145,10490,5,11,3,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,67.68884,158.78685,668.2867
+30,,Ag,Ag,47,1.93,1.6,145,10490,5,11,3,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,76.22248,118.02917,487.80557
+31,,Ag,Ag,47,1.93,1.6,145,10490,5,11,3,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,21.139673,94.48596,505.37106
+32,,Ag,Ag,47,1.93,1.6,145,10490,5,11,3,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,2.3225853,133.42097,668.2867
+33,,Ag,Ag,47,1.93,1.6,145,10490,5,11,3,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-18.714256,80.06779,487.80557
+34,,Ag,Ag,47,1.93,1.6,145,10490,5,11,3,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,20.922663,103.877464,505.37106
+35,,Ag,Ag,47,1.93,1.6,145,10490,5,11,3,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-17.492905,142.81245,668.2867
+36,,Ag,Ag,47,1.93,1.6,145,10490,5,11,3,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-18.931244,89.45929,487.80557
+37,,Ag,Ag,47,1.93,1.6,145,10490,5,11,4,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.5773,133.19112,505.37106
+38,,Ag,Ag,47,1.93,1.6,145,10490,5,11,4,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,72.12719,158.78685,668.2867
+39,,Ag,Ag,47,1.93,1.6,145,10490,5,11,4,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,80.66083,118.02917,487.80557
+40,,Ag,Ag,47,1.93,1.6,145,10490,5,11,4,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.578001,94.48596,505.37106
+41,,Ag,Ag,47,1.93,1.6,145,10490,5,11,4,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,6.760924,133.42097,668.2867
+42,,Ag,Ag,47,1.93,1.6,145,10490,5,11,4,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-14.275914,80.06779,487.80557
+43,,Ag,Ag,47,1.93,1.6,145,10490,5,11,4,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.360998,103.877464,505.37106
+44,,Ag,Ag,47,1.93,1.6,145,10490,5,11,4,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-13.0545635,142.81245,668.2867
+45,,Ag,Ag,47,1.93,1.6,145,10490,5,11,4,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-14.492902,89.45929,487.80557
+46,,Ag,Ag,47,1.93,1.6,145,10490,5,11,5,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.5773,133.19112,505.37106
+47,,Ag,Ag,47,1.93,1.6,145,10490,5,11,5,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,72.12719,158.78685,668.2867
+48,,Ag,Ag,47,1.93,1.6,145,10490,5,11,5,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,80.66083,118.02917,487.80557
+49,,Ag,Ag,47,1.93,1.6,145,10490,5,11,5,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.578001,94.48596,505.37106
+50,,Ag,Ag,47,1.93,1.6,145,10490,5,11,5,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,6.760924,133.42097,668.2867
+51,,Ag,Ag,47,1.93,1.6,145,10490,5,11,5,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-14.275914,80.06779,487.80557
+52,,Ag,Ag,47,1.93,1.6,145,10490,5,11,5,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.360998,103.877464,505.37106
+53,,Ag,Ag,47,1.93,1.6,145,10490,5,11,5,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-13.0545635,142.81245,668.2867
+54,,Ag,Ag,47,1.93,1.6,145,10490,5,11,5,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-14.492902,89.45929,487.80557
+55,,Ag,Ag,47,1.93,1.6,145,10490,5,11,6,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.5773,133.19112,505.37106
+56,,Ag,Ag,47,1.93,1.6,145,10490,5,11,6,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,72.12719,158.78685,668.2867
+57,,Ag,Ag,47,1.93,1.6,145,10490,5,11,6,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,80.66083,118.02917,487.80557
+58,,Ag,Ag,47,1.93,1.6,145,10490,5,11,6,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.578001,94.48596,505.37106
+59,,Ag,Ag,47,1.93,1.6,145,10490,5,11,6,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,6.760924,133.42097,668.2867
+60,,Ag,Ag,47,1.93,1.6,145,10490,5,11,6,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-14.275914,80.06779,487.80557
+61,,Ag,Ag,47,1.93,1.6,145,10490,5,11,6,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.360998,103.877464,505.37106
+62,,Ag,Ag,47,1.93,1.6,145,10490,5,11,6,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-13.0545635,142.81245,668.2867
+63,,Ag,Ag,47,1.93,1.6,145,10490,5,11,6,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-14.492902,89.45929,487.80557
+64,,Ag,Ag,47,1.93,1.6,145,10490,5,11,7,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.5773,133.19112,505.37106
+65,,Ag,Ag,47,1.93,1.6,145,10490,5,11,7,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,72.12719,158.78685,689.07324
+66,,Ag,Ag,47,1.93,1.6,145,10490,5,11,7,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,80.66083,118.02917,487.80557
+67,,Ag,Ag,47,1.93,1.6,145,10490,5,11,7,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.578001,94.48596,505.37106
+68,,Ag,Ag,47,1.93,1.6,145,10490,5,11,7,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,6.760924,133.42097,689.07324
+69,,Ag,Ag,47,1.93,1.6,145,10490,5,11,7,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-14.275914,80.06779,487.80557
+70,,Ag,Ag,47,1.93,1.6,145,10490,5,11,7,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.360998,103.877464,505.37106
+71,,Ag,Ag,47,1.93,1.6,145,10490,5,11,7,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-13.0545635,142.81245,689.07324
+72,,Ag,Ag,47,1.93,1.6,145,10490,5,11,7,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-14.492902,89.45929,487.80557
+73,,Ag,Ag,47,1.93,1.6,145,10490,5,11,8,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.5773,133.19112,505.37106
+74,,Ag,Ag,47,1.93,1.6,145,10490,5,11,8,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,72.12719,158.78685,689.07324
+75,,Ag,Ag,47,1.93,1.6,145,10490,5,11,8,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,80.66083,118.02917,487.80557
+76,,Ag,Ag,47,1.93,1.6,145,10490,5,11,8,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,23.307535,94.48596,505.37106
+77,,Ag,Ag,47,1.93,1.6,145,10490,5,11,8,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,4.490456,133.42097,689.07324
+78,,Ag,Ag,47,1.93,1.6,145,10490,5,11,8,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-16.546385,80.06779,487.80557
+79,,Ag,Ag,47,1.93,1.6,145,10490,5,11,8,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,23.090536,103.877464,505.37106
+80,,Ag,Ag,47,1.93,1.6,145,10490,5,11,8,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-15.325029,142.81245,689.07324
+81,,Ag,Ag,47,1.93,1.6,145,10490,5,11,8,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-16.763372,89.45929,487.80557
+82,,Ag,Ag,47,1.93,1.6,145,10490,5,11,9,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.5773,133.19112,505.37106
+83,,Ag,Ag,47,1.93,1.6,145,10490,5,11,9,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,72.12719,158.78685,689.07324
+84,,Ag,Ag,47,1.93,1.6,145,10490,5,11,9,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,80.66083,118.02917,487.80557
+85,,Ag,Ag,47,1.93,1.6,145,10490,5,11,9,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,23.307535,94.48596,505.37106
+86,,Ag,Ag,47,1.93,1.6,145,10490,5,11,9,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,4.490456,133.42097,689.07324
+87,,Ag,Ag,47,1.93,1.6,145,10490,5,11,9,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-16.546385,80.06779,487.80557
+88,,Ag,Ag,47,1.93,1.6,145,10490,5,11,9,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,23.090536,103.877464,505.37106
+89,,Ag,Ag,47,1.93,1.6,145,10490,5,11,9,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-15.325029,142.81245,689.07324
+90,,Ag,Ag,47,1.93,1.6,145,10490,5,11,9,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-16.763372,89.45929,487.80557
+91,,Ag,Ag,47,1.93,1.6,145,10490,5,11,10,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,242.62393,133.19112,505.37106
+92,,Ag,Ag,47,1.93,1.6,145,10490,5,11,10,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,107.57308,158.78685,689.07324
+93,,Ag,Ag,47,1.93,1.6,145,10490,5,11,10,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,121.32923,118.02917,487.80557
+94,,Ag,Ag,47,1.93,1.6,145,10490,5,11,10,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,102.60246,94.48596,505.37106
+95,,Ag,Ag,47,1.93,1.6,145,10490,5,11,10,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,67.18471,133.42097,689.07324
+96,,Ag,Ag,47,1.93,1.6,145,10490,5,11,10,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,51.37034,80.06779,487.80557
+97,,Ag,Ag,47,1.93,1.6,145,10490,5,11,10,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,76.822845,103.877464,505.37106
+98,,Ag,Ag,47,1.93,1.6,145,10490,5,11,10,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,21.806557,142.81245,689.07324
+99,,Ag,Ag,47,1.93,1.6,145,10490,5,11,10,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.5907,89.45929,487.80557
+100,,Ag,Ag,47,1.93,1.6,145,10490,5,11,11,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,220.21576,133.19112,505.37106
+101,,Ag,Ag,47,1.93,1.6,145,10490,5,11,11,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,85.164925,158.78685,689.07324
+102,,Ag,Ag,47,1.93,1.6,145,10490,5,11,11,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,98.92109,118.02917,487.80557
+103,,Ag,Ag,47,1.93,1.6,145,10490,5,11,11,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,80.19427,94.48596,505.37106
+104,,Ag,Ag,47,1.93,1.6,145,10490,5,11,11,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,44.776474,133.42097,689.07324
+105,,Ag,Ag,47,1.93,1.6,145,10490,5,11,11,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,28.962116,80.06779,487.80557
+106,,Ag,Ag,47,1.93,1.6,145,10490,5,11,11,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,54.414616,103.877464,505.37106
+107,,Ag,Ag,47,1.93,1.6,145,10490,5,11,11,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-0.6016346,142.81245,689.07324
+108,,Ag,Ag,47,1.93,1.6,145,10490,5,11,11,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,3.1825151,89.45929,487.80557
+109,,Ag,Ag,47,1.93,1.6,145,10490,5,11,12,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,220.21576,133.19112,505.37106
+110,,Ag,Ag,47,1.93,1.6,145,10490,5,11,12,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,85.164925,158.78685,689.07324
+111,,Ag,Ag,47,1.93,1.6,145,10490,5,11,12,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,98.92109,118.02917,487.80557
+112,,Ag,Ag,47,1.93,1.6,145,10490,5,11,12,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,80.19427,94.48596,505.37106
+113,,Ag,Ag,47,1.93,1.6,145,10490,5,11,12,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,44.776474,133.42097,689.07324
+114,,Ag,Ag,47,1.93,1.6,145,10490,5,11,12,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,28.962116,80.06779,487.80557
+115,,Ag,Ag,47,1.93,1.6,145,10490,5,11,12,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,54.414616,103.877464,505.37106
+116,,Ag,Ag,47,1.93,1.6,145,10490,5,11,12,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-0.6016346,142.81245,689.07324
+117,,Ag,Ag,47,1.93,1.6,145,10490,5,11,12,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,3.1825151,89.45929,487.80557
+118,,Ag,Ag,47,1.93,1.6,145,10490,5,11,13,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,204.39742,133.19112,493.7289
+119,,Ag,Ag,47,1.93,1.6,145,10490,5,11,13,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,71.96142,158.78685,687.2422
+120,,Ag,Ag,47,1.93,1.6,145,10490,5,11,13,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,85.71757,118.02917,481.5221
+121,,Ag,Ag,47,1.93,1.6,145,10490,5,11,13,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,77.62754,94.48596,493.7289
+122,,Ag,Ag,47,1.93,1.6,145,10490,5,11,13,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,44.824585,133.42097,687.2422
+123,,Ag,Ag,47,1.93,1.6,145,10490,5,11,13,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,29.010239,80.06779,481.5221
+124,,Ag,Ag,47,1.93,1.6,145,10490,5,11,13,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,51.847885,103.877464,493.7289
+125,,Ag,Ag,47,1.93,1.6,145,10490,5,11,13,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-0.55352074,142.81245,687.2422
+126,,Ag,Ag,47,1.93,1.6,145,10490,5,11,13,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,3.2306328,89.45929,481.5221
+127,,Ag,Ag,47,1.93,1.6,145,10490,5,11,14,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,204.39742,133.19112,493.7289
+128,,Ag,Ag,47,1.93,1.6,145,10490,5,11,14,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,71.96142,158.78685,687.2422
+129,,Ag,Ag,47,1.93,1.6,145,10490,5,11,14,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,85.71757,118.02917,481.5221
+130,,Ag,Ag,47,1.93,1.6,145,10490,5,11,14,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,77.62754,94.48596,493.7289
+131,,Ag,Ag,47,1.93,1.6,145,10490,5,11,14,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,44.824585,133.42097,687.2422
+132,,Ag,Ag,47,1.93,1.6,145,10490,5,11,14,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,29.010239,80.06779,481.5221
+133,,Ag,Ag,47,1.93,1.6,145,10490,5,11,14,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,51.847885,103.877464,493.7289
+134,,Ag,Ag,47,1.93,1.6,145,10490,5,11,14,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-0.55352074,142.81245,687.2422
+135,,Ag,Ag,47,1.93,1.6,145,10490,5,11,14,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,3.2306328,89.45929,481.5221
+136,,Ag,Ag,47,1.93,1.6,145,10490,5,11,15,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,174.90707,127.61923,493.7289
+137,,Ag,Ag,47,1.93,1.6,145,10490,5,11,15,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,67.92585,158.78685,875.422
+138,,Ag,Ag,47,1.93,1.6,145,10490,5,11,15,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,82.31882,118.02917,481.5221
+139,,Ag,Ag,47,1.93,1.6,145,10490,5,11,15,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,72.180725,88.91406,493.7289
+140,,Ag,Ag,47,1.93,1.6,145,10490,5,11,15,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,64.83255,133.42097,875.422
+141,,Ag,Ag,47,1.93,1.6,145,10490,5,11,15,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,49.65502,80.06779,481.5221
+142,,Ag,Ag,47,1.93,1.6,145,10490,5,11,15,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,46.401077,98.305565,493.7289
+143,,Ag,Ag,47,1.93,1.6,145,10490,5,11,15,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,19.454454,142.81245,875.422
+144,,Ag,Ag,47,1.93,1.6,145,10490,5,11,15,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,23.8754,89.45929,481.5221
+145,,Ag,Ag,47,1.93,1.6,145,10490,5,11,16,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,174.90707,127.61923,493.7289
+146,,Ag,Ag,47,1.93,1.6,145,10490,5,11,16,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,67.92585,158.78685,875.422
+147,,Ag,Ag,47,1.93,1.6,145,10490,5,11,16,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,82.31882,118.02917,481.5221
+148,,Ag,Ag,47,1.93,1.6,145,10490,5,11,16,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,72.180725,88.91406,493.7289
+149,,Ag,Ag,47,1.93,1.6,145,10490,5,11,16,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,64.83255,133.42097,875.422
+150,,Ag,Ag,47,1.93,1.6,145,10490,5,11,16,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,49.65502,80.06779,481.5221
+151,,Ag,Ag,47,1.93,1.6,145,10490,5,11,16,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,46.401077,98.305565,493.7289
+152,,Ag,Ag,47,1.93,1.6,145,10490,5,11,16,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,19.454454,142.81245,875.422
+153,,Ag,Ag,47,1.93,1.6,145,10490,5,11,16,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,23.8754,89.45929,481.5221
+154,,Ag,Ag,47,1.93,1.6,145,10490,5,11,17,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,142.57022,127.61923,493.7289
+155,,Ag,Ag,47,1.93,1.6,145,10490,5,11,17,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,35.69689,158.78685,875.422
+156,,Ag,Ag,47,1.93,1.6,145,10490,5,11,17,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,50.089867,118.02917,481.5221
+157,,Ag,Ag,47,1.93,1.6,145,10490,5,11,17,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,40.839134,88.91406,493.7289
+158,,Ag,Ag,47,1.93,1.6,145,10490,5,11,17,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,32.097317,133.42097,875.422
+159,,Ag,Ag,47,1.93,1.6,145,10490,5,11,17,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,18.421375,80.06779,481.5221
+160,,Ag,Ag,47,1.93,1.6,145,10490,5,11,17,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,15.059523,98.305565,493.7289
+161,,Ag,Ag,47,1.93,1.6,145,10490,5,11,17,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-13.2808,142.81245,875.422
+162,,Ag,Ag,47,1.93,1.6,145,10490,5,11,17,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-7.3582397,89.45929,481.5221
+163,,Ag,Ag,47,1.93,1.6,145,10490,5,11,18,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,134.09673,127.61923,493.7289
+164,,Ag,Ag,47,1.93,1.6,145,10490,5,11,18,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,29.011087,158.78685,1434.1921
+165,,Ag,Ag,47,1.93,1.6,145,10490,5,11,18,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,43.404068,118.02917,482.65598
+166,,Ag,Ag,47,1.93,1.6,145,10490,5,11,18,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,32.365646,88.91406,493.7289
+167,,Ag,Ag,47,1.93,1.6,145,10490,5,11,18,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.41152,133.42097,1434.1921
+168,,Ag,Ag,47,1.93,1.6,145,10490,5,11,18,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,11.735589,80.06779,482.65598
+169,,Ag,Ag,47,1.93,1.6,145,10490,5,11,18,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,6.586038,98.305565,493.7289
+170,,Ag,Ag,47,1.93,1.6,145,10490,5,11,18,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-19.966593,142.81245,1434.1921
+171,,Ag,Ag,47,1.93,1.6,145,10490,5,11,18,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-14.044028,89.45929,482.65598
+172,,Ag,Ag,47,1.93,1.6,145,10490,5,11,19,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,134.09673,127.61923,493.7289
+173,,Ag,Ag,47,1.93,1.6,145,10490,5,11,19,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,29.011087,158.78685,1434.1921
+174,,Ag,Ag,47,1.93,1.6,145,10490,5,11,19,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,43.404068,118.02917,482.65598
+175,,Ag,Ag,47,1.93,1.6,145,10490,5,11,19,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,32.365646,88.91406,493.7289
+176,,Ag,Ag,47,1.93,1.6,145,10490,5,11,19,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.41152,133.42097,1434.1921
+177,,Ag,Ag,47,1.93,1.6,145,10490,5,11,19,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,11.735589,80.06779,482.65598
+178,,Ag,Ag,47,1.93,1.6,145,10490,5,11,19,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,6.586038,98.305565,493.7289
+179,,Ag,Ag,47,1.93,1.6,145,10490,5,11,19,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-19.966593,142.81245,1434.1921
+180,,Ag,Ag,47,1.93,1.6,145,10490,5,11,19,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-14.044028,89.45929,482.65598
+181,,Ag,Ag,47,1.93,1.6,145,10490,5,11,20,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,168.23672,127.61923,493.7289
+182,,Ag,Ag,47,1.93,1.6,145,10490,5,11,20,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,63.151115,158.78685,1434.1921
+183,,Ag,Ag,47,1.93,1.6,145,10490,5,11,20,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,77.54409,118.02917,482.65598
+184,,Ag,Ag,47,1.93,1.6,145,10490,5,11,20,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,44.120575,88.91406,493.7289
+185,,Ag,Ag,47,1.93,1.6,145,10490,5,11,20,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,37.166443,133.42097,1434.1921
+186,,Ag,Ag,47,1.93,1.6,145,10490,5,11,20,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,23.49051,80.06779,482.65598
+187,,Ag,Ag,47,1.93,1.6,145,10490,5,11,20,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,18.340958,98.305565,493.7289
+188,,Ag,Ag,47,1.93,1.6,145,10490,5,11,20,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-8.211652,142.81245,1434.1921
+189,,Ag,Ag,47,1.93,1.6,145,10490,5,11,20,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-2.2891016,89.45929,482.65598
+190,,Ag,Ag,47,1.93,1.6,145,10490,5,11,21,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,203.61856,127.61923,493.7289
+191,,Ag,Ag,47,1.93,1.6,145,10490,5,11,21,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,98.53292,158.78685,1434.1921
+192,,Ag,Ag,47,1.93,1.6,145,10490,5,11,21,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,112.9259,118.02917,482.65598
+193,,Ag,Ag,47,1.93,1.6,145,10490,5,11,21,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,77.37049,88.91406,493.7289
+194,,Ag,Ag,47,1.93,1.6,145,10490,5,11,21,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,70.416336,133.42097,1434.1921
+195,,Ag,Ag,47,1.93,1.6,145,10490,5,11,21,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,56.74038,80.06779,482.65598
+196,,Ag,Ag,47,1.93,1.6,145,10490,5,11,21,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,51.590828,98.305565,493.7289
+197,,Ag,Ag,47,1.93,1.6,145,10490,5,11,21,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.038197,142.81245,1434.1921
+198,,Ag,Ag,47,1.93,1.6,145,10490,5,11,21,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,30.960745,89.45929,482.65598
+199,,Ag,Ag,47,1.93,1.6,145,10490,5,11,22,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,203.61856,127.61923,493.7289
+200,,Ag,Ag,47,1.93,1.6,145,10490,5,11,22,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,98.53292,158.78685,1434.1921
+201,,Ag,Ag,47,1.93,1.6,145,10490,5,11,22,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,112.9259,118.02917,482.65598
+202,,Ag,Ag,47,1.93,1.6,145,10490,5,11,22,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,77.37049,88.91406,493.7289
+203,,Ag,Ag,47,1.93,1.6,145,10490,5,11,22,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,70.416336,133.42097,1434.1921
+204,,Ag,Ag,47,1.93,1.6,145,10490,5,11,22,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,56.74038,80.06779,482.65598
+205,,Ag,Ag,47,1.93,1.6,145,10490,5,11,22,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,51.590828,98.305565,493.7289
+206,,Ag,Ag,47,1.93,1.6,145,10490,5,11,22,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,25.038197,142.81245,1434.1921
+207,,Ag,Ag,47,1.93,1.6,145,10490,5,11,22,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,30.960745,89.45929,482.65598
+208,,Ag,Ag,47,1.93,1.6,145,10490,5,11,23,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,286.27664,196.4738,493.7289
+209,,Ag,Ag,47,1.93,1.6,145,10490,5,11,23,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,209.37865,232.58838,1434.1921
+210,,Ag,Ag,47,1.93,1.6,145,10490,5,11,23,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,203.9176,191.83067,482.65598
+211,,Ag,Ag,47,1.93,1.6,145,10490,5,11,23,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,62.57363,157.7686,493.7289
+212,,Ag,Ag,47,1.93,1.6,145,10490,5,11,23,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,83.80722,207.22249,1434.1921
+213,,Ag,Ag,47,1.93,1.6,145,10490,5,11,23,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,50.277275,153.86928,482.65598
+214,,Ag,Ag,47,1.93,1.6,145,10490,5,11,23,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,36.794014,167.16011,493.7289
+215,,Ag,Ag,47,1.93,1.6,145,10490,5,11,23,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,38.429085,216.61397,1434.1921
+216,,Ag,Ag,47,1.93,1.6,145,10490,5,11,23,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,24.49764,163.26079,482.65598
+217,,Ag,Ag,47,1.93,1.6,145,10490,5,11,24,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,272.7218,196.4738,493.7289
+218,,Ag,Ag,47,1.93,1.6,145,10490,5,11,24,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,195.82382,232.58838,1434.1921
+219,,Ag,Ag,47,1.93,1.6,145,10490,5,11,24,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.36278,191.83067,482.65598
+220,,Ag,Ag,47,1.93,1.6,145,10490,5,11,24,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,49.0188,157.7686,493.7289
+221,,Ag,Ag,47,1.93,1.6,145,10490,5,11,24,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,70.252396,207.22249,1434.1921
+222,,Ag,Ag,47,1.93,1.6,145,10490,5,11,24,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,36.722435,153.86928,482.65598
+223,,Ag,Ag,47,1.93,1.6,145,10490,5,11,24,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,23.239172,167.16011,493.7289
+224,,Ag,Ag,47,1.93,1.6,145,10490,5,11,24,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,24.874245,216.61397,1434.1921
+225,,Ag,Ag,47,1.93,1.6,145,10490,5,11,24,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,10.9428215,163.26079,482.65598
+226,,Ag,Ag,47,1.93,1.6,145,10490,5,11,25,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,349.19162,196.4738,500.61713
+227,,Ag,Ag,47,1.93,1.6,145,10490,5,11,25,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,278.89685,232.58838,1434.1921
+228,,Ag,Ag,47,1.93,1.6,145,10490,5,11,25,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,266.83255,191.83067,489.54422
+229,,Ag,Ag,47,1.93,1.6,145,10490,5,11,25,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,120.960594,157.7686,500.61713
+230,,Ag,Ag,47,1.93,1.6,145,10490,5,11,25,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,148.79735,207.22249,1434.1921
+231,,Ag,Ag,47,1.93,1.6,145,10490,5,11,25,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,108.664246,153.86928,489.54422
+232,,Ag,Ag,47,1.93,1.6,145,10490,5,11,25,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,95.180984,167.16011,500.61713
+233,,Ag,Ag,47,1.93,1.6,145,10490,5,11,25,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,103.41922,216.61397,1434.1921
+234,,Ag,Ag,47,1.93,1.6,145,10490,5,11,25,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,82.88462,163.26079,489.54422
+235,,Ag,Ag,47,1.93,1.6,145,10490,5,11,26,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,189.98074,196.4738,500.61713
+236,,Ag,Ag,47,1.93,1.6,145,10490,5,11,26,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,131.41927,232.58838,1434.1921
+237,,Ag,Ag,47,1.93,1.6,145,10490,5,11,26,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,107.62179,191.83067,489.54422
+238,,Ag,Ag,47,1.93,1.6,145,10490,5,11,26,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,39.657806,157.7686,500.61713
+239,,Ag,Ag,47,1.93,1.6,145,10490,5,11,26,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,79.22786,207.22249,1434.1921
+240,,Ag,Ag,47,1.93,1.6,145,10490,5,11,26,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,27.36145,153.86928,489.54422
+241,,Ag,Ag,47,1.93,1.6,145,10490,5,11,26,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,13.878194,167.16011,500.61713
+242,,Ag,Ag,47,1.93,1.6,145,10490,5,11,26,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,33.849712,216.61397,1434.1921
+243,,Ag,Ag,47,1.93,1.6,145,10490,5,11,26,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,1.5818335,163.26079,489.54422
+244,,Ag,Ag,47,1.93,1.6,145,10490,5,11,27,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,189.98074,196.4738,500.61713
+245,,Ag,Ag,47,1.93,1.6,145,10490,5,11,27,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,131.41927,232.58838,1434.1921
+246,,Ag,Ag,47,1.93,1.6,145,10490,5,11,27,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,107.62179,191.83067,489.54422
+247,,Ag,Ag,47,1.93,1.6,145,10490,5,11,27,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,39.657806,157.7686,500.61713
+248,,Ag,Ag,47,1.93,1.6,145,10490,5,11,27,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,79.22786,207.22249,1434.1921
+249,,Ag,Ag,47,1.93,1.6,145,10490,5,11,27,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,27.36145,153.86928,489.54422
+250,,Ag,Ag,47,1.93,1.6,145,10490,5,11,27,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,13.878194,167.16011,500.61713
+251,,Ag,Ag,47,1.93,1.6,145,10490,5,11,27,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,33.849712,216.61397,1434.1921
+252,,Ag,Ag,47,1.93,1.6,145,10490,5,11,27,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,1.5818335,163.26079,489.54422
+253,,Ag,Ag,47,1.93,1.6,145,10490,5,11,28,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,189.98074,196.4738,486.62802
+254,,Ag,Ag,47,1.93,1.6,145,10490,5,11,28,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,131.41927,232.58838,1434.1921
+255,,Ag,Ag,47,1.93,1.6,145,10490,5,11,28,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,107.62179,191.83067,475.55505
+256,,Ag,Ag,47,1.93,1.6,145,10490,5,11,28,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,39.657806,157.7686,486.62802
+257,,Ag,Ag,47,1.93,1.6,145,10490,5,11,28,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,79.22786,207.22249,1434.1921
+258,,Ag,Ag,47,1.93,1.6,145,10490,5,11,28,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,27.36145,153.86928,475.55505
+259,,Ag,Ag,47,1.93,1.6,145,10490,5,11,28,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,13.878194,167.16011,486.62802
+260,,Ag,Ag,47,1.93,1.6,145,10490,5,11,28,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,33.849712,216.61397,1434.1921
+261,,Ag,Ag,47,1.93,1.6,145,10490,5,11,28,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,1.5818335,163.26079,475.55505
+262,,Ag,Ag,47,1.93,1.6,145,10490,5,11,29,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,182.97714,103.62367,486.62802
+263,,Ag,Ag,47,1.93,1.6,145,10490,5,11,29,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,127.17214,139.73824,1434.1921
+264,,Ag,Ag,47,1.93,1.6,145,10490,5,11,29,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,101.56267,98.980576,475.55505
+265,,Ag,Ag,47,1.93,1.6,145,10490,5,11,29,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,32.65423,64.918495,486.62802
+266,,Ag,Ag,47,1.93,1.6,145,10490,5,11,29,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,74.98076,114.372444,1434.1921
+267,,Ag,Ag,47,1.93,1.6,145,10490,5,11,29,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,21.302322,61.019184,475.55505
+268,,Ag,Ag,47,1.93,1.6,145,10490,5,11,29,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,6.874599,74.31,486.62802
+269,,Ag,Ag,47,1.93,1.6,145,10490,5,11,29,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,29.602598,123.76391,1434.1921
+270,,Ag,Ag,47,1.93,1.6,145,10490,5,11,29,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-4.477296,70.41069,475.55505
+271,,Ag,Ag,47,1.93,1.6,145,10490,5,11,30,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,182.97714,103.62367,486.62802
+272,,Ag,Ag,47,1.93,1.6,145,10490,5,11,30,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,127.17214,139.73824,1434.1921
+273,,Ag,Ag,47,1.93,1.6,145,10490,5,11,30,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,101.56267,98.980576,475.55505
+274,,Ag,Ag,47,1.93,1.6,145,10490,5,11,30,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,32.65423,64.918495,486.62802
+275,,Ag,Ag,47,1.93,1.6,145,10490,5,11,30,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,74.98076,114.372444,1434.1921
+276,,Ag,Ag,47,1.93,1.6,145,10490,5,11,30,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,21.302322,61.019184,475.55505
+277,,Ag,Ag,47,1.93,1.6,145,10490,5,11,30,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,6.874599,74.31,486.62802
+278,,Ag,Ag,47,1.93,1.6,145,10490,5,11,30,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,29.602598,123.76391,1434.1921
+279,,Ag,Ag,47,1.93,1.6,145,10490,5,11,30,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-4.477296,70.41069,475.55505
+280,,Ag,Ag,47,1.93,1.6,145,10490,5,11,31,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,182.97714,103.62367,486.62802
+281,,Ag,Ag,47,1.93,1.6,145,10490,5,11,31,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,127.17214,139.73824,1434.1921
+282,,Ag,Ag,47,1.93,1.6,145,10490,5,11,31,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,101.56267,98.980576,475.55505
+283,,Ag,Ag,47,1.93,1.6,145,10490,5,11,31,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,32.65423,64.918495,486.62802
+284,,Ag,Ag,47,1.93,1.6,145,10490,5,11,31,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,74.98076,114.372444,1434.1921
+285,,Ag,Ag,47,1.93,1.6,145,10490,5,11,31,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,21.302322,61.019184,475.55505
+286,,Ag,Ag,47,1.93,1.6,145,10490,5,11,31,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,6.874599,74.31,486.62802
+287,,Ag,Ag,47,1.93,1.6,145,10490,5,11,31,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,29.602598,123.76391,1434.1921
+288,,Ag,Ag,47,1.93,1.6,145,10490,5,11,31,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-4.477296,70.41069,475.55505
+289,,Ag,Ag,47,1.93,1.6,145,10490,5,11,32,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,193.9335,103.62367,486.62802
+290,,Ag,Ag,47,1.93,1.6,145,10490,5,11,32,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,138.12851,139.73824,1434.1921
+291,,Ag,Ag,47,1.93,1.6,145,10490,5,11,32,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,112.519035,98.980576,475.55505
+292,,Ag,Ag,47,1.93,1.6,145,10490,5,11,32,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,43.61059,64.918495,486.62802
+293,,Ag,Ag,47,1.93,1.6,145,10490,5,11,32,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,85.93712,114.372444,1434.1921
+294,,Ag,Ag,47,1.93,1.6,145,10490,5,11,32,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,32.2587,61.019184,475.55505
+295,,Ag,Ag,47,1.93,1.6,145,10490,5,11,32,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,17.830973,74.31,486.62802
+296,,Ag,Ag,47,1.93,1.6,145,10490,5,11,32,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,40.55898,123.76391,1434.1921
+297,,Ag,Ag,47,1.93,1.6,145,10490,5,11,32,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,6.4790807,70.41069,475.55505
+298,,Ag,Ag,47,1.93,1.6,145,10490,5,11,33,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,193.9335,103.62367,486.62802
+299,,Ag,Ag,47,1.93,1.6,145,10490,5,11,33,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,138.12851,139.73824,1434.1921
+300,,Ag,Ag,47,1.93,1.6,145,10490,5,11,33,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,112.519035,98.980576,475.55505
+301,,Ag,Ag,47,1.93,1.6,145,10490,5,11,33,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,43.61059,64.918495,486.62802
+302,,Ag,Ag,47,1.93,1.6,145,10490,5,11,33,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,85.93712,114.372444,1434.1921
+303,,Ag,Ag,47,1.93,1.6,145,10490,5,11,33,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,32.2587,61.019184,475.55505
+304,,Ag,Ag,47,1.93,1.6,145,10490,5,11,33,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,17.830973,74.31,486.62802
+305,,Ag,Ag,47,1.93,1.6,145,10490,5,11,33,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,40.55898,123.76391,1434.1921
+306,,Ag,Ag,47,1.93,1.6,145,10490,5,11,33,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,6.4790807,70.41069,475.55505
+307,,Ag,Ag,47,1.93,1.6,145,10490,5,11,34,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,193.9335,103.62367,486.62802
+308,,Ag,Ag,47,1.93,1.6,145,10490,5,11,34,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,138.12851,139.73824,1434.1921
+309,,Ag,Ag,47,1.93,1.6,145,10490,5,11,34,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,112.519035,98.980576,475.55505
+310,,Ag,Ag,47,1.93,1.6,145,10490,5,11,34,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,43.61059,64.918495,486.62802
+311,,Ag,Ag,47,1.93,1.6,145,10490,5,11,34,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,85.93712,114.372444,1434.1921
+312,,Ag,Ag,47,1.93,1.6,145,10490,5,11,34,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,32.2587,61.019184,475.55505
+313,,Ag,Ag,47,1.93,1.6,145,10490,5,11,34,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,17.830973,74.31,486.62802
+314,,Ag,Ag,47,1.93,1.6,145,10490,5,11,34,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,40.55898,123.76391,1434.1921
+315,,Ag,Ag,47,1.93,1.6,145,10490,5,11,34,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,6.4790807,70.41069,475.55505
+316,,Ag,Ag,47,1.93,1.6,145,10490,5,11,35,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,195.36557,103.62367,486.62802
+317,,Ag,Ag,47,1.93,1.6,145,10490,5,11,35,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,139.56058,139.73824,1434.1921
+318,,Ag,Ag,47,1.93,1.6,145,10490,5,11,35,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,113.9511,98.980576,475.55505
+319,,Ag,Ag,47,1.93,1.6,145,10490,5,11,35,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,45.042667,64.918495,486.62802
+320,,Ag,Ag,47,1.93,1.6,145,10490,5,11,35,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,87.36919,114.372444,1434.1921
+321,,Ag,Ag,47,1.93,1.6,145,10490,5,11,35,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,33.690773,61.019184,475.55505
+322,,Ag,Ag,47,1.93,1.6,145,10490,5,11,35,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,19.263048,74.31,486.62802
+323,,Ag,Ag,47,1.93,1.6,145,10490,5,11,35,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,41.991047,123.76391,1434.1921
+324,,Ag,Ag,47,1.93,1.6,145,10490,5,11,35,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,7.9111505,70.41069,475.55505
+325,,Ag,Ag,47,1.93,1.6,145,10490,5,11,36,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,184.1883,103.62367,486.62802
+326,,Ag,Ag,47,1.93,1.6,145,10490,5,11,36,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,130.69942,139.73824,1434.1921
+327,,Ag,Ag,47,1.93,1.6,145,10490,5,11,36,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,102.773834,98.980576,475.55505
+328,,Ag,Ag,47,1.93,1.6,145,10490,5,11,36,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,41.45901,64.918495,486.62802
+329,,Ag,Ag,47,1.93,1.6,145,10490,5,11,36,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,86.10171,114.372444,1434.1921
+330,,Ag,Ag,47,1.93,1.6,145,10490,5,11,36,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,30.107117,61.019184,475.55505
+331,,Ag,Ag,47,1.93,1.6,145,10490,5,11,36,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,15.679391,74.31,486.62802
+332,,Ag,Ag,47,1.93,1.6,145,10490,5,11,36,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,40.723553,123.76391,1434.1921
+333,,Ag,Ag,47,1.93,1.6,145,10490,5,11,36,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,4.3275013,70.41069,475.55505
+334,,Ag,Ag,47,1.93,1.6,145,10490,5,11,37,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,184.1883,103.62367,486.62802
+335,,Ag,Ag,47,1.93,1.6,145,10490,5,11,37,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,130.69942,139.73824,1434.1921
+336,,Ag,Ag,47,1.93,1.6,145,10490,5,11,37,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,102.773834,98.980576,475.55505
+337,,Ag,Ag,47,1.93,1.6,145,10490,5,11,37,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,41.45901,64.918495,486.62802
+338,,Ag,Ag,47,1.93,1.6,145,10490,5,11,37,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,86.10171,114.372444,1434.1921
+339,,Ag,Ag,47,1.93,1.6,145,10490,5,11,37,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,30.107117,61.019184,475.55505
+340,,Ag,Ag,47,1.93,1.6,145,10490,5,11,37,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,15.679391,74.31,486.62802
+341,,Ag,Ag,47,1.93,1.6,145,10490,5,11,37,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,40.723553,123.76391,1434.1921
+342,,Ag,Ag,47,1.93,1.6,145,10490,5,11,37,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,4.3275013,70.41069,475.55505
+343,,Ag,Ag,47,1.93,1.6,145,10490,5,11,38,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,172.52388,103.62367,487.43027
+344,,Ag,Ag,47,1.93,1.6,145,10490,5,11,38,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,119.03505,139.73824,1441.1096
+345,,Ag,Ag,47,1.93,1.6,145,10490,5,11,38,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,91.10941,98.980576,476.3573
+346,,Ag,Ag,47,1.93,1.6,145,10490,5,11,38,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,29.794594,64.918495,487.43027
+347,,Ag,Ag,47,1.93,1.6,145,10490,5,11,38,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,74.43729,114.372444,1441.1096
+348,,Ag,Ag,47,1.93,1.6,145,10490,5,11,38,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,18.442694,61.019184,476.3573
+349,,Ag,Ag,47,1.93,1.6,145,10490,5,11,38,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,4.0149717,74.31,487.43027
+350,,Ag,Ag,47,1.93,1.6,145,10490,5,11,38,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,29.059135,123.76391,1441.1096
+351,,Ag,Ag,47,1.93,1.6,145,10490,5,11,38,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-7.336924,70.41069,476.3573
+352,,Ag,Ag,47,1.93,1.6,145,10490,5,11,39,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,172.52388,103.62367,487.43027
+353,,Ag,Ag,47,1.93,1.6,145,10490,5,11,39,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,119.03505,139.73824,1441.1096
+354,,Ag,Ag,47,1.93,1.6,145,10490,5,11,39,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,91.10941,98.980576,476.3573
+355,,Ag,Ag,47,1.93,1.6,145,10490,5,11,39,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,29.794594,64.918495,487.43027
+356,,Ag,Ag,47,1.93,1.6,145,10490,5,11,39,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,74.43729,114.372444,1441.1096
+357,,Ag,Ag,47,1.93,1.6,145,10490,5,11,39,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,18.442694,61.019184,476.3573
+358,,Ag,Ag,47,1.93,1.6,145,10490,5,11,39,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,4.0149717,74.31,487.43027
+359,,Ag,Ag,47,1.93,1.6,145,10490,5,11,39,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,29.059135,123.76391,1441.1096
+360,,Ag,Ag,47,1.93,1.6,145,10490,5,11,39,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-7.336924,70.41069,476.3573
+361,,Ag,Ag,47,1.93,1.6,145,10490,5,11,40,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,173.53464,103.62367,487.43027
+362,,Ag,Ag,47,1.93,1.6,145,10490,5,11,40,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,120.04581,139.73824,1441.1096
+363,,Ag,Ag,47,1.93,1.6,145,10490,5,11,40,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,92.12017,98.980576,476.3573
+364,,Ag,Ag,47,1.93,1.6,145,10490,5,11,40,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,178.95667,64.918495,487.43027
+365,,Ag,Ag,47,1.93,1.6,145,10490,5,11,40,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,223.5994,114.372444,1441.1096
+366,,Ag,Ag,47,1.93,1.6,145,10490,5,11,40,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,167.6048,61.019184,476.3573
+367,,Ag,Ag,47,1.93,1.6,145,10490,5,11,40,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,5.0257297,74.31,487.43027
+368,,Ag,Ag,47,1.93,1.6,145,10490,5,11,40,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,30.069895,123.76391,1441.1096
+369,,Ag,Ag,47,1.93,1.6,145,10490,5,11,40,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-6.3261647,70.41069,476.3573
+370,,Ag,Ag,47,1.93,1.6,145,10490,5,11,41,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,173.53464,103.62367,487.43027
+371,,Ag,Ag,47,1.93,1.6,145,10490,5,11,41,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,120.04581,139.73824,1441.1096
+372,,Ag,Ag,47,1.93,1.6,145,10490,5,11,41,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,92.12017,98.980576,476.3573
+373,,Ag,Ag,47,1.93,1.6,145,10490,5,11,41,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,178.95667,64.918495,487.43027
+374,,Ag,Ag,47,1.93,1.6,145,10490,5,11,41,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,223.5994,114.372444,1441.1096
+375,,Ag,Ag,47,1.93,1.6,145,10490,5,11,41,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,167.6048,61.019184,476.3573
+376,,Ag,Ag,47,1.93,1.6,145,10490,5,11,41,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,5.0257297,74.31,487.43027
+377,,Ag,Ag,47,1.93,1.6,145,10490,5,11,41,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,30.069895,123.76391,1441.1096
+378,,Ag,Ag,47,1.93,1.6,145,10490,5,11,41,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-6.3261647,70.41069,476.3573
+379,,Ag,Ag,47,1.93,1.6,145,10490,5,11,42,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,173.53464,103.62367,487.43027
+380,,Ag,Ag,47,1.93,1.6,145,10490,5,11,42,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,120.04581,139.73824,1441.1096
+381,,Ag,Ag,47,1.93,1.6,145,10490,5,11,42,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,92.12017,98.980576,476.3573
+382,,Ag,Ag,47,1.93,1.6,145,10490,5,11,42,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,178.95667,64.918495,487.43027
+383,,Ag,Ag,47,1.93,1.6,145,10490,5,11,42,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,223.5994,114.372444,1441.1096
+384,,Ag,Ag,47,1.93,1.6,145,10490,5,11,42,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,167.6048,61.019184,476.3573
+385,,Ag,Ag,47,1.93,1.6,145,10490,5,11,42,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,5.0257297,74.31,487.43027
+386,,Ag,Ag,47,1.93,1.6,145,10490,5,11,42,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,30.069895,123.76391,1441.1096
+387,,Ag,Ag,47,1.93,1.6,145,10490,5,11,42,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-6.3261647,70.41069,476.3573
+388,,Ag,Ag,47,1.93,1.6,145,10490,5,11,43,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,173.53464,103.62367,487.43027
+389,,Ag,Ag,47,1.93,1.6,145,10490,5,11,43,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,120.04581,139.73824,1441.1096
+390,,Ag,Ag,47,1.93,1.6,145,10490,5,11,43,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,92.12017,98.980576,476.3573
+391,,Ag,Ag,47,1.93,1.6,145,10490,5,11,43,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,178.95667,64.918495,487.43027
+392,,Ag,Ag,47,1.93,1.6,145,10490,5,11,43,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,223.5994,114.372444,1441.1096
+393,,Ag,Ag,47,1.93,1.6,145,10490,5,11,43,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,167.6048,61.019184,476.3573
+394,,Ag,Ag,47,1.93,1.6,145,10490,5,11,43,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,5.0257297,74.31,487.43027
+395,,Ag,Ag,47,1.93,1.6,145,10490,5,11,43,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,30.069895,123.76391,1441.1096
+396,,Ag,Ag,47,1.93,1.6,145,10490,5,11,43,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-6.3261647,70.41069,476.3573
+397,,Ag,Ag,47,1.93,1.6,145,10490,5,11,44,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,173.53464,103.62367,487.43027
+398,,Ag,Ag,47,1.93,1.6,145,10490,5,11,44,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,120.04581,139.73824,1441.1096
+399,,Ag,Ag,47,1.93,1.6,145,10490,5,11,44,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,92.12017,98.980576,476.3573
+400,,Ag,Ag,47,1.93,1.6,145,10490,5,11,44,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,178.95667,64.918495,487.43027
+401,,Ag,Ag,47,1.93,1.6,145,10490,5,11,44,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,223.5994,114.372444,1441.1096
+402,,Ag,Ag,47,1.93,1.6,145,10490,5,11,44,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,167.6048,61.019184,476.3573
+403,,Ag,Ag,47,1.93,1.6,145,10490,5,11,44,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,5.0257297,74.31,487.43027
+404,,Ag,Ag,47,1.93,1.6,145,10490,5,11,44,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,30.069895,123.76391,1441.1096
+405,,Ag,Ag,47,1.93,1.6,145,10490,5,11,44,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,-6.3261647,70.41069,476.3573
+406,,Ag,Ag,47,1.93,1.6,145,10490,5,11,45,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,212.98508,103.62367,487.43027
+407,,Ag,Ag,47,1.93,1.6,145,10490,5,11,45,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,160.60983,139.73824,1441.1096
+408,,Ag,Ag,47,1.93,1.6,145,10490,5,11,45,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,131.57056,98.980576,476.3573
+409,,Ag,Ag,47,1.93,1.6,145,10490,5,11,45,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,221.16156,64.918495,487.43027
+410,,Ag,Ag,47,1.93,1.6,145,10490,5,11,45,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,266.91785,114.372444,1441.1096
+411,,Ag,Ag,47,1.93,1.6,145,10490,5,11,45,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,209.8097,61.019184,476.3573
+412,,Ag,Ag,47,1.93,1.6,145,10490,5,11,45,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,47.230644,74.31,487.43027
+413,,Ag,Ag,47,1.93,1.6,145,10490,5,11,45,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,73.38841,123.76391,1441.1096
+414,,Ag,Ag,47,1.93,1.6,145,10490,5,11,45,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,35.87871,70.41069,476.3573
+415,,Ag,Ag,47,1.93,1.6,145,10490,5,11,46,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,212.98508,103.62367,487.43027
+416,,Ag,Ag,47,1.93,1.6,145,10490,5,11,46,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,160.60983,139.73824,1441.1096
+417,,Ag,Ag,47,1.93,1.6,145,10490,5,11,46,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,131.57056,98.980576,476.3573
+418,,Ag,Ag,47,1.93,1.6,145,10490,5,11,46,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,221.16156,64.918495,487.43027
+419,,Ag,Ag,47,1.93,1.6,145,10490,5,11,46,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,266.91785,114.372444,1441.1096
+420,,Ag,Ag,47,1.93,1.6,145,10490,5,11,46,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,209.8097,61.019184,476.3573
+421,,Ag,Ag,47,1.93,1.6,145,10490,5,11,46,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,47.230644,74.31,487.43027
+422,,Ag,Ag,47,1.93,1.6,145,10490,5,11,46,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,73.38841,123.76391,1441.1096
+423,,Ag,Ag,47,1.93,1.6,145,10490,5,11,46,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,35.87871,70.41069,476.3573
+424,,Ag,Ag,47,1.93,1.6,145,10490,5,11,47,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,212.98508,103.62367,487.43027
+425,,Ag,Ag,47,1.93,1.6,145,10490,5,11,47,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,160.60983,139.73824,1441.1096
+426,,Ag,Ag,47,1.93,1.6,145,10490,5,11,47,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,131.57056,98.980576,476.3573
+427,,Ag,Ag,47,1.93,1.6,145,10490,5,11,47,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,221.16156,64.918495,487.43027
+428,,Ag,Ag,47,1.93,1.6,145,10490,5,11,47,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,266.91785,114.372444,1441.1096
+429,,Ag,Ag,47,1.93,1.6,145,10490,5,11,47,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,209.8097,61.019184,476.3573
+430,,Ag,Ag,47,1.93,1.6,145,10490,5,11,47,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,47.230644,74.31,487.43027
+431,,Ag,Ag,47,1.93,1.6,145,10490,5,11,47,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,73.38841,123.76391,1441.1096
+432,,Ag,Ag,47,1.93,1.6,145,10490,5,11,47,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,35.87871,70.41069,476.3573
+433,,Ag,Ag,47,1.93,1.6,145,10490,5,11,48,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,193.23233,103.62367,487.43027
+434,,Ag,Ag,47,1.93,1.6,145,10490,5,11,48,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,140.85707,139.73824,1441.1096
+435,,Ag,Ag,47,1.93,1.6,145,10490,5,11,48,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,111.817894,98.980576,476.3573
+436,,Ag,Ag,47,1.93,1.6,145,10490,5,11,48,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,211.72827,64.918495,487.43027
+437,,Ag,Ag,47,1.93,1.6,145,10490,5,11,48,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,257.48456,114.372444,1441.1096
+438,,Ag,Ag,47,1.93,1.6,145,10490,5,11,48,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,200.3764,61.019184,476.3573
+439,,Ag,Ag,47,1.93,1.6,145,10490,5,11,48,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,30.66714,74.31,487.43027
+440,,Ag,Ag,47,1.93,1.6,145,10490,5,11,48,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,56.82488,123.76391,1441.1096
+441,,Ag,Ag,47,1.93,1.6,145,10490,5,11,48,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,19.315228,70.41069,476.3573
+442,,Ag,Ag,47,1.93,1.6,145,10490,5,11,49,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,199.65796,103.62367,487.43027
+443,,Ag,Ag,47,1.93,1.6,145,10490,5,11,49,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,148.87671,139.73824,1441.1096
+444,,Ag,Ag,47,1.93,1.6,145,10490,5,11,49,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,118.2435,98.980576,476.3573
+445,,Ag,Ag,47,1.93,1.6,145,10490,5,11,49,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,223.01163,64.918495,487.43027
+446,,Ag,Ag,47,1.93,1.6,145,10490,5,11,49,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,270.362,114.372444,1441.1096
+447,,Ag,Ag,47,1.93,1.6,145,10490,5,11,49,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,211.65976,61.019184,476.3573
+448,,Ag,Ag,47,1.93,1.6,145,10490,5,11,49,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,41.950516,74.31,487.43027
+449,,Ag,Ag,47,1.93,1.6,145,10490,5,11,49,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,69.702286,123.76391,1441.1096
+450,,Ag,Ag,47,1.93,1.6,145,10490,5,11,49,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,30.598597,70.41069,476.3573
+451,,Ag,Ag,47,1.93,1.6,145,10490,5,11,50,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,199.65796,103.62367,487.43027
+452,,Ag,Ag,47,1.93,1.6,145,10490,5,11,50,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,148.87671,139.73824,1441.1096
+453,,Ag,Ag,47,1.93,1.6,145,10490,5,11,50,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,118.2435,98.980576,476.3573
+454,,Ag,Ag,47,1.93,1.6,145,10490,5,11,50,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,223.01163,64.918495,487.43027
+455,,Ag,Ag,47,1.93,1.6,145,10490,5,11,50,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,270.362,114.372444,1441.1096
+456,,Ag,Ag,47,1.93,1.6,145,10490,5,11,50,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,211.65976,61.019184,476.3573
+457,,Ag,Ag,47,1.93,1.6,145,10490,5,11,50,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,41.950516,74.31,487.43027
+458,,Ag,Ag,47,1.93,1.6,145,10490,5,11,50,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,69.702286,123.76391,1441.1096
+459,,Ag,Ag,47,1.93,1.6,145,10490,5,11,50,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,30.598597,70.41069,476.3573
+460,,Ag,Ag,47,1.93,1.6,145,10490,5,11,51,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,199.65796,103.62367,487.43027
+461,,Ag,Ag,47,1.93,1.6,145,10490,5,11,51,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,148.87671,139.73824,1441.1096
+462,,Ag,Ag,47,1.93,1.6,145,10490,5,11,51,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,118.2435,98.980576,476.3573
+463,,Ag,Ag,47,1.93,1.6,145,10490,5,11,51,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,223.01163,64.918495,487.43027
+464,,Ag,Ag,47,1.93,1.6,145,10490,5,11,51,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,270.362,114.372444,1441.1096
+465,,Ag,Ag,47,1.93,1.6,145,10490,5,11,51,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,211.65976,61.019184,476.3573
+466,,Ag,Ag,47,1.93,1.6,145,10490,5,11,51,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,41.950516,74.31,487.43027
+467,,Ag,Ag,47,1.93,1.6,145,10490,5,11,51,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,69.702286,123.76391,1441.1096
+468,,Ag,Ag,47,1.93,1.6,145,10490,5,11,51,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,30.598597,70.41069,476.3573
+469,,Ag,Ag,47,1.93,1.6,145,10490,5,11,52,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,208.38911,103.62367,487.43027
+470,,Ag,Ag,47,1.93,1.6,145,10490,5,11,52,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,157.60786,139.73824,1441.1096
+471,,Ag,Ag,47,1.93,1.6,145,10490,5,11,52,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,126.97466,98.980576,476.3573
+472,,Ag,Ag,47,1.93,1.6,145,10490,5,11,52,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,246.73329,64.918495,487.43027
+473,,Ag,Ag,47,1.93,1.6,145,10490,5,11,52,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,294.08365,114.372444,1441.1096
+474,,Ag,Ag,47,1.93,1.6,145,10490,5,11,52,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,235.38142,61.019184,476.3573
+475,,Ag,Ag,47,1.93,1.6,145,10490,5,11,52,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,65.67218,74.31,487.43027
+476,,Ag,Ag,47,1.93,1.6,145,10490,5,11,52,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,93.42396,123.76391,1441.1096
+477,,Ag,Ag,47,1.93,1.6,145,10490,5,11,52,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,54.320274,70.41069,476.3573
+478,,Ag,Ag,47,1.93,1.6,145,10490,5,11,53,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,208.38911,103.62367,487.43027
+479,,Ag,Ag,47,1.93,1.6,145,10490,5,11,53,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,157.60786,139.73824,1441.1096
+480,,Ag,Ag,47,1.93,1.6,145,10490,5,11,53,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,126.97466,98.980576,476.3573
+481,,Ag,Ag,47,1.93,1.6,145,10490,5,11,53,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,246.73329,64.918495,487.43027
+482,,Ag,Ag,47,1.93,1.6,145,10490,5,11,53,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,294.08365,114.372444,1441.1096
+483,,Ag,Ag,47,1.93,1.6,145,10490,5,11,53,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,235.38142,61.019184,476.3573
+484,,Ag,Ag,47,1.93,1.6,145,10490,5,11,53,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,65.67218,74.31,487.43027
+485,,Ag,Ag,47,1.93,1.6,145,10490,5,11,53,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,93.42396,123.76391,1441.1096
+486,,Ag,Ag,47,1.93,1.6,145,10490,5,11,53,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,54.320274,70.41069,476.3573
+487,,Ag,Ag,47,1.93,1.6,145,10490,5,11,54,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,208.38911,103.62367,487.43027
+488,,Ag,Ag,47,1.93,1.6,145,10490,5,11,54,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,157.60786,139.73824,1441.1096
+489,,Ag,Ag,47,1.93,1.6,145,10490,5,11,54,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,126.97466,98.980576,476.3573
+490,,Ag,Ag,47,1.93,1.6,145,10490,5,11,54,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,246.73329,64.918495,487.43027
+491,,Ag,Ag,47,1.93,1.6,145,10490,5,11,54,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,294.08365,114.372444,1441.1096
+492,,Ag,Ag,47,1.93,1.6,145,10490,5,11,54,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,235.38142,61.019184,476.3573
+493,,Ag,Ag,47,1.93,1.6,145,10490,5,11,54,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,65.67218,74.31,487.43027
+494,,Ag,Ag,47,1.93,1.6,145,10490,5,11,54,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,93.42396,123.76391,1441.1096
+495,,Ag,Ag,47,1.93,1.6,145,10490,5,11,54,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,54.320274,70.41069,476.3573
+496,,Ag,Ag,47,1.93,1.6,145,10490,5,11,55,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,228.65675,103.62367,487.43027
+497,,Ag,Ag,47,1.93,1.6,145,10490,5,11,55,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,177.87553,139.73824,1441.1096
+498,,Ag,Ag,47,1.93,1.6,145,10490,5,11,55,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,147.24225,98.980576,476.3573
+499,,Ag,Ag,47,1.93,1.6,145,10490,5,11,55,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,283.10693,64.918495,487.43027
+500,,Ag,Ag,47,1.93,1.6,145,10490,5,11,55,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,330.45706,114.372444,1441.1096
+501,,Ag,Ag,47,1.93,1.6,145,10490,5,11,55,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,271.75494,61.019184,476.3573
+502,,Ag,Ag,47,1.93,1.6,145,10490,5,11,55,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,102.045685,74.31,487.43027
+503,,Ag,Ag,47,1.93,1.6,145,10490,5,11,55,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,129.79742,123.76391,1441.1096
+504,,Ag,Ag,47,1.93,1.6,145,10490,5,11,55,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,90.69378,70.41069,476.3573
+505,,Ag,Ag,47,1.93,1.6,145,10490,5,11,56,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,228.65675,103.62367,487.43027
+506,,Ag,Ag,47,1.93,1.6,145,10490,5,11,56,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,177.87553,139.73824,1441.1096
+507,,Ag,Ag,47,1.93,1.6,145,10490,5,11,56,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,147.24225,98.980576,476.3573
+508,,Ag,Ag,47,1.93,1.6,145,10490,5,11,56,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,283.10693,64.918495,487.43027
+509,,Ag,Ag,47,1.93,1.6,145,10490,5,11,56,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,330.45706,114.372444,1441.1096
+510,,Ag,Ag,47,1.93,1.6,145,10490,5,11,56,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,271.75494,61.019184,476.3573
+511,,Ag,Ag,47,1.93,1.6,145,10490,5,11,56,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,102.045685,74.31,487.43027
+512,,Ag,Ag,47,1.93,1.6,145,10490,5,11,56,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,129.79742,123.76391,1441.1096
+513,,Ag,Ag,47,1.93,1.6,145,10490,5,11,56,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,90.69378,70.41069,476.3573
+514,,Ag,Ag,47,1.93,1.6,145,10490,5,11,57,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,228.65675,103.62367,487.43027
+515,,Ag,Ag,47,1.93,1.6,145,10490,5,11,57,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,177.87553,139.73824,1441.1096
+516,,Ag,Ag,47,1.93,1.6,145,10490,5,11,57,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,147.24225,98.980576,476.3573
+517,,Ag,Ag,47,1.93,1.6,145,10490,5,11,57,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,283.10693,64.918495,487.43027
+518,,Ag,Ag,47,1.93,1.6,145,10490,5,11,57,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,330.45706,114.372444,1441.1096
+519,,Ag,Ag,47,1.93,1.6,145,10490,5,11,57,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,271.75494,61.019184,476.3573
+520,,Ag,Ag,47,1.93,1.6,145,10490,5,11,57,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,102.045685,74.31,487.43027
+521,,Ag,Ag,47,1.93,1.6,145,10490,5,11,57,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,129.79742,123.76391,1441.1096
+522,,Ag,Ag,47,1.93,1.6,145,10490,5,11,57,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,90.69378,70.41069,476.3573
+523,,Ag,Ag,47,1.93,1.6,145,10490,5,11,58,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,220.81007,103.62367,487.43027
+524,,Ag,Ag,47,1.93,1.6,145,10490,5,11,58,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,185.12366,139.73824,1441.1096
+525,,Ag,Ag,47,1.93,1.6,145,10490,5,11,58,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,139.39555,98.980576,476.3573
+526,,Ag,Ag,47,1.93,1.6,145,10490,5,11,58,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,275.26025,64.918495,487.43027
+527,,Ag,Ag,47,1.93,1.6,145,10490,5,11,58,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,337.7052,114.372444,1441.1096
+528,,Ag,Ag,47,1.93,1.6,145,10490,5,11,58,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,263.9083,61.019184,476.3573
+529,,Ag,Ag,47,1.93,1.6,145,10490,5,11,58,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,94.199005,74.31,487.43027
+530,,Ag,Ag,47,1.93,1.6,145,10490,5,11,58,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,137.04549,123.76391,1441.1096
+531,,Ag,Ag,47,1.93,1.6,145,10490,5,11,58,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,82.847115,70.41069,476.3573
+532,,Ag,Ag,47,1.93,1.6,145,10490,5,11,59,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,220.81007,103.62367,487.43027
+533,,Ag,Ag,47,1.93,1.6,145,10490,5,11,59,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,185.12366,139.73824,1441.1096
+534,,Ag,Ag,47,1.93,1.6,145,10490,5,11,59,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,139.39555,98.980576,476.3573
+535,,Ag,Ag,47,1.93,1.6,145,10490,5,11,59,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,275.26025,64.918495,487.43027
+536,,Ag,Ag,47,1.93,1.6,145,10490,5,11,59,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,337.7052,114.372444,1441.1096
+537,,Ag,Ag,47,1.93,1.6,145,10490,5,11,59,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,263.9083,61.019184,476.3573
+538,,Ag,Ag,47,1.93,1.6,145,10490,5,11,59,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,94.199005,74.31,487.43027
+539,,Ag,Ag,47,1.93,1.6,145,10490,5,11,59,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,137.04549,123.76391,1441.1096
+540,,Ag,Ag,47,1.93,1.6,145,10490,5,11,59,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,82.847115,70.41069,476.3573
+541,,Ag,Ag,47,1.93,1.6,145,10490,5,11,60,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,224.9303,119.31314,487.43027
+542,,Ag,Ag,47,1.93,1.6,145,10490,5,11,60,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.12306,155.42775,1441.1096
+543,,Ag,Ag,47,1.93,1.6,145,10490,5,11,60,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,143.51578,114.670044,476.3573
+544,,Ag,Ag,47,1.93,1.6,145,10490,5,11,60,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,279.3805,80.60796,487.43027
+545,,Ag,Ag,47,1.93,1.6,145,10490,5,11,60,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,342.70462,130.06187,1441.1096
+546,,Ag,Ag,47,1.93,1.6,145,10490,5,11,60,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,268.02853,76.70866,476.3573
+547,,Ag,Ag,47,1.93,1.6,145,10490,5,11,60,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,98.3192,89.999466,487.43027
+548,,Ag,Ag,47,1.93,1.6,145,10490,5,11,60,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,142.04489,139.45335,1441.1096
+549,,Ag,Ag,47,1.93,1.6,145,10490,5,11,60,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,86.96731,86.10016,476.3573
+550,,Ag,Ag,47,1.93,1.6,145,10490,5,11,61,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,224.9303,119.31314,487.43027
+551,,Ag,Ag,47,1.93,1.6,145,10490,5,11,61,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.12306,155.42775,1441.1096
+552,,Ag,Ag,47,1.93,1.6,145,10490,5,11,61,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,143.51578,114.670044,476.3573
+553,,Ag,Ag,47,1.93,1.6,145,10490,5,11,61,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,279.3805,80.60796,487.43027
+554,,Ag,Ag,47,1.93,1.6,145,10490,5,11,61,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,342.70462,130.06187,1441.1096
+555,,Ag,Ag,47,1.93,1.6,145,10490,5,11,61,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,268.02853,76.70866,476.3573
+556,,Ag,Ag,47,1.93,1.6,145,10490,5,11,61,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,98.3192,89.999466,487.43027
+557,,Ag,Ag,47,1.93,1.6,145,10490,5,11,61,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,142.04489,139.45335,1441.1096
+558,,Ag,Ag,47,1.93,1.6,145,10490,5,11,61,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,86.96731,86.10016,476.3573
+559,,Ag,Ag,47,1.93,1.6,145,10490,5,11,62,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,224.9303,119.31314,487.43027
+560,,Ag,Ag,47,1.93,1.6,145,10490,5,11,62,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.12306,155.42775,1441.1096
+561,,Ag,Ag,47,1.93,1.6,145,10490,5,11,62,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,143.51578,114.670044,476.3573
+562,,Ag,Ag,47,1.93,1.6,145,10490,5,11,62,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,279.3805,80.60796,487.43027
+563,,Ag,Ag,47,1.93,1.6,145,10490,5,11,62,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,342.70462,130.06187,1441.1096
+564,,Ag,Ag,47,1.93,1.6,145,10490,5,11,62,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,268.02853,76.70866,476.3573
+565,,Ag,Ag,47,1.93,1.6,145,10490,5,11,62,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,98.3192,89.999466,487.43027
+566,,Ag,Ag,47,1.93,1.6,145,10490,5,11,62,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,142.04489,139.45335,1441.1096
+567,,Ag,Ag,47,1.93,1.6,145,10490,5,11,62,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,86.96731,86.10016,476.3573
+568,,Ag,Ag,47,1.93,1.6,145,10490,5,11,63,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,224.9303,119.31314,487.43027
+569,,Ag,Ag,47,1.93,1.6,145,10490,5,11,63,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.12306,155.42775,1441.1096
+570,,Ag,Ag,47,1.93,1.6,145,10490,5,11,63,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,143.51578,114.670044,476.3573
+571,,Ag,Ag,47,1.93,1.6,145,10490,5,11,63,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,279.3805,80.60796,487.43027
+572,,Ag,Ag,47,1.93,1.6,145,10490,5,11,63,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,342.70462,130.06187,1441.1096
+573,,Ag,Ag,47,1.93,1.6,145,10490,5,11,63,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,268.02853,76.70866,476.3573
+574,,Ag,Ag,47,1.93,1.6,145,10490,5,11,63,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,98.3192,89.999466,487.43027
+575,,Ag,Ag,47,1.93,1.6,145,10490,5,11,63,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,142.04489,139.45335,1441.1096
+576,,Ag,Ag,47,1.93,1.6,145,10490,5,11,63,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,86.96731,86.10016,476.3573
+577,,Ag,Ag,47,1.93,1.6,145,10490,5,11,64,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,224.9303,119.31314,487.43027
+578,,Ag,Ag,47,1.93,1.6,145,10490,5,11,64,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.12306,155.42775,1441.1096
+579,,Ag,Ag,47,1.93,1.6,145,10490,5,11,64,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,143.51578,114.670044,476.3573
+580,,Ag,Ag,47,1.93,1.6,145,10490,5,11,64,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,279.3805,80.60796,487.43027
+581,,Ag,Ag,47,1.93,1.6,145,10490,5,11,64,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,342.70462,130.06187,1441.1096
+582,,Ag,Ag,47,1.93,1.6,145,10490,5,11,64,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,268.02853,76.70866,476.3573
+583,,Ag,Ag,47,1.93,1.6,145,10490,5,11,64,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,98.3192,89.999466,487.43027
+584,,Ag,Ag,47,1.93,1.6,145,10490,5,11,64,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,142.04489,139.45335,1441.1096
+585,,Ag,Ag,47,1.93,1.6,145,10490,5,11,64,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,86.96731,86.10016,476.3573
+586,,Ag,Ag,47,1.93,1.6,145,10490,5,11,65,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,224.9303,119.31314,538.4748
+587,,Ag,Ag,47,1.93,1.6,145,10490,5,11,65,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.12306,155.42775,1497.6484
+588,,Ag,Ag,47,1.93,1.6,145,10490,5,11,65,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,143.51578,114.670044,528.78613
+589,,Ag,Ag,47,1.93,1.6,145,10490,5,11,65,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,279.3805,80.60796,538.4748
+590,,Ag,Ag,47,1.93,1.6,145,10490,5,11,65,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,342.70462,130.06187,1497.6484
+591,,Ag,Ag,47,1.93,1.6,145,10490,5,11,65,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,268.02853,76.70866,528.78613
+592,,Ag,Ag,47,1.93,1.6,145,10490,5,11,65,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,98.3192,89.999466,538.4748
+593,,Ag,Ag,47,1.93,1.6,145,10490,5,11,65,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,142.04489,139.45335,1497.6484
+594,,Ag,Ag,47,1.93,1.6,145,10490,5,11,65,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,86.96731,86.10016,528.78613
+595,,Ag,Ag,47,1.93,1.6,145,10490,5,11,66,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,224.9303,119.31314,538.4748
+596,,Ag,Ag,47,1.93,1.6,145,10490,5,11,66,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.12306,155.42775,1497.6484
+597,,Ag,Ag,47,1.93,1.6,145,10490,5,11,66,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,143.51578,114.670044,528.78613
+598,,Ag,Ag,47,1.93,1.6,145,10490,5,11,66,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,279.3805,80.60796,538.4748
+599,,Ag,Ag,47,1.93,1.6,145,10490,5,11,66,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,342.70462,130.06187,1497.6484
+600,,Ag,Ag,47,1.93,1.6,145,10490,5,11,66,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,268.02853,76.70866,528.78613
+601,,Ag,Ag,47,1.93,1.6,145,10490,5,11,66,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,98.3192,89.999466,538.4748
+602,,Ag,Ag,47,1.93,1.6,145,10490,5,11,66,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,142.04489,139.45335,1497.6484
+603,,Ag,Ag,47,1.93,1.6,145,10490,5,11,66,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,86.96731,86.10016,528.78613
+604,,Ag,Ag,47,1.93,1.6,145,10490,5,11,67,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,269.93002,119.31314,538.4748
+605,,Ag,Ag,47,1.93,1.6,145,10490,5,11,67,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,236.77126,155.42775,1497.6484
+606,,Ag,Ag,47,1.93,1.6,145,10490,5,11,67,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.16402,114.670044,528.78613
+607,,Ag,Ag,47,1.93,1.6,145,10490,5,11,67,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,322.93942,80.60796,538.4748
+608,,Ag,Ag,47,1.93,1.6,145,10490,5,11,67,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,387.91214,130.06187,1497.6484
+609,,Ag,Ag,47,1.93,1.6,145,10490,5,11,67,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,313.2361,76.70866,528.78613
+610,,Ag,Ag,47,1.93,1.6,145,10490,5,11,67,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,141.87813,89.999466,538.4748
+611,,Ag,Ag,47,1.93,1.6,145,10490,5,11,67,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,187.25244,139.45335,1497.6484
+612,,Ag,Ag,47,1.93,1.6,145,10490,5,11,67,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,132.1748,86.10016,528.78613
+613,,Ag,Ag,47,1.93,1.6,145,10490,5,11,68,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,269.93002,119.31314,538.4748
+614,,Ag,Ag,47,1.93,1.6,145,10490,5,11,68,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,236.77126,155.42775,1497.6484
+615,,Ag,Ag,47,1.93,1.6,145,10490,5,11,68,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.16402,114.670044,528.78613
+616,,Ag,Ag,47,1.93,1.6,145,10490,5,11,68,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,322.93942,80.60796,538.4748
+617,,Ag,Ag,47,1.93,1.6,145,10490,5,11,68,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,387.91214,130.06187,1497.6484
+618,,Ag,Ag,47,1.93,1.6,145,10490,5,11,68,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,313.2361,76.70866,528.78613
+619,,Ag,Ag,47,1.93,1.6,145,10490,5,11,68,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,141.87813,89.999466,538.4748
+620,,Ag,Ag,47,1.93,1.6,145,10490,5,11,68,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,187.25244,139.45335,1497.6484
+621,,Ag,Ag,47,1.93,1.6,145,10490,5,11,68,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,132.1748,86.10016,528.78613
+622,,Ag,Ag,47,1.93,1.6,145,10490,5,11,69,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,269.93002,119.31314,538.4748
+623,,Ag,Ag,47,1.93,1.6,145,10490,5,11,69,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,236.77126,155.42775,1497.6484
+624,,Ag,Ag,47,1.93,1.6,145,10490,5,11,69,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.16402,114.670044,528.78613
+625,,Ag,Ag,47,1.93,1.6,145,10490,5,11,69,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,322.93942,80.60796,538.4748
+626,,Ag,Ag,47,1.93,1.6,145,10490,5,11,69,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,387.91214,130.06187,1497.6484
+627,,Ag,Ag,47,1.93,1.6,145,10490,5,11,69,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,313.2361,76.70866,528.78613
+628,,Ag,Ag,47,1.93,1.6,145,10490,5,11,69,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,141.87813,89.999466,538.4748
+629,,Ag,Ag,47,1.93,1.6,145,10490,5,11,69,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,187.25244,139.45335,1497.6484
+630,,Ag,Ag,47,1.93,1.6,145,10490,5,11,69,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,132.1748,86.10016,528.78613
+631,,Ag,Ag,47,1.93,1.6,145,10490,5,11,70,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,269.93002,119.31314,538.4748
+632,,Ag,Ag,47,1.93,1.6,145,10490,5,11,70,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,236.77126,155.42775,1497.6484
+633,,Ag,Ag,47,1.93,1.6,145,10490,5,11,70,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.16402,114.670044,528.78613
+634,,Ag,Ag,47,1.93,1.6,145,10490,5,11,70,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,322.93942,80.60796,538.4748
+635,,Ag,Ag,47,1.93,1.6,145,10490,5,11,70,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,387.91214,130.06187,1497.6484
+636,,Ag,Ag,47,1.93,1.6,145,10490,5,11,70,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,313.2361,76.70866,528.78613
+637,,Ag,Ag,47,1.93,1.6,145,10490,5,11,70,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,141.87813,89.999466,538.4748
+638,,Ag,Ag,47,1.93,1.6,145,10490,5,11,70,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,187.25244,139.45335,1497.6484
+639,,Ag,Ag,47,1.93,1.6,145,10490,5,11,70,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,132.1748,86.10016,528.78613
+640,,Ag,Ag,47,1.93,1.6,145,10490,5,11,71,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,269.93002,119.31314,538.4748
+641,,Ag,Ag,47,1.93,1.6,145,10490,5,11,71,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,236.77126,155.42775,1497.6484
+642,,Ag,Ag,47,1.93,1.6,145,10490,5,11,71,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.16402,114.670044,528.78613
+643,,Ag,Ag,47,1.93,1.6,145,10490,5,11,71,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,322.93942,80.60796,538.4748
+644,,Ag,Ag,47,1.93,1.6,145,10490,5,11,71,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,387.91214,130.06187,1497.6484
+645,,Ag,Ag,47,1.93,1.6,145,10490,5,11,71,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,313.2361,76.70866,528.78613
+646,,Ag,Ag,47,1.93,1.6,145,10490,5,11,71,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,141.87813,89.999466,538.4748
+647,,Ag,Ag,47,1.93,1.6,145,10490,5,11,71,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,187.25244,139.45335,1497.6484
+648,,Ag,Ag,47,1.93,1.6,145,10490,5,11,71,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,132.1748,86.10016,528.78613
+649,,Ag,Ag,47,1.93,1.6,145,10490,5,11,72,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,269.93002,119.31314,538.4748
+650,,Ag,Ag,47,1.93,1.6,145,10490,5,11,72,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,236.77126,155.42775,1497.6484
+651,,Ag,Ag,47,1.93,1.6,145,10490,5,11,72,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.16402,114.670044,528.78613
+652,,Ag,Ag,47,1.93,1.6,145,10490,5,11,72,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,322.93942,80.60796,538.4748
+653,,Ag,Ag,47,1.93,1.6,145,10490,5,11,72,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,387.91214,130.06187,1497.6484
+654,,Ag,Ag,47,1.93,1.6,145,10490,5,11,72,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,313.2361,76.70866,528.78613
+655,,Ag,Ag,47,1.93,1.6,145,10490,5,11,72,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,141.87813,89.999466,538.4748
+656,,Ag,Ag,47,1.93,1.6,145,10490,5,11,72,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,187.25244,139.45335,1497.6484
+657,,Ag,Ag,47,1.93,1.6,145,10490,5,11,72,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,132.1748,86.10016,528.78613
+658,,Ag,Ag,47,1.93,1.6,145,10490,5,11,73,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,269.93002,119.31314,538.4748
+659,,Ag,Ag,47,1.93,1.6,145,10490,5,11,73,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,236.77126,155.42775,1497.6484
+660,,Ag,Ag,47,1.93,1.6,145,10490,5,11,73,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.16402,114.670044,528.78613
+661,,Ag,Ag,47,1.93,1.6,145,10490,5,11,73,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,322.93942,80.60796,538.4748
+662,,Ag,Ag,47,1.93,1.6,145,10490,5,11,73,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,387.91214,130.06187,1497.6484
+663,,Ag,Ag,47,1.93,1.6,145,10490,5,11,73,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,313.2361,76.70866,528.78613
+664,,Ag,Ag,47,1.93,1.6,145,10490,5,11,73,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,141.87813,89.999466,538.4748
+665,,Ag,Ag,47,1.93,1.6,145,10490,5,11,73,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,187.25244,139.45335,1497.6484
+666,,Ag,Ag,47,1.93,1.6,145,10490,5,11,73,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,132.1748,86.10016,528.78613
+667,,Ag,Ag,47,1.93,1.6,145,10490,5,11,74,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,269.93002,119.31314,538.4748
+668,,Ag,Ag,47,1.93,1.6,145,10490,5,11,74,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,236.77126,155.42775,1497.6484
+669,,Ag,Ag,47,1.93,1.6,145,10490,5,11,74,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.16402,114.670044,528.78613
+670,,Ag,Ag,47,1.93,1.6,145,10490,5,11,74,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,322.93942,80.60796,538.4748
+671,,Ag,Ag,47,1.93,1.6,145,10490,5,11,74,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,387.91214,130.06187,1497.6484
+672,,Ag,Ag,47,1.93,1.6,145,10490,5,11,74,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,313.2361,76.70866,528.78613
+673,,Ag,Ag,47,1.93,1.6,145,10490,5,11,74,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,141.87813,89.999466,538.4748
+674,,Ag,Ag,47,1.93,1.6,145,10490,5,11,74,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,187.25244,139.45335,1497.6484
+675,,Ag,Ag,47,1.93,1.6,145,10490,5,11,74,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,132.1748,86.10016,528.78613
+676,,Ag,Ag,47,1.93,1.6,145,10490,5,11,75,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,269.93002,119.31314,538.4748
+677,,Ag,Ag,47,1.93,1.6,145,10490,5,11,75,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,236.77126,155.42775,1497.6484
+678,,Ag,Ag,47,1.93,1.6,145,10490,5,11,75,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,190.16402,114.670044,528.78613
+679,,Ag,Ag,47,1.93,1.6,145,10490,5,11,75,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,322.93942,80.60796,538.4748
+680,,Ag,Ag,47,1.93,1.6,145,10490,5,11,75,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,387.91214,130.06187,1497.6484
+681,,Ag,Ag,47,1.93,1.6,145,10490,5,11,75,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,313.2361,76.70866,528.78613
+682,,Ag,Ag,47,1.93,1.6,145,10490,5,11,75,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,141.87813,89.999466,538.4748
+683,,Ag,Ag,47,1.93,1.6,145,10490,5,11,75,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,187.25244,139.45335,1497.6484
+684,,Ag,Ag,47,1.93,1.6,145,10490,5,11,75,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,132.1748,86.10016,528.78613
+685,,Ag,Ag,47,1.93,1.6,145,10490,5,11,76,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,254.24223,118.58679,538.4748
+686,,Ag,Ag,47,1.93,1.6,145,10490,5,11,76,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,221.08354,154.70142,1497.6484
+687,,Ag,Ag,47,1.93,1.6,145,10490,5,11,76,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,174.4763,113.943695,528.78613
+688,,Ag,Ag,47,1.93,1.6,145,10490,5,11,76,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,307.2517,79.881615,538.4748
+689,,Ag,Ag,47,1.93,1.6,145,10490,5,11,76,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,372.22446,129.33554,1497.6484
+690,,Ag,Ag,47,1.93,1.6,145,10490,5,11,76,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,297.5484,75.98231,528.78613
+691,,Ag,Ag,47,1.93,1.6,145,10490,5,11,76,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,126.19046,89.27312,538.4748
+692,,Ag,Ag,47,1.93,1.6,145,10490,5,11,76,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,171.56473,138.72702,1497.6484
+693,,Ag,Ag,47,1.93,1.6,145,10490,5,11,76,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,116.487114,85.37381,528.78613
+694,,Ag,Ag,47,1.93,1.6,145,10490,5,11,77,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,254.24223,118.58679,538.4748
+695,,Ag,Ag,47,1.93,1.6,145,10490,5,11,77,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,221.08354,154.70142,1497.6484
+696,,Ag,Ag,47,1.93,1.6,145,10490,5,11,77,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,174.4763,113.943695,528.78613
+697,,Ag,Ag,47,1.93,1.6,145,10490,5,11,77,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,307.2517,79.881615,538.4748
+698,,Ag,Ag,47,1.93,1.6,145,10490,5,11,77,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,372.22446,129.33554,1497.6484
+699,,Ag,Ag,47,1.93,1.6,145,10490,5,11,77,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,297.5484,75.98231,528.78613
+700,,Ag,Ag,47,1.93,1.6,145,10490,5,11,77,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,126.19046,89.27312,538.4748
+701,,Ag,Ag,47,1.93,1.6,145,10490,5,11,77,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,171.56473,138.72702,1497.6484
+702,,Ag,Ag,47,1.93,1.6,145,10490,5,11,77,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,116.487114,85.37381,528.78613
+703,,Ag,Ag,47,1.93,1.6,145,10490,5,11,78,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,254.24223,118.58679,538.4748
+704,,Ag,Ag,47,1.93,1.6,145,10490,5,11,78,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,221.08354,154.70142,1497.6484
+705,,Ag,Ag,47,1.93,1.6,145,10490,5,11,78,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,174.4763,113.943695,528.78613
+706,,Ag,Ag,47,1.93,1.6,145,10490,5,11,78,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,307.2517,79.881615,538.4748
+707,,Ag,Ag,47,1.93,1.6,145,10490,5,11,78,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,372.22446,129.33554,1497.6484
+708,,Ag,Ag,47,1.93,1.6,145,10490,5,11,78,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,297.5484,75.98231,528.78613
+709,,Ag,Ag,47,1.93,1.6,145,10490,5,11,78,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,126.19046,89.27312,538.4748
+710,,Ag,Ag,47,1.93,1.6,145,10490,5,11,78,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,171.56473,138.72702,1497.6484
+711,,Ag,Ag,47,1.93,1.6,145,10490,5,11,78,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,116.487114,85.37381,528.78613
+712,,Ag,Ag,47,1.93,1.6,145,10490,5,11,79,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,254.24223,118.58679,538.4748
+713,,Ag,Ag,47,1.93,1.6,145,10490,5,11,79,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,221.08354,154.70142,1497.6484
+714,,Ag,Ag,47,1.93,1.6,145,10490,5,11,79,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,174.4763,113.943695,528.78613
+715,,Ag,Ag,47,1.93,1.6,145,10490,5,11,79,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,307.2517,79.881615,538.4748
+716,,Ag,Ag,47,1.93,1.6,145,10490,5,11,79,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,372.22446,129.33554,1497.6484
+717,,Ag,Ag,47,1.93,1.6,145,10490,5,11,79,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,297.5484,75.98231,528.78613
+718,,Ag,Ag,47,1.93,1.6,145,10490,5,11,79,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,126.19046,89.27312,538.4748
+719,,Ag,Ag,47,1.93,1.6,145,10490,5,11,79,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,171.56473,138.72702,1497.6484
+720,,Ag,Ag,47,1.93,1.6,145,10490,5,11,79,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,116.487114,85.37381,528.78613
+721,,Ag,Ag,47,1.93,1.6,145,10490,5,11,80,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,644.63684,477.13858,646.60376
+722,,Ag,Ag,47,1.93,1.6,145,10490,5,11,80,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,612.52295,519.31366,1623.4844
+723,,Ag,Ag,47,1.93,1.6,145,10490,5,11,80,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,564.87067,478.55582,640.10474
+724,,Ag,Ag,47,1.93,1.6,145,10490,5,11,80,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,556.75653,438.43344,646.60376
+725,,Ag,Ag,47,1.93,1.6,145,10490,5,11,80,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,622.7744,493.94772,1623.4844
+726,,Ag,Ag,47,1.93,1.6,145,10490,5,11,80,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,547.05316,440.5945,640.10474
+727,,Ag,Ag,47,1.93,1.6,145,10490,5,11,80,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,543.8904,447.82492,646.60376
+728,,Ag,Ag,47,1.93,1.6,145,10490,5,11,80,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,590.30975,503.33926,1623.4844
+729,,Ag,Ag,47,1.93,1.6,145,10490,5,11,80,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,534.1872,449.986,640.10474
+730,,Ag,Ag,47,1.93,1.6,145,10490,5,11,81,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,644.63684,477.13858,646.60376
+731,,Ag,Ag,47,1.93,1.6,145,10490,5,11,81,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,612.52295,519.31366,1623.4844
+732,,Ag,Ag,47,1.93,1.6,145,10490,5,11,81,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,564.87067,478.55582,640.10474
+733,,Ag,Ag,47,1.93,1.6,145,10490,5,11,81,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,556.75653,438.43344,646.60376
+734,,Ag,Ag,47,1.93,1.6,145,10490,5,11,81,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,622.7744,493.94772,1623.4844
+735,,Ag,Ag,47,1.93,1.6,145,10490,5,11,81,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,547.05316,440.5945,640.10474
+736,,Ag,Ag,47,1.93,1.6,145,10490,5,11,81,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,543.8904,447.82492,646.60376
+737,,Ag,Ag,47,1.93,1.6,145,10490,5,11,81,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,590.30975,503.33926,1623.4844
+738,,Ag,Ag,47,1.93,1.6,145,10490,5,11,81,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,534.1872,449.986,640.10474
+739,,Ag,Ag,47,1.93,1.6,145,10490,5,11,82,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,644.63684,477.13858,646.60376
+740,,Ag,Ag,47,1.93,1.6,145,10490,5,11,82,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,weak,612.52295,519.31366,1623.4844
+741,,Ag,Ag,47,1.93,1.6,145,10490,5,11,82,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,564.87067,478.55582,640.10474
+742,,Ag,Ag,47,1.93,1.6,145,10490,5,11,82,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,556.75653,438.43344,646.60376
+743,,Ag,Ag,47,1.93,1.6,145,10490,5,11,82,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,622.7744,493.94772,1623.4844
+744,,Ag,Ag,47,1.93,1.6,145,10490,5,11,82,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,547.05316,440.5945,640.10474
+745,,Ag,Ag,47,1.93,1.6,145,10490,5,11,82,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,543.8904,447.82492,646.60376
+746,,Ag,Ag,47,1.93,1.6,145,10490,5,11,82,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,590.30975,503.33926,1623.4844
+747,,Ag,Ag,47,1.93,1.6,145,10490,5,11,82,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,534.1872,449.986,640.10474
+748,,Ag,Ag,47,1.93,1.6,145,10490,5,11,83,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,375.7791,477.13858,646.60376
+749,,Ag,Ag,47,1.93,1.6,145,10490,5,11,83,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,343.66553,519.31366,1623.4844
+750,,Ag,Ag,47,1.93,1.6,145,10490,5,11,83,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,296.01318,478.55582,640.10474
+751,,Ag,Ag,47,1.93,1.6,145,10490,5,11,83,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,287.8992,438.43344,646.60376
+752,,Ag,Ag,47,1.93,1.6,145,10490,5,11,83,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,353.91708,493.94772,1623.4844
+753,,Ag,Ag,47,1.93,1.6,145,10490,5,11,83,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,278.19583,440.5945,640.10474
+754,,Ag,Ag,47,1.93,1.6,145,10490,5,11,83,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,275.03302,447.82492,646.60376
+755,,Ag,Ag,47,1.93,1.6,145,10490,5,11,83,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,321.45242,503.33926,1623.4844
+756,,Ag,Ag,47,1.93,1.6,145,10490,5,11,83,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,265.32977,449.986,640.10474
+757,,Ag,Ag,47,1.93,1.6,145,10490,5,11,84,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,646.60376
+758,,Ag,Ag,47,1.93,1.6,145,10490,5,11,84,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1623.4844
+759,,Ag,Ag,47,1.93,1.6,145,10490,5,11,84,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,640.10474
+760,,Ag,Ag,47,1.93,1.6,145,10490,5,11,84,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,646.60376
+761,,Ag,Ag,47,1.93,1.6,145,10490,5,11,84,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1623.4844
+762,,Ag,Ag,47,1.93,1.6,145,10490,5,11,84,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,640.10474
+763,,Ag,Ag,47,1.93,1.6,145,10490,5,11,84,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,646.60376
+764,,Ag,Ag,47,1.93,1.6,145,10490,5,11,84,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1623.4844
+765,,Ag,Ag,47,1.93,1.6,145,10490,5,11,84,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,640.10474
+766,,Ag,Ag,47,1.93,1.6,145,10490,5,11,85,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,646.60376
+767,,Ag,Ag,47,1.93,1.6,145,10490,5,11,85,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1623.4844
+768,,Ag,Ag,47,1.93,1.6,145,10490,5,11,85,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,640.10474
+769,,Ag,Ag,47,1.93,1.6,145,10490,5,11,85,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,646.60376
+770,,Ag,Ag,47,1.93,1.6,145,10490,5,11,85,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1623.4844
+771,,Ag,Ag,47,1.93,1.6,145,10490,5,11,85,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,640.10474
+772,,Ag,Ag,47,1.93,1.6,145,10490,5,11,85,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,646.60376
+773,,Ag,Ag,47,1.93,1.6,145,10490,5,11,85,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1623.4844
+774,,Ag,Ag,47,1.93,1.6,145,10490,5,11,85,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,640.10474
+775,,Ag,Ag,47,1.93,1.6,145,10490,5,11,86,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,646.60376
+776,,Ag,Ag,47,1.93,1.6,145,10490,5,11,86,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1623.4844
+777,,Ag,Ag,47,1.93,1.6,145,10490,5,11,86,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,640.10474
+778,,Ag,Ag,47,1.93,1.6,145,10490,5,11,86,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,646.60376
+779,,Ag,Ag,47,1.93,1.6,145,10490,5,11,86,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1623.4844
+780,,Ag,Ag,47,1.93,1.6,145,10490,5,11,86,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,640.10474
+781,,Ag,Ag,47,1.93,1.6,145,10490,5,11,86,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,646.60376
+782,,Ag,Ag,47,1.93,1.6,145,10490,5,11,86,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1623.4844
+783,,Ag,Ag,47,1.93,1.6,145,10490,5,11,86,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,640.10474
+784,,Ag,Ag,47,1.93,1.6,145,10490,5,11,87,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,646.60376
+785,,Ag,Ag,47,1.93,1.6,145,10490,5,11,87,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1623.4844
+786,,Ag,Ag,47,1.93,1.6,145,10490,5,11,87,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,640.10474
+787,,Ag,Ag,47,1.93,1.6,145,10490,5,11,87,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,646.60376
+788,,Ag,Ag,47,1.93,1.6,145,10490,5,11,87,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1623.4844
+789,,Ag,Ag,47,1.93,1.6,145,10490,5,11,87,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,640.10474
+790,,Ag,Ag,47,1.93,1.6,145,10490,5,11,87,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,646.60376
+791,,Ag,Ag,47,1.93,1.6,145,10490,5,11,87,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1623.4844
+792,,Ag,Ag,47,1.93,1.6,145,10490,5,11,87,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,640.10474
+793,,Ag,Ag,47,1.93,1.6,145,10490,5,11,88,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,646.60376
+794,,Ag,Ag,47,1.93,1.6,145,10490,5,11,88,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1623.4844
+795,,Ag,Ag,47,1.93,1.6,145,10490,5,11,88,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,640.10474
+796,,Ag,Ag,47,1.93,1.6,145,10490,5,11,88,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,646.60376
+797,,Ag,Ag,47,1.93,1.6,145,10490,5,11,88,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1623.4844
+798,,Ag,Ag,47,1.93,1.6,145,10490,5,11,88,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,640.10474
+799,,Ag,Ag,47,1.93,1.6,145,10490,5,11,88,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,646.60376
+800,,Ag,Ag,47,1.93,1.6,145,10490,5,11,88,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1623.4844
+801,,Ag,Ag,47,1.93,1.6,145,10490,5,11,88,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,640.10474
+802,,Ag,Ag,47,1.93,1.6,145,10490,5,11,89,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,646.60376
+803,,Ag,Ag,47,1.93,1.6,145,10490,5,11,89,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1623.4844
+804,,Ag,Ag,47,1.93,1.6,145,10490,5,11,89,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,640.10474
+805,,Ag,Ag,47,1.93,1.6,145,10490,5,11,89,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,646.60376
+806,,Ag,Ag,47,1.93,1.6,145,10490,5,11,89,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1623.4844
+807,,Ag,Ag,47,1.93,1.6,145,10490,5,11,89,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,640.10474
+808,,Ag,Ag,47,1.93,1.6,145,10490,5,11,89,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,646.60376
+809,,Ag,Ag,47,1.93,1.6,145,10490,5,11,89,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1623.4844
+810,,Ag,Ag,47,1.93,1.6,145,10490,5,11,89,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,640.10474
+811,,Ag,Ag,47,1.93,1.6,145,10490,5,11,90,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,646.60376
+812,,Ag,Ag,47,1.93,1.6,145,10490,5,11,90,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1623.4844
+813,,Ag,Ag,47,1.93,1.6,145,10490,5,11,90,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,640.10474
+814,,Ag,Ag,47,1.93,1.6,145,10490,5,11,90,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,646.60376
+815,,Ag,Ag,47,1.93,1.6,145,10490,5,11,90,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1623.4844
+816,,Ag,Ag,47,1.93,1.6,145,10490,5,11,90,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,640.10474
+817,,Ag,Ag,47,1.93,1.6,145,10490,5,11,90,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,646.60376
+818,,Ag,Ag,47,1.93,1.6,145,10490,5,11,90,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1623.4844
+819,,Ag,Ag,47,1.93,1.6,145,10490,5,11,90,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,640.10474
+820,,Ag,Ag,47,1.93,1.6,145,10490,5,11,91,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,646.60376
+821,,Ag,Ag,47,1.93,1.6,145,10490,5,11,91,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1623.4844
+822,,Ag,Ag,47,1.93,1.6,145,10490,5,11,91,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,640.10474
+823,,Ag,Ag,47,1.93,1.6,145,10490,5,11,91,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,646.60376
+824,,Ag,Ag,47,1.93,1.6,145,10490,5,11,91,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1623.4844
+825,,Ag,Ag,47,1.93,1.6,145,10490,5,11,91,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,640.10474
+826,,Ag,Ag,47,1.93,1.6,145,10490,5,11,91,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,646.60376
+827,,Ag,Ag,47,1.93,1.6,145,10490,5,11,91,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1623.4844
+828,,Ag,Ag,47,1.93,1.6,145,10490,5,11,91,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,640.10474
+829,,Ag,Ag,47,1.93,1.6,145,10490,5,11,92,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,646.60376
+830,,Ag,Ag,47,1.93,1.6,145,10490,5,11,92,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1623.4844
+831,,Ag,Ag,47,1.93,1.6,145,10490,5,11,92,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,640.10474
+832,,Ag,Ag,47,1.93,1.6,145,10490,5,11,92,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,646.60376
+833,,Ag,Ag,47,1.93,1.6,145,10490,5,11,92,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1623.4844
+834,,Ag,Ag,47,1.93,1.6,145,10490,5,11,92,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,640.10474
+835,,Ag,Ag,47,1.93,1.6,145,10490,5,11,92,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,646.60376
+836,,Ag,Ag,47,1.93,1.6,145,10490,5,11,92,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1623.4844
+837,,Ag,Ag,47,1.93,1.6,145,10490,5,11,92,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,640.10474
+838,,Ag,Ag,47,1.93,1.6,145,10490,5,11,93,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,586.3645
+839,,Ag,Ag,47,1.93,1.6,145,10490,5,11,93,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1560.6189
+840,,Ag,Ag,47,1.93,1.6,145,10490,5,11,93,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,581.27045
+841,,Ag,Ag,47,1.93,1.6,145,10490,5,11,93,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,586.3645
+842,,Ag,Ag,47,1.93,1.6,145,10490,5,11,93,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1560.6189
+843,,Ag,Ag,47,1.93,1.6,145,10490,5,11,93,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,581.27045
+844,,Ag,Ag,47,1.93,1.6,145,10490,5,11,93,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,586.3645
+845,,Ag,Ag,47,1.93,1.6,145,10490,5,11,93,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1560.6189
+846,,Ag,Ag,47,1.93,1.6,145,10490,5,11,93,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,581.27045
+847,,Ag,Ag,47,1.93,1.6,145,10490,5,11,94,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,586.3645
+848,,Ag,Ag,47,1.93,1.6,145,10490,5,11,94,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1560.6189
+849,,Ag,Ag,47,1.93,1.6,145,10490,5,11,94,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,581.27045
+850,,Ag,Ag,47,1.93,1.6,145,10490,5,11,94,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,586.3645
+851,,Ag,Ag,47,1.93,1.6,145,10490,5,11,94,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1560.6189
+852,,Ag,Ag,47,1.93,1.6,145,10490,5,11,94,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,581.27045
+853,,Ag,Ag,47,1.93,1.6,145,10490,5,11,94,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,586.3645
+854,,Ag,Ag,47,1.93,1.6,145,10490,5,11,94,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1560.6189
+855,,Ag,Ag,47,1.93,1.6,145,10490,5,11,94,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,581.27045
+856,,Ag,Ag,47,1.93,1.6,145,10490,5,11,95,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,586.3645
+857,,Ag,Ag,47,1.93,1.6,145,10490,5,11,95,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1560.6189
+858,,Ag,Ag,47,1.93,1.6,145,10490,5,11,95,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,581.27045
+859,,Ag,Ag,47,1.93,1.6,145,10490,5,11,95,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,586.3645
+860,,Ag,Ag,47,1.93,1.6,145,10490,5,11,95,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1560.6189
+861,,Ag,Ag,47,1.93,1.6,145,10490,5,11,95,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,581.27045
+862,,Ag,Ag,47,1.93,1.6,145,10490,5,11,95,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,586.3645
+863,,Ag,Ag,47,1.93,1.6,145,10490,5,11,95,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1560.6189
+864,,Ag,Ag,47,1.93,1.6,145,10490,5,11,95,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,581.27045
+865,,Ag,Ag,47,1.93,1.6,145,10490,5,11,96,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,586.3645
+866,,Ag,Ag,47,1.93,1.6,145,10490,5,11,96,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1560.6189
+867,,Ag,Ag,47,1.93,1.6,145,10490,5,11,96,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,581.27045
+868,,Ag,Ag,47,1.93,1.6,145,10490,5,11,96,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,586.3645
+869,,Ag,Ag,47,1.93,1.6,145,10490,5,11,96,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1560.6189
+870,,Ag,Ag,47,1.93,1.6,145,10490,5,11,96,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,581.27045
+871,,Ag,Ag,47,1.93,1.6,145,10490,5,11,96,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,586.3645
+872,,Ag,Ag,47,1.93,1.6,145,10490,5,11,96,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1560.6189
+873,,Ag,Ag,47,1.93,1.6,145,10490,5,11,96,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,581.27045
+874,,Ag,Ag,47,1.93,1.6,145,10490,5,11,97,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,586.3645
+875,,Ag,Ag,47,1.93,1.6,145,10490,5,11,97,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1560.6189
+876,,Ag,Ag,47,1.93,1.6,145,10490,5,11,97,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,581.27045
+877,,Ag,Ag,47,1.93,1.6,145,10490,5,11,97,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,586.3645
+878,,Ag,Ag,47,1.93,1.6,145,10490,5,11,97,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1560.6189
+879,,Ag,Ag,47,1.93,1.6,145,10490,5,11,97,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,581.27045
+880,,Ag,Ag,47,1.93,1.6,145,10490,5,11,97,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,586.3645
+881,,Ag,Ag,47,1.93,1.6,145,10490,5,11,97,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1560.6189
+882,,Ag,Ag,47,1.93,1.6,145,10490,5,11,97,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,581.27045
+883,,Ag,Ag,47,1.93,1.6,145,10490,5,11,98,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,586.3645
+884,,Ag,Ag,47,1.93,1.6,145,10490,5,11,98,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1560.6189
+885,,Ag,Ag,47,1.93,1.6,145,10490,5,11,98,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,581.27045
+886,,Ag,Ag,47,1.93,1.6,145,10490,5,11,98,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,586.3645
+887,,Ag,Ag,47,1.93,1.6,145,10490,5,11,98,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1560.6189
+888,,Ag,Ag,47,1.93,1.6,145,10490,5,11,98,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,581.27045
+889,,Ag,Ag,47,1.93,1.6,145,10490,5,11,98,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,586.3645
+890,,Ag,Ag,47,1.93,1.6,145,10490,5,11,98,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1560.6189
+891,,Ag,Ag,47,1.93,1.6,145,10490,5,11,98,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,581.27045
+892,,Ag,Ag,47,1.93,1.6,145,10490,5,11,99,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,361.68668,477.13858,586.3645
+893,,Ag,Ag,47,1.93,1.6,145,10490,5,11,99,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,327.64688,519.31366,1560.6189
+894,,Ag,Ag,47,1.93,1.6,145,10490,5,11,99,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,281.92075,478.55582,581.27045
+895,,Ag,Ag,47,1.93,1.6,145,10490,5,11,99,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,276.40048,438.43344,586.3645
+896,,Ag,Ag,47,1.93,1.6,145,10490,5,11,99,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,340.4922,493.94772,1560.6189
+897,,Ag,Ag,47,1.93,1.6,145,10490,5,11,99,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,266.69714,440.5945,581.27045
+898,,Ag,Ag,47,1.93,1.6,145,10490,5,11,99,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,263.5343,447.82492,586.3645
+899,,Ag,Ag,47,1.93,1.6,145,10490,5,11,99,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,308.02753,503.33926,1560.6189
+900,,Ag,Ag,47,1.93,1.6,145,10490,5,11,99,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,253.8309,449.986,581.27045
+901,,Ag,Ag,47,1.93,1.6,145,10490,5,11,100,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,586.3645
+902,,Ag,Ag,47,1.93,1.6,145,10490,5,11,100,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+903,,Ag,Ag,47,1.93,1.6,145,10490,5,11,100,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,581.27045
+904,,Ag,Ag,47,1.93,1.6,145,10490,5,11,100,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,586.3645
+905,,Ag,Ag,47,1.93,1.6,145,10490,5,11,100,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+906,,Ag,Ag,47,1.93,1.6,145,10490,5,11,100,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,581.27045
+907,,Ag,Ag,47,1.93,1.6,145,10490,5,11,100,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,586.3645
+908,,Ag,Ag,47,1.93,1.6,145,10490,5,11,100,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,318.7943,503.33926,1560.6189
+909,,Ag,Ag,47,1.93,1.6,145,10490,5,11,100,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,581.27045
+910,,Ag,Ag,47,1.93,1.6,145,10490,5,11,101,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+911,,Ag,Ag,47,1.93,1.6,145,10490,5,11,101,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+912,,Ag,Ag,47,1.93,1.6,145,10490,5,11,101,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+913,,Ag,Ag,47,1.93,1.6,145,10490,5,11,101,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+914,,Ag,Ag,47,1.93,1.6,145,10490,5,11,101,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+915,,Ag,Ag,47,1.93,1.6,145,10490,5,11,101,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+916,,Ag,Ag,47,1.93,1.6,145,10490,5,11,101,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+917,,Ag,Ag,47,1.93,1.6,145,10490,5,11,101,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+918,,Ag,Ag,47,1.93,1.6,145,10490,5,11,101,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+919,,Ag,Ag,47,1.93,1.6,145,10490,5,11,102,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+920,,Ag,Ag,47,1.93,1.6,145,10490,5,11,102,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+921,,Ag,Ag,47,1.93,1.6,145,10490,5,11,102,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+922,,Ag,Ag,47,1.93,1.6,145,10490,5,11,102,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+923,,Ag,Ag,47,1.93,1.6,145,10490,5,11,102,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+924,,Ag,Ag,47,1.93,1.6,145,10490,5,11,102,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+925,,Ag,Ag,47,1.93,1.6,145,10490,5,11,102,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+926,,Ag,Ag,47,1.93,1.6,145,10490,5,11,102,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+927,,Ag,Ag,47,1.93,1.6,145,10490,5,11,102,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+928,,Ag,Ag,47,1.93,1.6,145,10490,5,11,103,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+929,,Ag,Ag,47,1.93,1.6,145,10490,5,11,103,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+930,,Ag,Ag,47,1.93,1.6,145,10490,5,11,103,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+931,,Ag,Ag,47,1.93,1.6,145,10490,5,11,103,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+932,,Ag,Ag,47,1.93,1.6,145,10490,5,11,103,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+933,,Ag,Ag,47,1.93,1.6,145,10490,5,11,103,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+934,,Ag,Ag,47,1.93,1.6,145,10490,5,11,103,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+935,,Ag,Ag,47,1.93,1.6,145,10490,5,11,103,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+936,,Ag,Ag,47,1.93,1.6,145,10490,5,11,103,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+937,,Ag,Ag,47,1.93,1.6,145,10490,5,11,104,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+938,,Ag,Ag,47,1.93,1.6,145,10490,5,11,104,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+939,,Ag,Ag,47,1.93,1.6,145,10490,5,11,104,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+940,,Ag,Ag,47,1.93,1.6,145,10490,5,11,104,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+941,,Ag,Ag,47,1.93,1.6,145,10490,5,11,104,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+942,,Ag,Ag,47,1.93,1.6,145,10490,5,11,104,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+943,,Ag,Ag,47,1.93,1.6,145,10490,5,11,104,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+944,,Ag,Ag,47,1.93,1.6,145,10490,5,11,104,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+945,,Ag,Ag,47,1.93,1.6,145,10490,5,11,104,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+946,,Ag,Ag,47,1.93,1.6,145,10490,5,11,105,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+947,,Ag,Ag,47,1.93,1.6,145,10490,5,11,105,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+948,,Ag,Ag,47,1.93,1.6,145,10490,5,11,105,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+949,,Ag,Ag,47,1.93,1.6,145,10490,5,11,105,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+950,,Ag,Ag,47,1.93,1.6,145,10490,5,11,105,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+951,,Ag,Ag,47,1.93,1.6,145,10490,5,11,105,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+952,,Ag,Ag,47,1.93,1.6,145,10490,5,11,105,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+953,,Ag,Ag,47,1.93,1.6,145,10490,5,11,105,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+954,,Ag,Ag,47,1.93,1.6,145,10490,5,11,105,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+955,,Ag,Ag,47,1.93,1.6,145,10490,5,11,106,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+956,,Ag,Ag,47,1.93,1.6,145,10490,5,11,106,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+957,,Ag,Ag,47,1.93,1.6,145,10490,5,11,106,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+958,,Ag,Ag,47,1.93,1.6,145,10490,5,11,106,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+959,,Ag,Ag,47,1.93,1.6,145,10490,5,11,106,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+960,,Ag,Ag,47,1.93,1.6,145,10490,5,11,106,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+961,,Ag,Ag,47,1.93,1.6,145,10490,5,11,106,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+962,,Ag,Ag,47,1.93,1.6,145,10490,5,11,106,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+963,,Ag,Ag,47,1.93,1.6,145,10490,5,11,106,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+964,,Ag,Ag,47,1.93,1.6,145,10490,5,11,107,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+965,,Ag,Ag,47,1.93,1.6,145,10490,5,11,107,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+966,,Ag,Ag,47,1.93,1.6,145,10490,5,11,107,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+967,,Ag,Ag,47,1.93,1.6,145,10490,5,11,107,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+968,,Ag,Ag,47,1.93,1.6,145,10490,5,11,107,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+969,,Ag,Ag,47,1.93,1.6,145,10490,5,11,107,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+970,,Ag,Ag,47,1.93,1.6,145,10490,5,11,107,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+971,,Ag,Ag,47,1.93,1.6,145,10490,5,11,107,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+972,,Ag,Ag,47,1.93,1.6,145,10490,5,11,107,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+973,,Ag,Ag,47,1.93,1.6,145,10490,5,11,108,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+974,,Ag,Ag,47,1.93,1.6,145,10490,5,11,108,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+975,,Ag,Ag,47,1.93,1.6,145,10490,5,11,108,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+976,,Ag,Ag,47,1.93,1.6,145,10490,5,11,108,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+977,,Ag,Ag,47,1.93,1.6,145,10490,5,11,108,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+978,,Ag,Ag,47,1.93,1.6,145,10490,5,11,108,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+979,,Ag,Ag,47,1.93,1.6,145,10490,5,11,108,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+980,,Ag,Ag,47,1.93,1.6,145,10490,5,11,108,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+981,,Ag,Ag,47,1.93,1.6,145,10490,5,11,108,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+982,,Ag,Ag,47,1.93,1.6,145,10490,5,11,109,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+983,,Ag,Ag,47,1.93,1.6,145,10490,5,11,109,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+984,,Ag,Ag,47,1.93,1.6,145,10490,5,11,109,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+985,,Ag,Ag,47,1.93,1.6,145,10490,5,11,109,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+986,,Ag,Ag,47,1.93,1.6,145,10490,5,11,109,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+987,,Ag,Ag,47,1.93,1.6,145,10490,5,11,109,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+988,,Ag,Ag,47,1.93,1.6,145,10490,5,11,109,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+989,,Ag,Ag,47,1.93,1.6,145,10490,5,11,109,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+990,,Ag,Ag,47,1.93,1.6,145,10490,5,11,109,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+991,,Ag,Ag,47,1.93,1.6,145,10490,5,11,110,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+992,,Ag,Ag,47,1.93,1.6,145,10490,5,11,110,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+993,,Ag,Ag,47,1.93,1.6,145,10490,5,11,110,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+994,,Ag,Ag,47,1.93,1.6,145,10490,5,11,110,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+995,,Ag,Ag,47,1.93,1.6,145,10490,5,11,110,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+996,,Ag,Ag,47,1.93,1.6,145,10490,5,11,110,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+997,,Ag,Ag,47,1.93,1.6,145,10490,5,11,110,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+998,,Ag,Ag,47,1.93,1.6,145,10490,5,11,110,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+999,,Ag,Ag,47,1.93,1.6,145,10490,5,11,110,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1000,,Ag,Ag,47,1.93,1.6,145,10490,5,11,111,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1001,,Ag,Ag,47,1.93,1.6,145,10490,5,11,111,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1002,,Ag,Ag,47,1.93,1.6,145,10490,5,11,111,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1003,,Ag,Ag,47,1.93,1.6,145,10490,5,11,111,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1004,,Ag,Ag,47,1.93,1.6,145,10490,5,11,111,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1005,,Ag,Ag,47,1.93,1.6,145,10490,5,11,111,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1006,,Ag,Ag,47,1.93,1.6,145,10490,5,11,111,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1007,,Ag,Ag,47,1.93,1.6,145,10490,5,11,111,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1008,,Ag,Ag,47,1.93,1.6,145,10490,5,11,111,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1009,,Ag,Ag,47,1.93,1.6,145,10490,5,11,112,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1010,,Ag,Ag,47,1.93,1.6,145,10490,5,11,112,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1011,,Ag,Ag,47,1.93,1.6,145,10490,5,11,112,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1012,,Ag,Ag,47,1.93,1.6,145,10490,5,11,112,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1013,,Ag,Ag,47,1.93,1.6,145,10490,5,11,112,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1014,,Ag,Ag,47,1.93,1.6,145,10490,5,11,112,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1015,,Ag,Ag,47,1.93,1.6,145,10490,5,11,112,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1016,,Ag,Ag,47,1.93,1.6,145,10490,5,11,112,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1017,,Ag,Ag,47,1.93,1.6,145,10490,5,11,112,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1018,,Ag,Ag,47,1.93,1.6,145,10490,5,11,113,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1019,,Ag,Ag,47,1.93,1.6,145,10490,5,11,113,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1020,,Ag,Ag,47,1.93,1.6,145,10490,5,11,113,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1021,,Ag,Ag,47,1.93,1.6,145,10490,5,11,113,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1022,,Ag,Ag,47,1.93,1.6,145,10490,5,11,113,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1023,,Ag,Ag,47,1.93,1.6,145,10490,5,11,113,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1024,,Ag,Ag,47,1.93,1.6,145,10490,5,11,113,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1025,,Ag,Ag,47,1.93,1.6,145,10490,5,11,113,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1026,,Ag,Ag,47,1.93,1.6,145,10490,5,11,113,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1027,,Ag,Ag,47,1.93,1.6,145,10490,5,11,114,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1028,,Ag,Ag,47,1.93,1.6,145,10490,5,11,114,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1029,,Ag,Ag,47,1.93,1.6,145,10490,5,11,114,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1030,,Ag,Ag,47,1.93,1.6,145,10490,5,11,114,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1031,,Ag,Ag,47,1.93,1.6,145,10490,5,11,114,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1032,,Ag,Ag,47,1.93,1.6,145,10490,5,11,114,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1033,,Ag,Ag,47,1.93,1.6,145,10490,5,11,114,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1034,,Ag,Ag,47,1.93,1.6,145,10490,5,11,114,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1035,,Ag,Ag,47,1.93,1.6,145,10490,5,11,114,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1036,,Ag,Ag,47,1.93,1.6,145,10490,5,11,115,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1037,,Ag,Ag,47,1.93,1.6,145,10490,5,11,115,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1038,,Ag,Ag,47,1.93,1.6,145,10490,5,11,115,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1039,,Ag,Ag,47,1.93,1.6,145,10490,5,11,115,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1040,,Ag,Ag,47,1.93,1.6,145,10490,5,11,115,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1041,,Ag,Ag,47,1.93,1.6,145,10490,5,11,115,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1042,,Ag,Ag,47,1.93,1.6,145,10490,5,11,115,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1043,,Ag,Ag,47,1.93,1.6,145,10490,5,11,115,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1044,,Ag,Ag,47,1.93,1.6,145,10490,5,11,115,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1045,,Ag,Ag,47,1.93,1.6,145,10490,5,11,116,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1046,,Ag,Ag,47,1.93,1.6,145,10490,5,11,116,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1047,,Ag,Ag,47,1.93,1.6,145,10490,5,11,116,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1048,,Ag,Ag,47,1.93,1.6,145,10490,5,11,116,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1049,,Ag,Ag,47,1.93,1.6,145,10490,5,11,116,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1050,,Ag,Ag,47,1.93,1.6,145,10490,5,11,116,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1051,,Ag,Ag,47,1.93,1.6,145,10490,5,11,116,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1052,,Ag,Ag,47,1.93,1.6,145,10490,5,11,116,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1053,,Ag,Ag,47,1.93,1.6,145,10490,5,11,116,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1054,,Ag,Ag,47,1.93,1.6,145,10490,5,11,117,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1055,,Ag,Ag,47,1.93,1.6,145,10490,5,11,117,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1056,,Ag,Ag,47,1.93,1.6,145,10490,5,11,117,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1057,,Ag,Ag,47,1.93,1.6,145,10490,5,11,117,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1058,,Ag,Ag,47,1.93,1.6,145,10490,5,11,117,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1059,,Ag,Ag,47,1.93,1.6,145,10490,5,11,117,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1060,,Ag,Ag,47,1.93,1.6,145,10490,5,11,117,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1061,,Ag,Ag,47,1.93,1.6,145,10490,5,11,117,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1062,,Ag,Ag,47,1.93,1.6,145,10490,5,11,117,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1063,,Ag,Ag,47,1.93,1.6,145,10490,5,11,118,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1064,,Ag,Ag,47,1.93,1.6,145,10490,5,11,118,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1065,,Ag,Ag,47,1.93,1.6,145,10490,5,11,118,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1066,,Ag,Ag,47,1.93,1.6,145,10490,5,11,118,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1067,,Ag,Ag,47,1.93,1.6,145,10490,5,11,118,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1068,,Ag,Ag,47,1.93,1.6,145,10490,5,11,118,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1069,,Ag,Ag,47,1.93,1.6,145,10490,5,11,118,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1070,,Ag,Ag,47,1.93,1.6,145,10490,5,11,118,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1071,,Ag,Ag,47,1.93,1.6,145,10490,5,11,118,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1072,,Ag,Ag,47,1.93,1.6,145,10490,5,11,119,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1073,,Ag,Ag,47,1.93,1.6,145,10490,5,11,119,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1074,,Ag,Ag,47,1.93,1.6,145,10490,5,11,119,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1075,,Ag,Ag,47,1.93,1.6,145,10490,5,11,119,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1076,,Ag,Ag,47,1.93,1.6,145,10490,5,11,119,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1077,,Ag,Ag,47,1.93,1.6,145,10490,5,11,119,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1078,,Ag,Ag,47,1.93,1.6,145,10490,5,11,119,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1079,,Ag,Ag,47,1.93,1.6,145,10490,5,11,119,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1080,,Ag,Ag,47,1.93,1.6,145,10490,5,11,119,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1081,,Ag,Ag,47,1.93,1.6,145,10490,5,11,120,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1082,,Ag,Ag,47,1.93,1.6,145,10490,5,11,120,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1083,,Ag,Ag,47,1.93,1.6,145,10490,5,11,120,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1084,,Ag,Ag,47,1.93,1.6,145,10490,5,11,120,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1085,,Ag,Ag,47,1.93,1.6,145,10490,5,11,120,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1086,,Ag,Ag,47,1.93,1.6,145,10490,5,11,120,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1087,,Ag,Ag,47,1.93,1.6,145,10490,5,11,120,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1088,,Ag,Ag,47,1.93,1.6,145,10490,5,11,120,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1089,,Ag,Ag,47,1.93,1.6,145,10490,5,11,120,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1090,,Ag,Ag,47,1.93,1.6,145,10490,5,11,121,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1091,,Ag,Ag,47,1.93,1.6,145,10490,5,11,121,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1092,,Ag,Ag,47,1.93,1.6,145,10490,5,11,121,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1093,,Ag,Ag,47,1.93,1.6,145,10490,5,11,121,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1094,,Ag,Ag,47,1.93,1.6,145,10490,5,11,121,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1095,,Ag,Ag,47,1.93,1.6,145,10490,5,11,121,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1096,,Ag,Ag,47,1.93,1.6,145,10490,5,11,121,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1097,,Ag,Ag,47,1.93,1.6,145,10490,5,11,121,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1098,,Ag,Ag,47,1.93,1.6,145,10490,5,11,121,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1099,,Ag,Ag,47,1.93,1.6,145,10490,5,11,122,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1100,,Ag,Ag,47,1.93,1.6,145,10490,5,11,122,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1101,,Ag,Ag,47,1.93,1.6,145,10490,5,11,122,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1102,,Ag,Ag,47,1.93,1.6,145,10490,5,11,122,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1103,,Ag,Ag,47,1.93,1.6,145,10490,5,11,122,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1104,,Ag,Ag,47,1.93,1.6,145,10490,5,11,122,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1105,,Ag,Ag,47,1.93,1.6,145,10490,5,11,122,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1106,,Ag,Ag,47,1.93,1.6,145,10490,5,11,122,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1107,,Ag,Ag,47,1.93,1.6,145,10490,5,11,122,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1108,,Ag,Ag,47,1.93,1.6,145,10490,5,11,123,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1109,,Ag,Ag,47,1.93,1.6,145,10490,5,11,123,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1110,,Ag,Ag,47,1.93,1.6,145,10490,5,11,123,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1111,,Ag,Ag,47,1.93,1.6,145,10490,5,11,123,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1112,,Ag,Ag,47,1.93,1.6,145,10490,5,11,123,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1113,,Ag,Ag,47,1.93,1.6,145,10490,5,11,123,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1114,,Ag,Ag,47,1.93,1.6,145,10490,5,11,123,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1115,,Ag,Ag,47,1.93,1.6,145,10490,5,11,123,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1116,,Ag,Ag,47,1.93,1.6,145,10490,5,11,123,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1117,,Ag,Ag,47,1.93,1.6,145,10490,5,11,124,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1118,,Ag,Ag,47,1.93,1.6,145,10490,5,11,124,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1119,,Ag,Ag,47,1.93,1.6,145,10490,5,11,124,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1120,,Ag,Ag,47,1.93,1.6,145,10490,5,11,124,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1121,,Ag,Ag,47,1.93,1.6,145,10490,5,11,124,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1122,,Ag,Ag,47,1.93,1.6,145,10490,5,11,124,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1123,,Ag,Ag,47,1.93,1.6,145,10490,5,11,124,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1124,,Ag,Ag,47,1.93,1.6,145,10490,5,11,124,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1125,,Ag,Ag,47,1.93,1.6,145,10490,5,11,124,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1126,,Ag,Ag,47,1.93,1.6,145,10490,5,11,125,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1127,,Ag,Ag,47,1.93,1.6,145,10490,5,11,125,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1128,,Ag,Ag,47,1.93,1.6,145,10490,5,11,125,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1129,,Ag,Ag,47,1.93,1.6,145,10490,5,11,125,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1130,,Ag,Ag,47,1.93,1.6,145,10490,5,11,125,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1131,,Ag,Ag,47,1.93,1.6,145,10490,5,11,125,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1132,,Ag,Ag,47,1.93,1.6,145,10490,5,11,125,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1133,,Ag,Ag,47,1.93,1.6,145,10490,5,11,125,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1134,,Ag,Ag,47,1.93,1.6,145,10490,5,11,125,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1135,,Ag,Ag,47,1.93,1.6,145,10490,5,11,126,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1136,,Ag,Ag,47,1.93,1.6,145,10490,5,11,126,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1137,,Ag,Ag,47,1.93,1.6,145,10490,5,11,126,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1138,,Ag,Ag,47,1.93,1.6,145,10490,5,11,126,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1139,,Ag,Ag,47,1.93,1.6,145,10490,5,11,126,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1140,,Ag,Ag,47,1.93,1.6,145,10490,5,11,126,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1141,,Ag,Ag,47,1.93,1.6,145,10490,5,11,126,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1142,,Ag,Ag,47,1.93,1.6,145,10490,5,11,126,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1143,,Ag,Ag,47,1.93,1.6,145,10490,5,11,126,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1144,,Ag,Ag,47,1.93,1.6,145,10490,5,11,127,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1145,,Ag,Ag,47,1.93,1.6,145,10490,5,11,127,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1146,,Ag,Ag,47,1.93,1.6,145,10490,5,11,127,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1147,,Ag,Ag,47,1.93,1.6,145,10490,5,11,127,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1148,,Ag,Ag,47,1.93,1.6,145,10490,5,11,127,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1149,,Ag,Ag,47,1.93,1.6,145,10490,5,11,127,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1150,,Ag,Ag,47,1.93,1.6,145,10490,5,11,127,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1151,,Ag,Ag,47,1.93,1.6,145,10490,5,11,127,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1152,,Ag,Ag,47,1.93,1.6,145,10490,5,11,127,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1153,,Ag,Ag,47,1.93,1.6,145,10490,5,11,128,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1154,,Ag,Ag,47,1.93,1.6,145,10490,5,11,128,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1155,,Ag,Ag,47,1.93,1.6,145,10490,5,11,128,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1156,,Ag,Ag,47,1.93,1.6,145,10490,5,11,128,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1157,,Ag,Ag,47,1.93,1.6,145,10490,5,11,128,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1158,,Ag,Ag,47,1.93,1.6,145,10490,5,11,128,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1159,,Ag,Ag,47,1.93,1.6,145,10490,5,11,128,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1160,,Ag,Ag,47,1.93,1.6,145,10490,5,11,128,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1161,,Ag,Ag,47,1.93,1.6,145,10490,5,11,128,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1162,,Ag,Ag,47,1.93,1.6,145,10490,5,11,129,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,477.13858,622.4503
+1163,,Ag,Ag,47,1.93,1.6,145,10490,5,11,129,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,519.31366,1560.6189
+1164,,Ag,Ag,47,1.93,1.6,145,10490,5,11,129,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,478.55582,617.35626
+1165,,Ag,Ag,47,1.93,1.6,145,10490,5,11,129,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,438.43344,622.4503
+1166,,Ag,Ag,47,1.93,1.6,145,10490,5,11,129,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,493.94772,1560.6189
+1167,,Ag,Ag,47,1.93,1.6,145,10490,5,11,129,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,440.5945,617.35626
+1168,,Ag,Ag,47,1.93,1.6,145,10490,5,11,129,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,447.82492,622.4503
+1169,,Ag,Ag,47,1.93,1.6,145,10490,5,11,129,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,503.33926,1560.6189
+1170,,Ag,Ag,47,1.93,1.6,145,10490,5,11,129,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,449.986,617.35626
+1171,,Ag,Ag,47,1.93,1.6,145,10490,5,11,130,spherical,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,372.4534,243.27667,613.6456
+1172,,Ag,Ag,47,1.93,1.6,145,10490,5,11,130,spherical,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,338.41354,285.45163,1560.6189
+1173,,Ag,Ag,47,1.93,1.6,145,10490,5,11,130,spherical,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,292.68753,244.69394,608.5516
+1174,,Ag,Ag,47,1.93,1.6,145,10490,5,11,130,rod,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,280.03696,204.57146,613.6456
+1175,,Ag,Ag,47,1.93,1.6,145,10490,5,11,130,rod,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,344.12866,260.08575,1560.6189
+1176,,Ag,Ag,47,1.93,1.6,145,10490,5,11,130,rod,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,270.3337,206.73253,608.5516
+1177,,Ag,Ag,47,1.93,1.6,145,10490,5,11,130,Polyhedral,biosynthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,274.30112,213.96294,613.6456
+1178,,Ag,Ag,47,1.93,1.6,145,10490,5,11,130,Polyhedral,chemical synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,strong,318.7943,269.47726,1560.6189
+1179,,Ag,Ag,47,1.93,1.6,145,10490,5,11,130,Polyhedral,Green synthesis,0,S. aureus,1,0,Facultative anaerobe,Coccus,clusters,24,37,,moderate,264.59775,216.12401,608.5516
