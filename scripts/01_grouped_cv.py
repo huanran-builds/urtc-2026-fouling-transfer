@@ -1,24 +1,30 @@
 """
-Grouped cross-validation re-analysis of Chen et al. 2026 nanoparticle
-antibacterial dataset (Cell Reports Physical Science 7, 103411).
+Study-level batch effects in a literature-curated antibacterial ML dataset.
 
-Their reported classification accuracy is 0.79 +/- 0.02 with XGBoost, obtained
-from a stratified random 80/20 split. The 342 rows come from only 65 source
-studies, so rows from the same study appear in both training and test.
+Data: Chen et al. 2026, Cell Reports Physical Science 7, 103411.
+      342 nanoparticle MIC records curated from 65 source papers.
+      github.com/YaxiiC/Nanoparticle-Antibacterial-Dataset
 
-This script fits the same model class two ways:
-    random  -> StratifiedKFold, source study ignored (their approach)
-    grouped -> GroupKFold on Ref, no study spans train and test
+The published analysis reports 0.79 +/- 0.02 accuracy (XGBoost) from a
+stratified random 80/20 split. Because rows are grouped by source paper,
+a random split places rows from the same paper in both train and test.
 
-MIC_class thresholds are external clinical breakpoints, not fitted to this
+This script evaluates the same model class three ways:
+
+  1. random             StratifiedKFold, source paper ignored (their approach)
+  2. grouped            GroupKFold on Ref, no paper spans train and test
+  3. grouped+corrected  same, after within-study standardisation of numeric
+                        features (a crude batch correction)
+
+MIC_class uses external clinical breakpoints, not thresholds fitted to this
 data (paper p.13): strong MIC <= 10, moderate 10 < MIC <= 100, weak MIC > 100.
 
 Run from the repo root:
     python scripts/01_grouped_cv.py
 """
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 from xgboost import XGBClassifier
 from sklearn.model_selection import StratifiedKFold, GroupKFold, cross_validate
 from sklearn.pipeline import Pipeline
@@ -31,12 +37,12 @@ N_SPLITS = 5
 PATH = "data/external/chen2026_nanoparticles/Nanoparticles_MIC_with_class.csv"
 OUT = "outputs/tables/grouped_cv_mic.csv"
 
-# ----------------------------------------------------------------------
+# ======================================================================
 # Load
-# ----------------------------------------------------------------------
+# ======================================================================
 df = pd.read_csv(PATH)
 
-# Ref is a DOI written once at the top of each source study's block and left
+# Ref is a DOI written once at the top of each source paper's block and left
 # blank underneath. Forward-fill turns it into a usable study identifier.
 df["Ref"] = df["Ref"].ffill()
 
@@ -45,14 +51,12 @@ df["Ref"] = df["Ref"].ffill()
 # binary charge indicator, not a millivolt measurement.
 df = df.rename(columns={"zeta potential": "zeta_binary"})
 
-# ----------------------------------------------------------------------
+# ======================================================================
 # Features
-# ----------------------------------------------------------------------
+# ======================================================================
 NUM = [c for c in df.columns if c.startswith("MagpieData")] + [
     "size (nm)",
     "zeta_binary",
-    "duration",
-    "temperature",
 ]
 
 CAT = [
@@ -69,20 +73,42 @@ missing = [c for c in NUM + CAT if c not in df.columns]
 if missing:
     raise SystemExit(f"Columns not found in the CSV: {missing}")
 
-X = df[NUM + CAT]
 
-# XGBoost needs numeric labels
+# ======================================================================
+# Crude batch correction
+# ======================================================================
+def within_study_zscore(frame, cols, group_col="Ref"):
+    """Center and scale each numeric feature within its source paper, so
+    paper-level offsets are removed before modeling.
+
+    Caveat to state in any write-up: this uses each paper's own mean, which
+    would not be available for a genuinely new paper at prediction time. It
+    measures how much of the cross-paper gap is explained by additive and
+    scale offsets, not a deployable correction.
+    """
+    out = frame.copy()
+    for c in cols:
+        grp = out.groupby(group_col)[c]
+        mu = grp.transform("mean")
+        sd = grp.transform("std")
+        sd = sd.where(sd > 0, 1.0)   # no within-paper variance -> center only
+        out[c] = (out[c] - mu) / sd
+    return out
+
+
+X_raw = df[NUM + CAT]
+X_corr = within_study_zscore(df, NUM)[NUM + CAT]
+
 le = LabelEncoder()
 y = pd.Series(le.fit_transform(df["MIC_class"]), index=df.index)
-
 groups = df["Ref"]
 
 
-# ----------------------------------------------------------------------
+# ======================================================================
 # Pipeline
-# ----------------------------------------------------------------------
+# ======================================================================
 def build_pipeline():
-    """Imputation and encoding live inside the pipeline so they are fit on
+    """Imputation and encoding sit inside the pipeline so they are fit on
     training folds only. Doing either beforehand would leak test-fold
     information through the median and the category list."""
     return Pipeline(
@@ -138,12 +164,12 @@ def build_pipeline():
 
 SCORING = ["accuracy", "f1_macro"]
 
-# ----------------------------------------------------------------------
-# Evaluate both ways
-# ----------------------------------------------------------------------
+# ======================================================================
+# Three evaluations
+# ======================================================================
 random_cv = cross_validate(
     build_pipeline(),
-    X,
+    X_raw,
     y,
     scoring=SCORING,
     cv=StratifiedKFold(N_SPLITS, shuffle=True, random_state=RANDOM_STATE),
@@ -151,24 +177,33 @@ random_cv = cross_validate(
 
 grouped_cv = cross_validate(
     build_pipeline(),
-    X,
+    X_raw,
     y,
     groups=groups,
     scoring=SCORING,
     cv=GroupKFold(N_SPLITS),
 )
 
-# ----------------------------------------------------------------------
+grouped_corr = cross_validate(
+    build_pipeline(),
+    X_corr,
+    y,
+    groups=groups,
+    scoring=SCORING,
+    cv=GroupKFold(N_SPLITS),
+)
+
+# ======================================================================
 # Report
-# ----------------------------------------------------------------------
+# ======================================================================
 baseline = df["MIC_class"].value_counts(normalize=True).max()
 vc = groups.value_counts()
 
 print()
 print("Chen et al. 2026, nanoparticle MIC dataset")
 print(f"  rows              : {len(df)}")
-print(f"  source studies    : {groups.nunique()}")
-print(f"  rows per study    : mean {vc.mean():.1f}, median {vc.median():.0f}, max {vc.max()}")
+print(f"  source papers     : {groups.nunique()}")
+print(f"  rows per paper    : mean {vc.mean():.1f}, median {vc.median():.0f}, max {vc.max()}")
 print(f"  classes           : {dict(df['MIC_class'].value_counts())}")
 print(f"  majority baseline : {baseline:.3f}")
 print("  paper reports     : 0.79 +/- 0.02 accuracy (XGBoost, random 80/20)")
@@ -178,11 +213,14 @@ rows = []
 for metric in SCORING:
     r = random_cv[f"test_{metric}"]
     g = grouped_cv[f"test_{metric}"]
-    drop = r.mean() - g.mean()
-    print(
-        f"  {metric:>9}   random {r.mean():.3f} +/- {r.std():.3f}   "
-        f"grouped {g.mean():.3f} +/- {g.std():.3f}   drop {drop:+.3f}"
-    )
+    c = grouped_corr[f"test_{metric}"]
+    print(f"  {metric}")
+    print(f"    random              {r.mean():.3f} +/- {r.std():.3f}")
+    print(f"    grouped             {g.mean():.3f} +/- {g.std():.3f}")
+    print(f"    grouped + corrected {c.mean():.3f} +/- {c.std():.3f}")
+    print(f"    leakage drop        {r.mean() - g.mean():+.3f}")
+    print(f"    correction gain     {c.mean() - g.mean():+.3f}")
+    print()
     rows.append(
         {
             "metric": metric,
@@ -190,17 +228,20 @@ for metric in SCORING:
             "random_std": round(r.std(), 4),
             "grouped_mean": round(g.mean(), 4),
             "grouped_std": round(g.std(), 4),
-            "drop": round(drop, 4),
+            "grouped_corrected_mean": round(c.mean(), 4),
+            "grouped_corrected_std": round(c.std(), 4),
+            "leakage_drop": round(r.mean() - g.mean(), 4),
+            "correction_gain": round(c.mean() - g.mean(), 4),
             "majority_baseline": round(baseline, 4),
             "n_rows": len(df),
-            "n_studies": int(groups.nunique()),
+            "n_papers": int(groups.nunique()),
             "model": "XGBClassifier",
         }
     )
 
-print()
-print("  random  = StratifiedKFold, source study ignored (their approach)")
-print("  grouped = GroupKFold on Ref, no study spans train and test")
+print("  random              StratifiedKFold, source paper ignored")
+print("  grouped             GroupKFold on Ref")
+print("  grouped + corrected GroupKFold on Ref, numeric features z-scored within paper")
 print()
 
 pd.DataFrame(rows).to_csv(OUT, index=False)
