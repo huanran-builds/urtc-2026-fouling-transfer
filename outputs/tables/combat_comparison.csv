@@ -1,0 +1,5 @@
+setting,accuracy_mean,accuracy_std,f1_macro_mean,f1_macro_std,majority_baseline,n_rows,n_papers,note
+"random, no correction",0.7279,0.0426,0.7077,0.0483,0.4181,342.0,65.0,
+"grouped, no correction",0.3162,0.1222,0.2725,0.1291,0.4181,342.0,65.0,
+"grouped, standardized",0.3454,0.0617,0.3064,0.0576,0.4181,342.0,65.0,
+"grouped, ComBat",,,,,,,,TypeError: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
