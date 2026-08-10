@@ -57,6 +57,8 @@ df = df.rename(columns={"zeta potential": "zeta_binary"})
 NUM = [c for c in df.columns if c.startswith("MagpieData")] + [
     "size (nm)",
     "zeta_binary",
+    "duration",
+    "temperature",
 ]
 
 CAT = [
