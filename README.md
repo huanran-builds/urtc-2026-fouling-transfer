@@ -64,3 +64,14 @@ Henry (first author), Ezra, Stephen, Edward, Matthew
 Literature-derived convenience sample subject to publication bias. All
 relationships reported are associational. Files in `data/processed/` are
 generated and must not be edited by hand.
+
+## Reproducibility note
+
+XGBoost results differ slightly across CPU architectures even with a fixed
+seed and `n_jobs=1`. On identical library versions (xgboost 3.4.0,
+scikit-learn 1.9.0, numpy 2.4.6, pandas 3.0.5) we observe up to 0.012
+difference in grouped accuracy between ARM macOS and x86 Windows. That is
+roughly one tenth of the fold-to-fold standard deviation (0.122) and an
+order of magnitude below the effect being measured (0.41). Numbers in this
+repo were generated on ARM macOS. Replication tolerance is 0.02 on any
+single metric.

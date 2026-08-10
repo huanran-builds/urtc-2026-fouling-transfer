@@ -20,7 +20,7 @@ Differences between papers are a **batch effect**, the same problem genomics has
 
 **Deliverable:** poster at IEEE MIT URTC, October 9 to 11, MIT.
 
-**Working title:** Cross-Study Generalization in Literature-Curated Nanoparticle Antibacterial Prediction
+**Working title:** Unlabeled Target-Study Adaptation for Predicting Nanoparticle Antibacterial Activity Across Source Publications
 
 ---
 
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 python scripts/01_grouped_cv.py
 ```
 
-That last command must print **random 0.728, grouped 0.316, corrected 0.345**. **If your numbers differ, stop and tell Henry before doing anything else.** Everything downstream assumes we are all running the same pipeline.
+That last command must print **random 0.728, grouped 0.316, corrected 0.345**. **Tolerance is 0.02 on any single metric.** Small platform differences (ARM Mac vs x86 Windows) are expected in XGBoost even with a fixed seed. If you differ by more than 0.02, stop and tell Henry. Everything downstream assumes we are all running the same pipeline.
 
 ---
 
