@@ -156,7 +156,7 @@ def build_pipeline():
                     objective="multi:softprob",
                     num_class=3,
                     random_state=RANDOM_STATE,
-                    n_jobs=-1,
+                    n_jobs=1,
                     verbosity=0,
                 ),
             ),
