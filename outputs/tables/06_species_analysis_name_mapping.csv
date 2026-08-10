@@ -1,0 +1,60 @@
+raw_species,raw_species_repr,cleaned_species,normalized_species,normalization_rule,organism_type,row_count
+E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,62
+S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,58
+P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,39
+B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19
+K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12
+E. faecalis,'E. faecalis',E. faecalis,E. faecalis,unchanged,bacterium,10
+C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9
+S. mutans,'S. mutans',S. mutans,S. mutans,unchanged,bacterium,7
+E. coliÂ ,'E. coli\xc2\xa0',E. coli,E. coli,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,6
+S. epidermidis,'S. epidermidis',S. epidermidis,S. epidermidis,unchanged,bacterium,6
+B. cereus,'B. cereus',B. cereus,B. cereus,unchanged,bacterium,5
+L. monocytogenes,'L. monocytogenes',L. monocytogenes,L. monocytogenes,unchanged,bacterium,5
+A. baumannii,'A. baumannii',A. baumannii,A. baumannii,unchanged,bacterium,4
+K. aerogenes,'K. aerogenes',K. aerogenes,K. aerogenes,unchanged,bacterium,4
+MRSA,'MRSA',MRSA,S. aureus,resistance phenotype collapsed to species,bacterium,4
+Mycobacterium tuberculosis,'Mycobacterium tuberculosis',Mycobacterium tuberculosis,Mycobacterium tuberculosis,unchanged,bacterium,4
+P. fluorescens,'P. fluorescens',P. fluorescens,P. fluorescens,unchanged,bacterium,4
+S. aureusÂ ,'S. aureus\xc2\xa0',S. aureus,S. aureus,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,4
+S. enterica,'S. enterica',S. enterica,S. enterica,unchanged,bacterium,4
+S. haemolyticus,'S. haemolyticus',S. haemolyticus,S. haemolyticus,unchanged,bacterium,4
+S. typhimurium,'S. typhimurium',S. typhimurium,S. typhimurium,unchanged,bacterium,4
+A. hydrophila,'A. hydrophila',A. hydrophila,A. hydrophila,unchanged,bacterium,3
+C. tropicalis,'C. tropicalis',C. tropicalis,C. tropicalis,unchanged,fungus,3
+K. oxytoca,'K. oxytoca',K. oxytoca,K. oxytoca,unchanged,bacterium,3
+S. choleraesuis,'S. choleraesuis',S. choleraesuis,S. choleraesuis,unchanged,bacterium,3
+S. enteritidis ,'S. enteritidis ',S. enteritidis,S. enteritidis,trim/collapse whitespace,bacterium,3
+S. marcescens,'S. marcescens',S. marcescens,S. marcescens,unchanged,bacterium,3
+S. pyogenes,'S. pyogenes',S. pyogenes,S. pyogenes,unchanged,bacterium,3
+S. typhiÂ ,'S. typhi\xc2\xa0',S. typhi,S. typhi,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,3
+A. bestiarum,'A. bestiarum',A. bestiarum,A. bestiarum,unchanged,bacterium,2
+A. xylosoxidans,'A. xylosoxidans',A. xylosoxidans,A. xylosoxidans,unchanged,bacterium,2
+C. freundii,'C. freundii',C. freundii,C. freundii,unchanged,bacterium,2
+C. parapisilosis,'C. parapisilosis',C. parapisilosis,C. parapsilosis,spelling correction,fungus,2
+E. coli ,'E. coli ',E. coli,E. coli,trim/collapse whitespace,bacterium,2
+E. fecalis,'E. fecalis',E. fecalis,E. faecalis,spelling correction,bacterium,2
+E. hirae,'E. hirae',E. hirae,E. hirae,unchanged,bacterium,2
+K. quasipneumoniae,'K. quasipneumoniae',K. quasipneumoniae,K. quasipneumoniae,unchanged,bacterium,2
+L. pneumophilia subsp. pneumophila,'L. pneumophilia subsp. pneumophila',L. pneumophilia subsp. pneumophila,L. pneumophila subsp. pneumophila,species spelling correction; subspecies retained,bacterium,2
+M. catarrhalis,'M. catarrhalis',M. catarrhalis,M. catarrhalis,unchanged,bacterium,2
+M. morganii,'M. morganii',M. morganii,M. morganii,unchanged,bacterium,2
+P. vulgaris,'P. vulgaris',P. vulgaris,P. vulgaris,unchanged,bacterium,2
+Salmonella typhi,'Salmonella typhi',Salmonella typhi,S. typhi,genus abbreviation harmonized,bacterium,2
+Shigella sonnei,'Shigella sonnei',Shigella sonnei,Shigella sonnei,unchanged,bacterium,2
+A.baumannii,'A.baumannii',A.baumannii,A. baumannii,spacing correction,bacterium,1
+C. glabrata,'C. glabrata',C. glabrata,C. glabrata,unchanged,fungus,1
+E. aerogenes,'E. aerogenes',E. aerogenes,K. aerogenes,taxonomic synonym,bacterium,1
+E. faecalis ,'E. faecalis ',E. faecalis,E. faecalis,trim/collapse whitespace,bacterium,1
+E. tarda,'E. tarda',E. tarda,E. tarda,unchanged,bacterium,1
+Helicobacter pylori,'Helicobacter pylori',Helicobacter pylori,Helicobacter pylori,unchanged,bacterium,1
+L. acidophilus,'L. acidophilus',L. acidophilus,L. acidophilus,unchanged,bacterium,1
+L. fermentum,'L. fermentum',L. fermentum,L. fermentum,unchanged,bacterium,1
+P. aeruginosa ,'P. aeruginosa ',P. aeruginosa,P. aeruginosa,trim/collapse whitespace,bacterium,1
+P. mirabilis,'P. mirabilis',P. mirabilis,P. mirabilis,unchanged,bacterium,1
+S. aureus ,'S. aureus ',S. aureus,S. aureus,trim/collapse whitespace,bacterium,1
+Salmonella sp.,'Salmonella sp.',Salmonella sp.,Salmonella sp.,unchanged,bacterium,1
+Salmonella typhimurium ,'Salmonella typhimurium ',Salmonella typhimurium,S. typhimurium,trim/collapse whitespace; genus abbreviation harmonized,bacterium,1
+Salmonella typhimurium,'Salmonella typhimurium',Salmonella typhimurium,S. typhimurium,genus abbreviation harmonized,bacterium,1
+Staphylococcus saprophyticus,'Staphylococcus saprophyticus',Staphylococcus saprophyticus,Staphylococcus saprophyticus,unchanged,bacterium,1
+Streptococcus oralis,'Streptococcus oralis',Streptococcus oralis,Streptococcus oralis,unchanged,bacterium,1
