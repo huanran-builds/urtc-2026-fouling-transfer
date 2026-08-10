@@ -156,7 +156,7 @@ Report: random accuracy, grouped accuracy, majority baseline, class counts, fold
 | --- | --- | --- |
 | Rows, papers | 133, 24 | If each paper appears exactly once, you forgot `df['Ref'] = df['Ref'].ffill()` |
 | Random accuracy | 0.55 to 0.80 | |
-| Grouped accuracy | 0.20 to 0.45, clearly below random | If grouped ≈ random, `groups=` is not reaching GroupKFold |
+| Grouped accuracy minus majority baseline | Below +0.10. Compare to baseline, not to an absolute range, since class balance differs between files | If grouped ≈ random, `groups=` is not reaching GroupKFold |
 | Class counts | Report them | With 133 rows a class may be very small. Say so. |
 | No-overlap assertion | Passes | |
 
