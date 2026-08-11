@@ -103,6 +103,8 @@ SPECIES_ALIASES: dict[str, tuple[str, str]] = {
     ),
 }
 
+# Manually curated for the normalized species present in this frozen dataset;
+# review and extend this set before analyzing data containing new organisms.
 FUNGAL_SPECIES = {
     "C. albicans",
     "C. tropicalis",

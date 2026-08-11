@@ -6,7 +6,7 @@ Prose word count: **150** (numeric citation markers and references excluded).
 
 ## References
 
-1. Naghavi M, et al. Global burden of bacterial antimicrobial resistance 1990-2021: a systematic analysis with forecasts to 2050. *The Lancet*. 2024. [doi:10.1016/S0140-6736(24)01867-1](<https://doi.org/10.1016/S0140-6736(24)01867-1>).
+1. Naghavi M, et al. Global burden of bacterial antimicrobial resistance 1990-2021: a systematic analysis with forecasts to 2050. *The Lancet*. 2024;404(10459):1199-1226. [doi:10.1016/S0140-6736(24)01867-1](<https://doi.org/10.1016/S0140-6736(24)01867-1>).
 2. World Health Organization. *2023 Antibacterial agents in clinical and preclinical development: an overview and analysis*. 2024. ISBN 978-92-4-009400-0. [WHO report](https://www.who.int/publications/i/item/9789240094000/).
 3. Chen Y, Ye Z, Su Y, Zheng T, Chen H, Huang J. A supervised learning pipeline for decoding nanoparticle antibacterial activity. *Cell Reports Physical Science*. 2026;7:103411. [doi:10.1016/j.xcrp.2026.103411](https://doi.org/10.1016/j.xcrp.2026.103411).
 4. Clinical and Laboratory Standards Institute. *M07: Methods for Dilution Antimicrobial Susceptibility Tests for Bacteria That Grow Aerobically*. 12th ed. 2024. [CLSI M07](https://clsi.org/shop/standards/m07/).
