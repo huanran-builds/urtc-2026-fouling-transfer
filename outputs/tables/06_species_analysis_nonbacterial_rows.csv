@@ -1,0 +1,16 @@
+raw_row_index,No.,Ref,fold,raw_species,raw_species_repr,cleaned_species,normalized_species,normalization_rule,organism_type,normalized_species_count,frequency_bucket,true_code,predicted_code,true_class,predicted_class,correct
+19,20,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,1,2,strong,weak,False
+28,29,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,1,2,strong,weak,False
+35,36,https://doi.org/10.1002/jbm.b.35197,2,C. parapisilosis,'C. parapisilosis',C. parapisilosis,C. parapsilosis,spelling correction,fungus,2,<5,2,1,weak,strong,False
+36,37,https://doi.org/10.1002/jbm.b.35197,2,C. tropicalis,'C. tropicalis',C. tropicalis,C. tropicalis,unchanged,fungus,3,<5,2,0,weak,moderate,False
+43,44,https://doi.org/10.1002/jbm.b.35197,2,C. parapisilosis,'C. parapisilosis',C. parapisilosis,C. parapsilosis,spelling correction,fungus,2,<5,2,0,weak,moderate,False
+44,45,https://doi.org/10.1002/jbm.b.35197,2,C. tropicalis,'C. tropicalis',C. tropicalis,C. tropicalis,unchanged,fungus,3,<5,2,0,weak,moderate,False
+113,114,https://doi.org/10.3390/antibiotics12020201,2,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,0,2,moderate,weak,False
+128,129,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,4,C. tropicalis,'C. tropicalis',C. tropicalis,C. tropicalis,unchanged,fungus,3,<5,2,2,weak,weak,True
+190,191,10.1186/s12866-023-02971-1,1,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,0,2,moderate,weak,False
+192,193,10.1186/s12866-023-02971-1,1,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,2,2,weak,weak,True
+194,195,10.1186/s12866-023-02971-1,1,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,2,2,weak,weak,True
+200,201,10.3390/plants12112177,2,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,0,0,moderate,moderate,True
+266,267,https://doi.org/10.1038/s41598-018-34567-5,2,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,2,1,weak,strong,False
+267,268,https://doi.org/10.1038/s41598-018-34567-5,2,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,2,1,weak,strong,False
+268,269,https://doi.org/10.1038/s41598-018-34567-5,2,C. glabrata,'C. glabrata',C. glabrata,C. glabrata,unchanged,fungus,1,<5,2,1,weak,strong,False

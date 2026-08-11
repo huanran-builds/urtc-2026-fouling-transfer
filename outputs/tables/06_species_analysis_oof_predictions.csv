@@ -1,0 +1,355 @@
+raw_row_index,No.,Ref,fold,raw_species,raw_species_repr,cleaned_species,normalized_species,normalization_rule,organism_type,normalized_species_count,frequency_bucket,true_code,predicted_code,true_class,predicted_class,correct
+0,1,https://doi.org/10.1016/j.saa.2012.12.083,2,A. hydrophila,'A. hydrophila',A. hydrophila,A. hydrophila,unchanged,bacterium,3,<5,0,2,moderate,weak,False
+1,2,https://doi.org/10.1016/j.saa.2012.12.083,2,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,2,moderate,weak,False
+2,3,https://doi.org/10.1016/j.saa.2012.12.083,2,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,2,moderate,weak,False
+3,4,https://doi.org/10.1016/j.saa.2012.12.083,2,S. pyogenes,'S. pyogenes',S. pyogenes,S. pyogenes,unchanged,bacterium,3,<5,1,2,strong,weak,False
+4,5,https://doi.org/10.1016/j.saa.2012.12.083,2,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,2,strong,weak,False
+5,6,https://doi.org/10.1016/j.saa.2012.12.083,2,E. faecalis,'E. faecalis',E. faecalis,E. faecalis,unchanged,bacterium,13,5-20,0,2,moderate,weak,False
+6,7,https://doi.org/10.1016/j.saa.2012.01.011,5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,0,moderate,moderate,True
+7,8,https://doi.org/10.1016/j.saa.2012.01.011,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,0,moderate,moderate,True
+8,9,https://doi.org/10.1016/j.saa.2012.01.011,5,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,0,moderate,moderate,True
+9,10,https://doi.org/10.1016/j.saa.2012.01.011,5,K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12,5-20,2,0,weak,moderate,False
+10,11,https://doi.org/10.1016/j.saa.2012.01.011,5,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,0,0,moderate,moderate,True
+11,12,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,E. faecalis,'E. faecalis',E. faecalis,E. faecalis,unchanged,bacterium,13,5-20,1,2,strong,weak,False
+12,13,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,2,moderate,weak,False
+13,14,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,P. aeruginosa ,'P. aeruginosa ',P. aeruginosa,P. aeruginosa,trim/collapse whitespace,bacterium,40,>20,0,2,moderate,weak,False
+14,15,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,1,strong,strong,True
+15,16,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,S. enteritidis ,'S. enteritidis ',S. enteritidis,S. enteritidis,trim/collapse whitespace,bacterium,3,<5,1,2,strong,weak,False
+16,17,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12,5-20,1,2,strong,weak,False
+17,18,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,A. baumannii,'A. baumannii',A. baumannii,A. baumannii,unchanged,bacterium,5,5-20,0,2,moderate,weak,False
+18,19,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,S. typhimurium,'S. typhimurium',S. typhimurium,S. typhimurium,unchanged,bacterium,6,5-20,0,2,moderate,weak,False
+19,20,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,1,2,strong,weak,False
+20,21,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,E. faecalis ,'E. faecalis ',E. faecalis,E. faecalis,trim/collapse whitespace,bacterium,13,5-20,0,2,moderate,weak,False
+21,22,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,2,strong,weak,False
+22,23,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,1,2,strong,weak,False
+23,24,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,2,strong,weak,False
+24,25,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,S. enteritidis ,'S. enteritidis ',S. enteritidis,S. enteritidis,trim/collapse whitespace,bacterium,3,<5,0,2,moderate,weak,False
+25,26,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12,5-20,1,2,strong,weak,False
+26,27,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,A. baumannii,'A. baumannii',A. baumannii,A. baumannii,unchanged,bacterium,5,5-20,0,2,moderate,weak,False
+27,28,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,Salmonella typhimurium,'Salmonella typhimurium',Salmonella typhimurium,S. typhimurium,genus abbreviation harmonized,bacterium,6,5-20,0,2,moderate,weak,False
+28,29,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,1,2,strong,weak,False
+29,30,https://doi.org/10.1002/jbm.b.35197,2,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,1,weak,strong,False
+30,31,https://doi.org/10.1002/jbm.b.35197,2,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,0,weak,moderate,False
+31,32,https://doi.org/10.1002/jbm.b.35197,2,L. pneumophilia subsp. pneumophila,'L. pneumophilia subsp. pneumophila',L. pneumophilia subsp. pneumophila,L. pneumophila subsp. pneumophila,species spelling correction; subspecies retained,bacterium,2,<5,2,0,weak,moderate,False
+32,33,https://doi.org/10.1002/jbm.b.35197,2,E. hirae,'E. hirae',E. hirae,E. hirae,unchanged,bacterium,2,<5,2,0,weak,moderate,False
+33,34,https://doi.org/10.1002/jbm.b.35197,2,E. fecalis,'E. fecalis',E. fecalis,E. faecalis,spelling correction,bacterium,13,5-20,2,0,weak,moderate,False
+34,35,https://doi.org/10.1002/jbm.b.35197,2,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,0,weak,moderate,False
+35,36,https://doi.org/10.1002/jbm.b.35197,2,C. parapisilosis,'C. parapisilosis',C. parapisilosis,C. parapsilosis,spelling correction,fungus,2,<5,2,1,weak,strong,False
+36,37,https://doi.org/10.1002/jbm.b.35197,2,C. tropicalis,'C. tropicalis',C. tropicalis,C. tropicalis,unchanged,fungus,3,<5,2,0,weak,moderate,False
+37,38,https://doi.org/10.1002/jbm.b.35197,2,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,1,weak,strong,False
+38,39,https://doi.org/10.1002/jbm.b.35197,2,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,0,weak,moderate,False
+39,40,https://doi.org/10.1002/jbm.b.35197,2,L. pneumophilia subsp. pneumophila,'L. pneumophilia subsp. pneumophila',L. pneumophilia subsp. pneumophila,L. pneumophila subsp. pneumophila,species spelling correction; subspecies retained,bacterium,2,<5,2,0,weak,moderate,False
+40,41,https://doi.org/10.1002/jbm.b.35197,2,E. hirae,'E. hirae',E. hirae,E. hirae,unchanged,bacterium,2,<5,2,0,weak,moderate,False
+41,42,https://doi.org/10.1002/jbm.b.35197,2,E. fecalis,'E. fecalis',E. fecalis,E. faecalis,spelling correction,bacterium,13,5-20,2,0,weak,moderate,False
+42,43,https://doi.org/10.1002/jbm.b.35197,2,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,0,weak,moderate,False
+43,44,https://doi.org/10.1002/jbm.b.35197,2,C. parapisilosis,'C. parapisilosis',C. parapisilosis,C. parapsilosis,spelling correction,fungus,2,<5,2,0,weak,moderate,False
+44,45,https://doi.org/10.1002/jbm.b.35197,2,C. tropicalis,'C. tropicalis',C. tropicalis,C. tropicalis,unchanged,fungus,3,<5,2,0,weak,moderate,False
+45,46,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,2,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,0,strong,moderate,False
+46,47,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,2,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,1,0,strong,moderate,False
+47,48,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,2,P. vulgaris,'P. vulgaris',P. vulgaris,P. vulgaris,unchanged,bacterium,2,<5,1,0,strong,moderate,False
+48,49,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,2,E. aerogenes,'E. aerogenes',E. aerogenes,K. aerogenes,taxonomic synonym,bacterium,5,5-20,1,0,strong,moderate,False
+49,50,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,2,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,0,strong,moderate,False
+50,51,10.1088/1748-605X/acd03f,1,S. aureusÂ ,'S. aureus\xc2\xa0',S. aureus,S. aureus,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,67,>20,2,0,weak,moderate,False
+51,52,10.1088/1748-605X/acd03f,1,E. coliÂ ,'E. coli\xc2\xa0',E. coli,E. coli,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,70,>20,2,0,weak,moderate,False
+52,53,10.1088/1748-605X/acd03f,1,S. aureusÂ ,'S. aureus\xc2\xa0',S. aureus,S. aureus,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,67,>20,2,2,weak,weak,True
+53,54,10.1088/1748-605X/acd03f,1,E. coliÂ ,'E. coli\xc2\xa0',E. coli,E. coli,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,70,>20,2,2,weak,weak,True
+54,55,10.1088/1748-605X/acd03f,1,S. aureusÂ ,'S. aureus\xc2\xa0',S. aureus,S. aureus,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,67,>20,2,0,weak,moderate,False
+55,56,10.1088/1748-605X/acd03f,1,E. coliÂ ,'E. coli\xc2\xa0',E. coli,E. coli,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,70,>20,2,2,weak,weak,True
+56,57,10.1088/1748-605X/acd03f,1,S. aureusÂ ,'S. aureus\xc2\xa0',S. aureus,S. aureus,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,67,>20,2,2,weak,weak,True
+57,58,10.1088/1748-605X/acd03f,1,E. coliÂ ,'E. coli\xc2\xa0',E. coli,E. coli,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,70,>20,2,2,weak,weak,True
+58,59,10.1007/s12088-013-0437-5,4,A. hydrophila,'A. hydrophila',A. hydrophila,A. hydrophila,unchanged,bacterium,3,<5,2,0,weak,moderate,False
+59,60,10.1007/s12088-013-0437-5,4,A. bestiarum,'A. bestiarum',A. bestiarum,A. bestiarum,unchanged,bacterium,2,<5,2,0,weak,moderate,False
+60,61,10.1007/s12088-013-0437-5,4,P. fluorescens,'P. fluorescens',P. fluorescens,P. fluorescens,unchanged,bacterium,4,<5,2,0,weak,moderate,False
+61,62,10.1007/s12088-013-0437-5,4,E. tarda,'E. tarda',E. tarda,E. tarda,unchanged,bacterium,1,<5,2,0,weak,moderate,False
+62,63,10.1007/s12088-013-0437-5,4,A. bestiarum,'A. bestiarum',A. bestiarum,A. bestiarum,unchanged,bacterium,2,<5,2,0,weak,moderate,False
+63,64,10.1007/s12088-013-0437-5,4,P. fluorescens,'P. fluorescens',P. fluorescens,P. fluorescens,unchanged,bacterium,4,<5,2,0,weak,moderate,False
+64,65,https://doi.org/10.1016/j.jrras.2015.10.002,1,B. cereus,'B. cereus',B. cereus,B. cereus,unchanged,bacterium,5,5-20,2,2,weak,weak,True
+65,66,https://doi.org/10.1016/j.jrras.2015.10.002,1,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,2,2,weak,weak,True
+66,67,https://doi.org/10.1515/ntrev-2016-0064,1,E. coli ,'E. coli ',E. coli,E. coli,trim/collapse whitespace,bacterium,70,>20,0,2,moderate,weak,False
+67,68,https://doi.org/10.1515/ntrev-2016-0064,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,2,weak,weak,True
+68,69,https://link.springer.com/article/10.1007/s13204-015-0460-4,5,S. aureus ,'S. aureus ',S. aureus,S. aureus,trim/collapse whitespace,bacterium,67,>20,0,0,moderate,moderate,True
+69,70,https://link.springer.com/article/10.1007/s13204-015-0460-4,5,K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12,5-20,0,2,moderate,weak,False
+70,71,https://pubs.rsc.org/en/content/articlelanding/2015/ra/c4ra12784f,4,E. coli ,'E. coli ',E. coli,E. coli,trim/collapse whitespace,bacterium,70,>20,0,0,moderate,moderate,True
+71,72,https://pubs.rsc.org/en/content/articlelanding/2015/ra/c4ra12784f,4,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,0,moderate,moderate,True
+72,73,https://doi.org/10.1016/j.jallcom.2021.163073,5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,2,weak,weak,True
+73,74,https://doi.org/10.1016/j.jallcom.2021.163073,5,E. faecalis,'E. faecalis',E. faecalis,E. faecalis,unchanged,bacterium,13,5-20,0,1,moderate,strong,False
+74,75,https://doi.org/10.1016/j.jallcom.2021.163073,5,S. typhiÂ ,'S. typhi\xc2\xa0',S. typhi,S. typhi,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,5,5-20,2,0,weak,moderate,False
+75,76,https://doi.org/10.1016/j.jallcom.2021.163073,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,0,moderate,moderate,True
+76,77,https://doi.org/10.1016/j.jallcom.2021.163073,5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,0,weak,moderate,False
+77,78,https://doi.org/10.1016/j.jallcom.2021.163073,5,E. faecalis,'E. faecalis',E. faecalis,E. faecalis,unchanged,bacterium,13,5-20,0,0,moderate,moderate,True
+78,79,https://doi.org/10.1016/j.jallcom.2021.163073,5,S. typhiÂ ,'S. typhi\xc2\xa0',S. typhi,S. typhi,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,5,5-20,0,0,moderate,moderate,True
+79,80,https://doi.org/10.1016/j.jallcom.2021.163073,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,0,moderate,moderate,True
+80,81,https://doi.org/10.1016/j.jallcom.2021.163073,5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,1,moderate,strong,False
+81,82,https://doi.org/10.1016/j.jallcom.2021.163073,5,E. faecalis,'E. faecalis',E. faecalis,E. faecalis,unchanged,bacterium,13,5-20,0,1,moderate,strong,False
+82,83,https://doi.org/10.1016/j.jallcom.2021.163073,5,S. typhiÂ ,'S. typhi\xc2\xa0',S. typhi,S. typhi,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,5,5-20,0,1,moderate,strong,False
+83,84,https://doi.org/10.1016/j.jallcom.2021.163073,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,1,moderate,strong,False
+84,85,10.1038/s41598-020-73497-z,1,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,2,weak,weak,True
+85,86,10.1038/s41598-020-73497-z,1,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,2,1,weak,strong,False
+86,87,10.1007/s42770-022-00868-1,2,S. enteritidis ,'S. enteritidis ',S. enteritidis,S. enteritidis,trim/collapse whitespace,bacterium,3,<5,0,1,moderate,strong,False
+87,88,10.1007/s42770-022-00868-1,2,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,2,moderate,weak,False
+88,89,10.1007/s42770-022-00868-1,2,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,0,moderate,moderate,True
+89,90,10.1007/s42770-022-00868-1,2,S. marcescens,'S. marcescens',S. marcescens,S. marcescens,unchanged,bacterium,3,<5,1,2,strong,weak,False
+90,91,10.1007/s42770-022-00868-1,2,S. marcescens,'S. marcescens',S. marcescens,S. marcescens,unchanged,bacterium,3,<5,1,0,strong,moderate,False
+91,92,10.1007/s42770-022-00868-1,2,S. marcescens,'S. marcescens',S. marcescens,S. marcescens,unchanged,bacterium,3,<5,1,2,strong,weak,False
+92,93,10.1007/s42770-022-00868-1,2,S. epidermidis,'S. epidermidis',S. epidermidis,S. epidermidis,unchanged,bacterium,6,5-20,1,2,strong,weak,False
+93,94,10.1007/s42770-022-00868-1,2,S. epidermidis,'S. epidermidis',S. epidermidis,S. epidermidis,unchanged,bacterium,6,5-20,1,0,strong,moderate,False
+94,95,10.1007/s42770-022-00868-1,2,S. epidermidis,'S. epidermidis',S. epidermidis,S. epidermidis,unchanged,bacterium,6,5-20,1,2,strong,weak,False
+95,96,10.1007/s42770-022-00868-1,2,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,0,moderate,moderate,True
+96,97,10.1007/s42770-022-00868-1,2,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,2,weak,weak,True
+97,98,10.14202/vetworld.2023.1301-1311,4,A. xylosoxidans,'A. xylosoxidans',A. xylosoxidans,A. xylosoxidans,unchanged,bacterium,2,<5,0,2,moderate,weak,False
+98,99,10.14202/vetworld.2023.1301-1311,4,C. freundii,'C. freundii',C. freundii,C. freundii,unchanged,bacterium,2,<5,0,2,moderate,weak,False
+99,100,10.14202/vetworld.2023.1301-1311,4,E. coliÂ ,'E. coli\xc2\xa0',E. coli,E. coli,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,70,>20,2,2,weak,weak,True
+100,101,10.14202/vetworld.2023.1301-1311,4,K. oxytoca,'K. oxytoca',K. oxytoca,K. oxytoca,unchanged,bacterium,3,<5,0,2,moderate,weak,False
+101,102,10.14202/vetworld.2023.1301-1311,4,M. catarrhalis,'M. catarrhalis',M. catarrhalis,M. catarrhalis,unchanged,bacterium,2,<5,0,2,moderate,weak,False
+102,103,10.14202/vetworld.2023.1301-1311,4,M. morganii,'M. morganii',M. morganii,M. morganii,unchanged,bacterium,2,<5,0,2,moderate,weak,False
+103,104,10.14202/vetworld.2023.1301-1311,4,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,2,moderate,weak,False
+104,105,10.14202/vetworld.2023.1301-1311,4,A. xylosoxidans,'A. xylosoxidans',A. xylosoxidans,A. xylosoxidans,unchanged,bacterium,2,<5,0,1,moderate,strong,False
+105,106,10.14202/vetworld.2023.1301-1311,4,C. freundii,'C. freundii',C. freundii,C. freundii,unchanged,bacterium,2,<5,1,2,strong,weak,False
+106,107,10.14202/vetworld.2023.1301-1311,4,E. coliÂ ,'E. coli\xc2\xa0',E. coli,E. coli,replace mojibaked nonbreaking space; trim/collapse whitespace,bacterium,70,>20,0,2,moderate,weak,False
+107,108,10.14202/vetworld.2023.1301-1311,4,K. oxytoca,'K. oxytoca',K. oxytoca,K. oxytoca,unchanged,bacterium,3,<5,0,2,moderate,weak,False
+108,109,10.14202/vetworld.2023.1301-1311,4,M. catarrhalis,'M. catarrhalis',M. catarrhalis,M. catarrhalis,unchanged,bacterium,2,<5,0,1,moderate,strong,False
+109,110,10.14202/vetworld.2023.1301-1311,4,M. morganii,'M. morganii',M. morganii,M. morganii,unchanged,bacterium,2,<5,1,2,strong,weak,False
+110,111,10.14202/vetworld.2023.1301-1311,4,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,1,moderate,strong,False
+111,112,https://doi.org/10.3390/antibiotics12020201,2,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,0,moderate,moderate,True
+112,113,https://doi.org/10.3390/antibiotics12020201,2,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,2,moderate,weak,False
+113,114,https://doi.org/10.3390/antibiotics12020201,2,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,0,2,moderate,weak,False
+114,115,https://doi.org/10.1016/j.heliyon.2023.e15265,1,B. cereus,'B. cereus',B. cereus,B. cereus,unchanged,bacterium,5,5-20,1,1,strong,strong,True
+115,116,https://doi.org/10.1016/j.heliyon.2023.e15265,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,1,strong,strong,True
+116,117,https://doi.org/10.1016/j.heliyon.2023.e15265,1,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,0,strong,moderate,False
+117,118,https://doi.org/10.1016/j.heliyon.2023.e15265,1,S. typhimurium,'S. typhimurium',S. typhimurium,S. typhimurium,unchanged,bacterium,6,5-20,1,0,strong,moderate,False
+118,119,10.1007/s12010-022-04120-2,1,K. oxytoca,'K. oxytoca',K. oxytoca,K. oxytoca,unchanged,bacterium,3,<5,1,2,strong,weak,False
+119,120,10.1007/s12010-022-04120-2,1,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,1,strong,strong,True
+120,121,10.1007/s12010-022-04120-2,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,2,moderate,weak,False
+121,122,10.1007/s12010-022-04120-2,1,B. cereus,'B. cereus',B. cereus,B. cereus,unchanged,bacterium,5,5-20,0,1,moderate,strong,False
+122,123,10.1007/s00203-023-03497-w,2,A. baumannii,'A. baumannii',A. baumannii,A. baumannii,unchanged,bacterium,5,5-20,1,0,strong,moderate,False
+123,124,10.1007/s00203-023-03497-w,2,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,1,0,strong,moderate,False
+124,125,10.1007/s00203-023-03497-w,2,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,0,moderate,moderate,True
+125,126,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,4,MRSA,'MRSA',MRSA,S. aureus,resistance phenotype collapsed to species,bacterium,67,>20,2,2,weak,weak,True
+126,127,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,4,S. pyogenes,'S. pyogenes',S. pyogenes,S. pyogenes,unchanged,bacterium,3,<5,2,2,weak,weak,True
+127,128,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,4,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,2,weak,weak,True
+128,129,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,4,C. tropicalis,'C. tropicalis',C. tropicalis,C. tropicalis,unchanged,fungus,3,<5,2,2,weak,weak,True
+129,130,10.1016/j.jtumed.2022.10.006,1,MRSA,'MRSA',MRSA,S. aureus,resistance phenotype collapsed to species,bacterium,67,>20,0,1,moderate,strong,False
+130,131,10.1038/s41598-024-82332-8,4,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,0,strong,moderate,False
+131,132,10.1038/s41598-024-82332-8,4,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,0,strong,moderate,False
+132,133,Â 10.1021/acsinfecdis.4c00860,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,0,strong,moderate,False
+133,134,Â 10.1021/acsinfecdis.4c00860,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,0,strong,moderate,False
+134,135,Â 10.1021/acsinfecdis.4c00860,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,2,strong,weak,False
+135,136,Â 10.1021/acsinfecdis.4c00860,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,2,strong,weak,False
+136,137,DOI: 10.1002/smll.202104160,4,MRSA,'MRSA',MRSA,S. aureus,resistance phenotype collapsed to species,bacterium,67,>20,0,0,moderate,moderate,True
+137,138,DOI: 10.1002/smll.202104160,4,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,0,moderate,moderate,True
+138,139,DOI: 10.1002/smll.202104160,4,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,0,moderate,moderate,True
+139,140,DOI: 10.1002/smll.202104160,4,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,0,moderate,moderate,True
+140,141,https://doi.org/10.1038/s41598-022-24514-w,4,A.baumannii,'A.baumannii',A.baumannii,A. baumannii,spacing correction,bacterium,5,5-20,0,1,moderate,strong,False
+141,142,https://doi.org/10.1038/s41598-022-18379-2,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,2,moderate,weak,False
+142,143,https://doi.org/10.1038/s41598-022-17929-y,4,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,2,moderate,weak,False
+143,144,https://doi.org/10.1038/s41598-022-17929-y,4,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,0,2,moderate,weak,False
+144,145,https://doi.org/10.1038/s41598-022-17929-y,4,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,2,strong,weak,False
+145,146,https://doi.org/10.1038/s41598-022-17929-y,4,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,0,2,moderate,weak,False
+146,147,https://doi.org/10.1038/s41598-022-17929-y,4,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,2,strong,weak,False
+147,148,https://doi.org/10.1038/s41598-022-17929-y,4,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,0,2,moderate,weak,False
+148,149,10.1021/acsomega.2c06789,4,S. mutans,'S. mutans',S. mutans,S. mutans,unchanged,bacterium,7,5-20,2,0,weak,moderate,False
+149,150,10.1021/acsomega.2c06789,4,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,2,weak,weak,True
+150,151,10.1021/acsomega.2c06789,4,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,2,weak,weak,True
+151,152,10.1021/acsomega.2c06789,4,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,2,weak,weak,True
+152,153,10.1021/acsomega.2c06789,4,L. monocytogenes,'L. monocytogenes',L. monocytogenes,L. monocytogenes,unchanged,bacterium,5,5-20,2,2,weak,weak,True
+153,154,10.1021/acsomega.2c06789,4,K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12,5-20,2,2,weak,weak,True
+154,155,10.1021/acsomega.2c06789,4,S. mutans,'S. mutans',S. mutans,S. mutans,unchanged,bacterium,7,5-20,0,0,moderate,moderate,True
+155,156,10.1021/acsomega.2c06789,4,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,0,weak,moderate,False
+156,157,10.1021/acsomega.2c06789,4,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,2,moderate,weak,False
+157,158,10.1021/acsomega.2c06789,4,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,2,weak,weak,True
+158,159,10.1021/acsomega.2c06789,4,L. monocytogenes,'L. monocytogenes',L. monocytogenes,L. monocytogenes,unchanged,bacterium,5,5-20,2,2,weak,weak,True
+159,160,10.1021/acsomega.2c06789,4,K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12,5-20,2,2,weak,weak,True
+160,161,10.1080/21691401.2023.2268167,4,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,2,strong,weak,False
+161,162,10.1080/21691401.2023.2268167,4,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,1,2,strong,weak,False
+162,163,10.1080/21691401.2023.2268167,4,S. mutans,'S. mutans',S. mutans,S. mutans,unchanged,bacterium,7,5-20,1,0,strong,moderate,False
+163,164,10.1016/j.micpath.2017.07.009,2,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,2,moderate,weak,False
+164,165,10.1016/j.micpath.2017.07.009,2,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,0,2,moderate,weak,False
+165,166,10.1111/1751-7915.12374,3,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,2,weak,weak,True
+166,167,10.1111/1751-7915.12374,3,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,2,weak,weak,True
+167,168,10.1111/1751-7915.12374,3,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,2,weak,weak,True
+168,169,10.1016/j.chemosphere.2021.132676,3,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,0,2,moderate,weak,False
+169,170,10.1016/j.chemosphere.2021.132676,3,S. haemolyticus,'S. haemolyticus',S. haemolyticus,S. haemolyticus,unchanged,bacterium,4,<5,0,2,moderate,weak,False
+170,171,10.1016/j.chemosphere.2021.132676,3,S. enterica,'S. enterica',S. enterica,S. enterica,unchanged,bacterium,4,<5,0,2,moderate,weak,False
+171,172,10.1016/j.chemosphere.2021.132676,3,K. aerogenes,'K. aerogenes',K. aerogenes,K. aerogenes,unchanged,bacterium,5,5-20,0,2,moderate,weak,False
+172,173,10.1016/j.chemosphere.2021.132676,3,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,2,2,weak,weak,True
+173,174,10.1016/j.chemosphere.2021.132676,3,S. haemolyticus,'S. haemolyticus',S. haemolyticus,S. haemolyticus,unchanged,bacterium,4,<5,2,2,weak,weak,True
+174,175,10.1016/j.chemosphere.2021.132676,3,S. enterica,'S. enterica',S. enterica,S. enterica,unchanged,bacterium,4,<5,2,2,weak,weak,True
+175,176,10.1016/j.chemosphere.2021.132676,3,K. aerogenes,'K. aerogenes',K. aerogenes,K. aerogenes,unchanged,bacterium,5,5-20,2,2,weak,weak,True
+176,177,10.1016/j.chemosphere.2021.132676,3,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,2,0,weak,moderate,False
+177,178,10.1016/j.chemosphere.2021.132676,3,S. haemolyticus,'S. haemolyticus',S. haemolyticus,S. haemolyticus,unchanged,bacterium,4,<5,2,0,weak,moderate,False
+178,179,10.1016/j.chemosphere.2021.132676,3,S. enterica,'S. enterica',S. enterica,S. enterica,unchanged,bacterium,4,<5,2,0,weak,moderate,False
+179,180,10.1016/j.chemosphere.2021.132676,3,K. aerogenes,'K. aerogenes',K. aerogenes,K. aerogenes,unchanged,bacterium,5,5-20,0,2,moderate,weak,False
+180,181,10.1016/j.chemosphere.2021.132676,3,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,2,0,weak,moderate,False
+181,182,10.1016/j.chemosphere.2021.132676,3,S. haemolyticus,'S. haemolyticus',S. haemolyticus,S. haemolyticus,unchanged,bacterium,4,<5,2,2,weak,weak,True
+182,183,10.1016/j.chemosphere.2021.132676,3,S. enterica,'S. enterica',S. enterica,S. enterica,unchanged,bacterium,4,<5,2,2,weak,weak,True
+183,184,10.1016/j.chemosphere.2021.132676,3,K. aerogenes,'K. aerogenes',K. aerogenes,K. aerogenes,unchanged,bacterium,5,5-20,2,2,weak,weak,True
+184,185,10.3390/jof9020133,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,2,moderate,weak,False
+185,186,10.3390/jof9020133,3,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,2,moderate,weak,False
+186,187,10.3390/jfb14020112,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,2,strong,weak,False
+187,188,10.3390/jfb14020112,5,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,2,moderate,weak,False
+188,189,10.3390/jfb14020112,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,2,strong,weak,False
+189,190,10.3390/jfb14020112,5,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,1,2,strong,weak,False
+190,191,10.1186/s12866-023-02971-1,1,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,0,2,moderate,weak,False
+191,192,10.1186/s12866-023-02971-1,1,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,2,moderate,weak,False
+192,193,10.1186/s12866-023-02971-1,1,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,2,2,weak,weak,True
+193,194,10.1186/s12866-023-02971-1,1,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,2,weak,weak,True
+194,195,10.1186/s12866-023-02971-1,1,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,2,2,weak,weak,True
+195,196,10.1186/s12866-023-02971-1,1,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,2,weak,weak,True
+196,197,10.3390/plants12112177,2,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,1,0,strong,moderate,False
+197,198,10.3390/plants12112177,2,E. faecalis,'E. faecalis',E. faecalis,E. faecalis,unchanged,bacterium,13,5-20,0,0,moderate,moderate,True
+198,199,10.3390/plants12112177,2,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,0,strong,moderate,False
+199,200,10.3390/plants12112177,2,P. vulgaris,'P. vulgaris',P. vulgaris,P. vulgaris,unchanged,bacterium,2,<5,0,0,moderate,moderate,True
+200,201,10.3390/plants12112177,2,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,0,0,moderate,moderate,True
+201,202,https://doi.org/10.3390/antiox13070865,3,B. cereus,'B. cereus',B. cereus,B. cereus,unchanged,bacterium,5,5-20,0,1,moderate,strong,False
+202,203,https://doi.org/10.3390/antiox13070865,3,E. faecalis,'E. faecalis',E. faecalis,E. faecalis,unchanged,bacterium,13,5-20,0,1,moderate,strong,False
+203,204,https://doi.org/10.3390/antiox13070865,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,1,moderate,strong,False
+204,205,https://doi.org/10.3390/antiox13070865,3,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,1,weak,strong,False
+205,206,https://doi.org/10.3390/antiox13070865,3,K. quasipneumoniae,'K. quasipneumoniae',K. quasipneumoniae,K. quasipneumoniae,unchanged,bacterium,2,<5,2,1,weak,strong,False
+206,207,https://doi.org/10.3390/antiox13070865,3,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,1,weak,strong,False
+207,208,https://doi.org/10.3390/antiox13070865,3,S. typhimurium,'S. typhimurium',S. typhimurium,S. typhimurium,unchanged,bacterium,6,5-20,2,1,weak,strong,False
+208,209,https://doi.org/10.3390/antiox13070865,3,Shigella sonnei,'Shigella sonnei',Shigella sonnei,Shigella sonnei,unchanged,bacterium,2,<5,2,1,weak,strong,False
+209,210,10.1007/s00430-017-0525-y,5,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,2,weak,weak,True
+210,211,10.1007/s00430-017-0525-y,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,2,weak,weak,True
+211,212,10.1007/s00430-017-0525-y,5,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,2,2,weak,weak,True
+212,213,10.1007/s00430-017-0525-y,5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,2,weak,weak,True
+213,214,10.1007/s00430-017-0525-y,5,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,2,weak,weak,True
+214,215,10.1007/s00430-017-0525-y,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,2,weak,weak,True
+215,216,10.1007/s00430-017-0525-y,5,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,2,2,weak,weak,True
+216,217,10.1007/s00430-017-0525-y,5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,2,weak,weak,True
+217,218,"10.1049/iet-nbt.2014.0068
+www.ietdl.org",5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,1,moderate,strong,False
+218,219,"10.1049/iet-nbt.2014.0068
+www.ietdl.org",5,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,1,moderate,strong,False
+219,220,"10.1049/iet-nbt.2014.0068
+www.ietdl.org",5,S. choleraesuis,'S. choleraesuis',S. choleraesuis,S. choleraesuis,unchanged,bacterium,3,<5,0,1,moderate,strong,False
+220,221,"10.1049/iet-nbt.2014.0068
+www.ietdl.org",5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,1,strong,strong,True
+221,222,"10.1049/iet-nbt.2014.0068
+www.ietdl.org",5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,1,moderate,strong,False
+222,223,"10.1049/iet-nbt.2014.0068
+www.ietdl.org",5,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,2,moderate,weak,False
+223,224,"10.1049/iet-nbt.2014.0068
+www.ietdl.org",5,S. choleraesuis,'S. choleraesuis',S. choleraesuis,S. choleraesuis,unchanged,bacterium,3,<5,1,2,strong,weak,False
+224,225,"10.1049/iet-nbt.2014.0068
+www.ietdl.org",5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,1,strong,strong,True
+225,226,"10.1049/iet-nbt.2014.0068
+www.ietdl.org",5,S. choleraesuis,'S. choleraesuis',S. choleraesuis,S. choleraesuis,unchanged,bacterium,3,<5,1,2,strong,weak,False
+226,227,"10.1049/iet-nbt.2014.0068
+www.ietdl.org",5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,2,moderate,weak,False
+227,228,"10.1049/iet-nbt.2014.0068
+www.ietdl.org",5,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,2,moderate,weak,False
+228,229,"10.1049/iet-nbt.2014.0068
+www.ietdl.org",5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,1,strong,strong,True
+229,230,http://dx.doi.org/10.1016/j.colsurfb.2015.02.009,2,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,0,strong,moderate,False
+230,231,http://dx.doi.org/10.1016/j.colsurfb.2015.02.009,2,S. epidermidis,'S. epidermidis',S. epidermidis,S. epidermidis,unchanged,bacterium,6,5-20,1,0,strong,moderate,False
+231,232,DOI:10.1590/s1517-83822014000400024,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,1,moderate,strong,False
+232,233,DOI:10.1590/s1517-83822014000400024,3,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,0,1,moderate,strong,False
+233,234,DOI:10.1590/s1517-83822014000400024,3,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,0,moderate,moderate,True
+234,235,DOI:10.1590/s1517-83822014000400024,3,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,0,moderate,moderate,True
+235,236,https://doi.org/10.1186/s13568-024-01707-2,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,1,moderate,strong,False
+236,237,https://doi.org/10.1186/s13568-024-01707-2,3,B. cereus,'B. cereus',B. cereus,B. cereus,unchanged,bacterium,5,5-20,0,1,moderate,strong,False
+237,238,https://doi.org/10.1186/s13568-024-01707-2,3,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,1,weak,strong,False
+238,239,https://doi.org/10.1186/s13568-024-01707-2,3,K. quasipneumoniae,'K. quasipneumoniae',K. quasipneumoniae,K. quasipneumoniae,unchanged,bacterium,2,<5,2,1,weak,strong,False
+239,240,https://doi.org/10.1186/s13568-024-01707-2,3,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,1,moderate,strong,False
+240,241,https://doi.org/10.1186/s13568-024-01707-2,3,S. typhimurium,'S. typhimurium',S. typhimurium,S. typhimurium,unchanged,bacterium,6,5-20,2,1,weak,strong,False
+241,242,https://doi.org/10.1186/s13568-024-01707-2,3,Shigella sonnei,'Shigella sonnei',Shigella sonnei,Shigella sonnei,unchanged,bacterium,2,<5,0,1,moderate,strong,False
+242,243,https://doi.org/10.1016/j.sjbs.2017.07.001,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,1,moderate,strong,False
+243,244,https://doi.org/10.1016/j.sjbs.2017.07.001,3,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,0,weak,moderate,False
+244,245,https://doi.org/10.1016/j.sjbs.2017.07.001,3,K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12,5-20,2,1,weak,strong,False
+245,246,https://doi.org/10.1016/j.sjbs.2017.07.001,3,Salmonella typhi,'Salmonella typhi',Salmonella typhi,S. typhi,genus abbreviation harmonized,bacterium,5,5-20,2,0,weak,moderate,False
+246,247,https://doi.org/10.1016/j.sjbs.2017.07.001,3,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,0,weak,moderate,False
+247,248,https://doi.org/10.1016/j.sdentj.2018.10.004,4,S. mutans,'S. mutans',S. mutans,S. mutans,unchanged,bacterium,7,5-20,0,0,moderate,moderate,True
+248,249,https://doi.org/10.1016/j.sdentj.2018.10.004,4,Streptococcus oralis,'Streptococcus oralis',Streptococcus oralis,Streptococcus oralis,unchanged,bacterium,1,<5,0,0,moderate,moderate,True
+249,250,https://doi.org/10.1016/j.sdentj.2018.10.004,4,L. acidophilus,'L. acidophilus',L. acidophilus,L. acidophilus,unchanged,bacterium,1,<5,0,0,moderate,moderate,True
+250,251,https://doi.org/10.1016/j.sdentj.2018.10.004,4,L. fermentum,'L. fermentum',L. fermentum,L. fermentum,unchanged,bacterium,1,<5,0,0,moderate,moderate,True
+251,252,10.1590/0103-6440202003897,1,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,0,strong,moderate,False
+252,253,10.1590/0103-6440202003897,1,E. faecalis,'E. faecalis',E. faecalis,E. faecalis,unchanged,bacterium,13,5-20,1,0,strong,moderate,False
+253,254,10.1590/0103-6440202003897,1,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,1,0,strong,moderate,False
+254,255,10.1590/0103-6440202003897,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,1,strong,strong,True
+255,256,10.1590/0103-6440202003897,1,S. mutans,'S. mutans',S. mutans,S. mutans,unchanged,bacterium,7,5-20,0,0,moderate,moderate,True
+256,257,10.1590/0103-6440202003897,1,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,0,strong,moderate,False
+257,258,10.1590/0103-6440202003897,1,E. faecalis,'E. faecalis',E. faecalis,E. faecalis,unchanged,bacterium,13,5-20,1,0,strong,moderate,False
+258,259,10.1590/0103-6440202003897,1,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,1,0,strong,moderate,False
+259,260,10.1590/0103-6440202003897,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,1,strong,strong,True
+260,261,10.1590/0103-6440202003897,1,S. mutans,'S. mutans',S. mutans,S. mutans,unchanged,bacterium,7,5-20,0,0,moderate,moderate,True
+261,262,https://doi.org/10.1038/s41598-018-34567-5,2,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,1,weak,strong,False
+262,263,https://doi.org/10.1038/s41598-018-34567-5,2,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,0,weak,moderate,False
+263,264,https://doi.org/10.1038/s41598-018-34567-5,2,S. epidermidis,'S. epidermidis',S. epidermidis,S. epidermidis,unchanged,bacterium,6,5-20,2,0,weak,moderate,False
+264,265,https://doi.org/10.1038/s41598-018-34567-5,2,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,1,weak,strong,False
+265,266,https://doi.org/10.1038/s41598-018-34567-5,2,MRSA,'MRSA',MRSA,S. aureus,resistance phenotype collapsed to species,bacterium,67,>20,2,1,weak,strong,False
+266,267,https://doi.org/10.1038/s41598-018-34567-5,2,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,2,1,weak,strong,False
+267,268,https://doi.org/10.1038/s41598-018-34567-5,2,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,2,1,weak,strong,False
+268,269,https://doi.org/10.1038/s41598-018-34567-5,2,C. glabrata,'C. glabrata',C. glabrata,C. glabrata,unchanged,fungus,1,<5,2,1,weak,strong,False
+269,270,https://doi.org/10.3390/molecules29133027,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,0,strong,moderate,False
+270,271,https://doi.org/10.3390/molecules29133027,1,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,1,strong,strong,True
+271,272,https://doi.org/10.3390/molecules29133027,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,1,strong,strong,True
+272,273,https://doi.org/10.3390/molecules29133027,1,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,1,strong,strong,True
+273,274,10.2147/IJN.S258319,5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,2,moderate,weak,False
+274,275,10.2147/IJN.S258319,5,E. faecalis,'E. faecalis',E. faecalis,E. faecalis,unchanged,bacterium,13,5-20,2,0,weak,moderate,False
+275,276,10.2147/IJN.S258319,5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,2,moderate,weak,False
+276,277,10.2147/IJN.S258319,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,0,moderate,moderate,True
+277,278,10.2147/IJN.S258319,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,0,strong,moderate,False
+278,279,10.2147/IJN.S258319,5,Salmonella typhi,'Salmonella typhi',Salmonella typhi,S. typhi,genus abbreviation harmonized,bacterium,5,5-20,1,0,strong,moderate,False
+279,280,10.2147/IJN.S258319,5,Salmonella typhimurium ,'Salmonella typhimurium ',Salmonella typhimurium,S. typhimurium,trim/collapse whitespace; genus abbreviation harmonized,bacterium,6,5-20,0,0,moderate,moderate,True
+280,281,10.2147/IJN.S258319,5,Salmonella sp.,'Salmonella sp.',Salmonella sp.,Salmonella sp.,unchanged,bacterium,1,<5,1,0,strong,moderate,False
+281,282,10.2147/IJN.S258319,5,A. baumannii,'A. baumannii',A. baumannii,A. baumannii,unchanged,bacterium,5,5-20,2,0,weak,moderate,False
+282,283,10.1038/s41598-020-64127-9,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,2,weak,weak,True
+283,284,10.1038/s41598-020-64127-9,5,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,1,weak,strong,False
+284,285,10.1038/s41598-020-64127-9,5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,0,weak,moderate,False
+285,286,Â 10.1016/j.jbiotec.2021.11.003,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,2,moderate,weak,False
+286,287,Â 10.1016/j.jbiotec.2021.11.003,3,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,1,2,strong,weak,False
+287,288,10.1038/s41598-021-85584-,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,2,strong,weak,False
+288,289,10.1038/s41598-021-85584-,5,S. epidermidis,'S. epidermidis',S. epidermidis,S. epidermidis,unchanged,bacterium,6,5-20,1,1,strong,strong,True
+289,290,http://dx.doi.org/10.1016/j.ijantimicag.2015.03.014,2,Mycobacterium tuberculosis,'Mycobacterium tuberculosis',Mycobacterium tuberculosis,Mycobacterium tuberculosis,unchanged,bacterium,4,<5,1,0,strong,moderate,False
+290,291,http://dx.doi.org/10.1016/j.ijantimicag.2015.03.014,2,Mycobacterium tuberculosis,'Mycobacterium tuberculosis',Mycobacterium tuberculosis,Mycobacterium tuberculosis,unchanged,bacterium,4,<5,1,0,strong,moderate,False
+291,292,http://dx.doi.org/10.1016/j.ijantimicag.2015.03.014,2,Mycobacterium tuberculosis,'Mycobacterium tuberculosis',Mycobacterium tuberculosis,Mycobacterium tuberculosis,unchanged,bacterium,4,<5,1,0,strong,moderate,False
+292,293,http://dx.doi.org/10.1016/j.ijantimicag.2015.03.014,2,Mycobacterium tuberculosis,'Mycobacterium tuberculosis',Mycobacterium tuberculosis,Mycobacterium tuberculosis,unchanged,bacterium,4,<5,1,0,strong,moderate,False
+293,294,https://doi.org/10.1038/s41598-017-18590-6,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,0,weak,moderate,False
+294,295,https://doi.org/10.1038/s41598-017-18590-6,3,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,2,0,weak,moderate,False
+295,296,https://doi.org/10.1038/s41598-017-18590-6,3,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,0,weak,moderate,False
+296,297,https://doi.org/10.1038/s41598-017-18590-6,3,K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12,5-20,2,0,weak,moderate,False
+297,298,https://doi.org/10.1038/s41598-017-18590-6,3,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,0,weak,moderate,False
+298,299,https://doi.org/10.1038/s41598-017-18590-6,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,1,weak,strong,False
+299,300,https://doi.org/10.1038/s41598-017-18590-6,3,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,2,0,weak,moderate,False
+300,301,https://doi.org/10.1038/s41598-017-18590-6,3,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,1,weak,strong,False
+301,302,https://doi.org/10.1038/s41598-017-18590-6,3,K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12,5-20,2,1,weak,strong,False
+302,303,https://doi.org/10.1038/s41598-017-18590-6,3,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,1,weak,strong,False
+303,304,https://doi.org/10.1111/jfd.14003,3,A. hydrophila,'A. hydrophila',A. hydrophila,A. hydrophila,unchanged,bacterium,3,<5,2,1,weak,strong,False
+304,305,10.1016/j.jdent.2020.103327,2,S. mutans,'S. mutans',S. mutans,S. mutans,unchanged,bacterium,7,5-20,0,0,moderate,moderate,True
+305,306,10.1007/s11274-019-2787-6,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,2,moderate,weak,False
+306,307,10.1007/s11274-019-2787-6,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,2,moderate,weak,False
+307,308,10.1007/s11274-019-2787-6,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,0,weak,moderate,False
+308,309,https://doi.org/10.1038/s41598-019-50906-6,4,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,2,moderate,weak,False
+309,310,https://doi.org/10.1038/s41598-019-50906-6,4,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,0,2,moderate,weak,False
+310,311,https://doi.org/10.1038/s41598-019-42112-1,5,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,1,strong,strong,True
+311,312,https://doi.org/10.1038/s41598-019-42112-1,5,Helicobacter pylori,'Helicobacter pylori',Helicobacter pylori,Helicobacter pylori,unchanged,bacterium,1,<5,0,0,moderate,moderate,True
+312,313,https://doi.org/10.1038/s41598-019-54025-0,4,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,0,weak,moderate,False
+313,314,https://doi.org/10.1038/s41598-019-54025-0,4,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,0,weak,moderate,False
+314,315,https://doi.org/10.1038/s41598-019-54025-0,4,P. fluorescens,'P. fluorescens',P. fluorescens,P. fluorescens,unchanged,bacterium,4,<5,2,0,weak,moderate,False
+315,316,https://doi.org/10.1038/s41598-019-54025-0,4,L. monocytogenes,'L. monocytogenes',L. monocytogenes,L. monocytogenes,unchanged,bacterium,5,5-20,2,0,weak,moderate,False
+316,317,https://doi.org/10.1038/s41598-019-54025-0,4,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,0,weak,moderate,False
+317,318,https://doi.org/10.1038/s41598-019-54025-0,4,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,0,weak,moderate,False
+318,319,https://doi.org/10.1038/s41598-019-54025-0,4,P. fluorescens,'P. fluorescens',P. fluorescens,P. fluorescens,unchanged,bacterium,4,<5,2,0,weak,moderate,False
+319,320,https://doi.org/10.1038/s41598-019-54025-0,4,L. monocytogenes,'L. monocytogenes',L. monocytogenes,L. monocytogenes,unchanged,bacterium,5,5-20,2,0,weak,moderate,False
+320,321,https://doi.org/10.1016/j.talanta.2019.120243,2,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,0,weak,moderate,False
+321,322,https://doi.org/10.1016/j.talanta.2019.120243,2,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,0,weak,moderate,False
+322,323,https://doi.org/10.1016/j.talanta.2019.120243,2,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,2,0,weak,moderate,False
+323,324,https://doi.org/10.1007/s11274-017-2406-3,1,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,0,0,moderate,moderate,True
+324,325,https://doi.org/10.1007/s11274-017-2406-3,1,K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12,5-20,2,0,weak,moderate,False
+325,326,https://doi.org/10.1007/s11274-017-2406-3,1,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,0,0,moderate,moderate,True
+326,327,https://doi.org/10.1007/s11274-017-2406-3,1,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,0,weak,moderate,False
+327,328,https://doi.org/10.1007/s11274-017-2406-3,1,B. subtilis,'B. subtilis',B. subtilis,B. subtilis,unchanged,bacterium,19,5-20,0,1,moderate,strong,False
+328,329,https://doi.org/10.4274/tjps.52724,5,P. mirabilis,'P. mirabilis',P. mirabilis,P. mirabilis,unchanged,bacterium,1,<5,2,2,weak,weak,True
+329,330,https://doi.org/10.4274/tjps.52724,5,Staphylococcus saprophyticus,'Staphylococcus saprophyticus',Staphylococcus saprophyticus,Staphylococcus saprophyticus,unchanged,bacterium,1,<5,2,2,weak,weak,True
+330,331,https://doi.org/10.4274/tjps.52724,5,S. pyogenes,'S. pyogenes',S. pyogenes,S. pyogenes,unchanged,bacterium,3,<5,2,0,weak,moderate,False
+331,332,https://doi.org/10.4274/tjps.52724,5,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,2,weak,weak,True
+332,333,https://doi.org/10.1039/c8tx00267c,3,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,2,2,weak,weak,True
+333,334,https://doi.org/10.1039/c8tx00267c,3,K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12,5-20,2,2,weak,weak,True
+334,335,https://doi.org/10.1039/c8tx00267c,3,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,2,weak,weak,True
+335,336,https://doi.org/10.1039/c8tx00267c,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,2,weak,weak,True
+336,337,https://doi.org/10.1016/j.micpath.2024.106546,5,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,2,2,weak,weak,True
+337,338,https://doi.org/10.1016/j.micpath.2024.106546,5,L. monocytogenes,'L. monocytogenes',L. monocytogenes,L. monocytogenes,unchanged,bacterium,5,5-20,2,2,weak,weak,True
+338,339,https://doi.org/10.1016/j.micpath.2024.106546,5,P. aeruginosa,'P. aeruginosa',P. aeruginosa,P. aeruginosa,unchanged,bacterium,40,>20,2,1,weak,strong,False
+339,340,https://doi.org/10.1016/j.micpath.2024.106546,5,K. pneumoniae,'K. pneumoniae',K. pneumoniae,K. pneumoniae,unchanged,bacterium,12,5-20,2,2,weak,weak,True
+340,341,https://doi.org/10.1038/s41598-024-62868-5,3,E. coli,'E. coli',E. coli,E. coli,unchanged,bacterium,70,>20,1,2,strong,weak,False
+341,342,https://doi.org/10.1038/s41598-024-62868-5,3,S. aureus,'S. aureus',S. aureus,S. aureus,unchanged,bacterium,67,>20,1,2,strong,weak,False
