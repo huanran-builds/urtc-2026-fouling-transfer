@@ -76,7 +76,7 @@ random_stratified,3,89,90,10.1007/s00430-017-0525-y,20000.0,weak,weak,True
 random_stratified,3,94,95,https://doi.org/10.1186/s13568-024-01707-2,50.0,moderate,moderate,True
 random_stratified,3,99,100,https://doi.org/10.1186/s13568-024-01707-2,250.0,weak,weak,True
 random_stratified,3,107,108,10.1590/0103-6440202003897,0.19,strong,moderate,False
-random_stratified,3,108,109,10.1590/0103-6440202003897,3.04,strong,moderate,False
+random_stratified,3,108,109,10.1590/0103-6440202003897,3.04,strong,strong,True
 random_stratified,3,114,115,https://doi.org/10.3390/molecules29133027,4.0,strong,strong,True
 random_stratified,3,123,124,https://doi.org/10.1038/s41598-019-54025-0,4000.0,weak,weak,True
 random_stratified,3,131,132,https://doi.org/10.1016/j.micpath.2024.106546,1024.0,weak,weak,True
@@ -110,7 +110,7 @@ random_stratified,5,0,1,https://doi.org/10.1002/jbm.b.35197,190.0,weak,moderate,
 random_stratified,5,1,2,10.1088/1748-605X/acd03f,1250.0,weak,weak,True
 random_stratified,5,5,6,10.1088/1748-605X/acd03f,2500.0,weak,weak,True
 random_stratified,5,8,9,10.1088/1748-605X/acd03f,5000.0,weak,weak,True
-random_stratified,5,17,18,https://pubs.rsc.org/en/content/articlelanding/2015/ra/c4ra12784f,50.0,moderate,moderate,True
+random_stratified,5,17,18,https://pubs.rsc.org/en/content/articlelanding/2015/ra/c4ra12784f,50.0,moderate,strong,False
 random_stratified,5,21,22,10.1007/s42770-022-00868-1,60.0,moderate,moderate,True
 random_stratified,5,24,25,10.1007/s42770-022-00868-1,40.0,moderate,weak,False
 random_stratified,5,28,29,10.1007/s42770-022-00868-1,60.0,moderate,moderate,True
@@ -149,7 +149,7 @@ grouped_by_ref,1,37,38,10.14202/vetworld.2023.1301-1311,16.0,moderate,weak,False
 grouped_by_ref,1,38,39,10.14202/vetworld.2023.1301-1311,8.0,strong,weak,False
 grouped_by_ref,1,39,40,10.14202/vetworld.2023.1301-1311,128.0,weak,weak,True
 grouped_by_ref,1,40,41,10.14202/vetworld.2023.1301-1311,16.0,moderate,weak,False
-grouped_by_ref,1,41,42,10.14202/vetworld.2023.1301-1311,16.0,moderate,weak,False
+grouped_by_ref,1,41,42,10.14202/vetworld.2023.1301-1311,16.0,moderate,strong,False
 grouped_by_ref,1,42,43,10.14202/vetworld.2023.1301-1311,8.0,strong,weak,False
 grouped_by_ref,1,43,44,10.14202/vetworld.2023.1301-1311,64.0,moderate,strong,False
 grouped_by_ref,1,47,48,10.1007/s12010-022-04120-2,25.0,moderate,weak,False
@@ -173,7 +173,7 @@ grouped_by_ref,2,60,61,10.1021/acsomega.2c06789,2048.0,weak,weak,True
 grouped_by_ref,2,61,62,10.1021/acsomega.2c06789,512.0,weak,weak,True
 grouped_by_ref,2,62,63,10.1021/acsomega.2c06789,2048.0,weak,weak,True
 grouped_by_ref,2,63,64,10.1021/acsomega.2c06789,512.0,weak,weak,True
-grouped_by_ref,2,64,65,10.1021/acsomega.2c06789,64.0,moderate,weak,False
+grouped_by_ref,2,64,65,10.1021/acsomega.2c06789,64.0,moderate,strong,False
 grouped_by_ref,2,65,66,10.1021/acsomega.2c06789,256.0,weak,weak,True
 grouped_by_ref,2,66,67,10.1021/acsomega.2c06789,64.0,moderate,strong,False
 grouped_by_ref,2,67,68,10.1021/acsomega.2c06789,256.0,weak,weak,True
@@ -192,7 +192,7 @@ grouped_by_ref,3,21,22,10.1007/s42770-022-00868-1,60.0,moderate,strong,False
 grouped_by_ref,3,22,23,10.1007/s42770-022-00868-1,20.0,moderate,weak,False
 grouped_by_ref,3,23,24,10.1007/s42770-022-00868-1,20.0,moderate,moderate,True
 grouped_by_ref,3,24,25,10.1007/s42770-022-00868-1,40.0,moderate,weak,False
-grouped_by_ref,3,25,26,10.1007/s42770-022-00868-1,20.0,moderate,strong,False
+grouped_by_ref,3,25,26,10.1007/s42770-022-00868-1,20.0,moderate,weak,False
 grouped_by_ref,3,26,27,10.1007/s42770-022-00868-1,20.0,moderate,weak,False
 grouped_by_ref,3,27,28,10.1007/s42770-022-00868-1,20.0,moderate,strong,False
 grouped_by_ref,3,28,29,10.1007/s42770-022-00868-1,60.0,moderate,moderate,True
@@ -231,7 +231,7 @@ grouped_by_ref,4,101,102,10.1590/0103-6440202003897,1.52,strong,weak,False
 grouped_by_ref,4,102,103,10.1590/0103-6440202003897,6.09,strong,weak,False
 grouped_by_ref,4,103,104,10.1590/0103-6440202003897,1.52,strong,weak,False
 grouped_by_ref,4,104,105,10.1590/0103-6440202003897,1.52,strong,weak,False
-grouped_by_ref,4,105,106,10.1590/0103-6440202003897,12.15,moderate,weak,False
+grouped_by_ref,4,105,106,10.1590/0103-6440202003897,12.15,moderate,moderate,True
 grouped_by_ref,4,106,107,10.1590/0103-6440202003897,1.52,strong,weak,False
 grouped_by_ref,4,107,108,10.1590/0103-6440202003897,0.19,strong,weak,False
 grouped_by_ref,4,108,109,10.1590/0103-6440202003897,3.04,strong,weak,False
@@ -245,7 +245,7 @@ grouped_by_ref,5,51,52,https://link.springer.com/article/10.1007/s00449-023-0290
 grouped_by_ref,5,52,53,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,1000.0,weak,weak,True
 grouped_by_ref,5,53,54,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,1000.0,weak,weak,True
 grouped_by_ref,5,78,79,https://doi.org/10.3390/antiox13070865,50.0,moderate,moderate,True
-grouped_by_ref,5,79,80,https://doi.org/10.3390/antiox13070865,50.0,moderate,weak,False
+grouped_by_ref,5,79,80,https://doi.org/10.3390/antiox13070865,50.0,moderate,moderate,True
 grouped_by_ref,5,80,81,https://doi.org/10.3390/antiox13070865,50.0,moderate,moderate,True
 grouped_by_ref,5,81,82,https://doi.org/10.3390/antiox13070865,250.0,weak,weak,True
 grouped_by_ref,5,82,83,https://doi.org/10.3390/antiox13070865,250.0,weak,weak,True

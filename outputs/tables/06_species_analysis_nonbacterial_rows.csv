@@ -2,7 +2,7 @@ raw_row_index,No.,Ref,fold,raw_species,raw_species_repr,cleaned_species,normaliz
 19,20,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,1,2,strong,weak,False
 28,29,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,1,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,1,2,strong,weak,False
 35,36,https://doi.org/10.1002/jbm.b.35197,2,C. parapisilosis,'C. parapisilosis',C. parapisilosis,C. parapsilosis,spelling correction,fungus,2,<5,2,1,weak,strong,False
-36,37,https://doi.org/10.1002/jbm.b.35197,2,C. tropicalis,'C. tropicalis',C. tropicalis,C. tropicalis,unchanged,fungus,3,<5,2,1,weak,strong,False
+36,37,https://doi.org/10.1002/jbm.b.35197,2,C. tropicalis,'C. tropicalis',C. tropicalis,C. tropicalis,unchanged,fungus,3,<5,2,0,weak,moderate,False
 43,44,https://doi.org/10.1002/jbm.b.35197,2,C. parapisilosis,'C. parapisilosis',C. parapisilosis,C. parapsilosis,spelling correction,fungus,2,<5,2,0,weak,moderate,False
 44,45,https://doi.org/10.1002/jbm.b.35197,2,C. tropicalis,'C. tropicalis',C. tropicalis,C. tropicalis,unchanged,fungus,3,<5,2,0,weak,moderate,False
 113,114,https://doi.org/10.3390/antibiotics12020201,2,C. albicans,'C. albicans',C. albicans,C. albicans,unchanged,fungus,9,5-20,0,2,moderate,weak,False
