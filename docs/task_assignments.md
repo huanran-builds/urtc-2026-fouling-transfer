@@ -210,11 +210,11 @@ Deliver `docs/data_audit.md`.
 
 ### Step 2. Materials feature audit (Saturday to Sunday)
 
-The MIC file has 20 `MagpieData` columns: mean and range of electronegativity, melting temperature, atomic radius, atomic volume, covalent radius, thermal conductivity, density, fusion enthalpy, periodic row, periodic column.
+The MIC file has 22 `MagpieData` columns: mean and range of electronegativity, melting temperature, atomic radius, atomic volume, covalent radius, thermal conductivity, density, fusion enthalpy, periodic row, periodic column.
 
 - These are computed from elemental composition using the `matminer` library. For a nanoparticle, **do they mean anything?** The mean electronegativity of ZnO tells you about zinc and oxygen atoms. It tells you nothing about surface area, crystal facet, or capping agent.
 - Chen et al. say as much themselves. They call these "compositional or materials-informatics proxy descriptors" as opposed to "mechanism-proximal descriptors," and warn they should be "interpreted more cautiously." Find and read that passage.
-- **Your question:** which of these 20 features are doing real work, and which are just encoding "this is silver"? If most are proxies for material identity, and material identity is nearly constant within a paper, the Magpie block may be a substantial part of why the model memorizes papers.
+- **Your question:** which of these 22 features are doing real work, and which are just encoding "this is silver"? If most are proxies for material identity, and material identity is nearly constant within a paper, the Magpie block may be a substantial part of why the model memorizes papers.
 
 Write `docs/materials_features.md`, about 300 words. State which descriptors are mechanism-proximal (size, shape, charge, synthesis route) and which are compositional proxies, and say whether you expect dropping the Magpie block to help or hurt cross-paper generalization.
 
