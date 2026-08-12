@@ -11,3 +11,19 @@ The within-paper Magpie analysis shows strong material-identity clustering. In 5
 This suggests that the Magpie block primarily encodes material composition, while material composition is often nearly constant within a source paper. Therefore, the Magpie descriptors may provide a model with a proxy for source-paper identity rather than independently generalizable mechanistic information.
 
 I predict that removing the 22 Magpie descriptors will improve cross-paper generalization. This is a testable hypothesis that can be evaluated by comparing model performance with and without the Magpie feature block under cross-paper validation.
+
+### Bouasla multi-material verification
+
+The Bouasla source paper provides an explicit example of within-paper
+material variation. Table 3 reports zone-of-inhibition and MIC results
+for ZnO-TOP nanoparticles, while Table 4 reports corresponding results
+for ZnS nanoparticles. Thus, the paper experimentally evaluates two
+distinct nanoparticle compositions.
+
+The corresponding dataset block contains 18 observations for this
+source paper and includes the two formulas ZnS and ZnO. The source
+tables confirm that these observations represent distinct materials,
+with ZnO-TOP being the material name used in the paper. This provides
+an independent check that the observed Magpie variation within this
+paper is associated with genuine material/compositional variation
+rather than an artifact of the reference grouping.
