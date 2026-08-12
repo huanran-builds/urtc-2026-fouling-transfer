@@ -1,4 +1,4 @@
-Related Work
+# Related Work
 
 ## Li et al.: publication-grouped validation of literature-derived data
 
