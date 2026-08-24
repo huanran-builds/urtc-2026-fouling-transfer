@@ -1,0 +1,7 @@
+section,measure,value,p_value,size_bucket,n_papers,n_rows,coral_accuracy_mean,coral_macro_f1_mean,coral_gain_vs_uncorrected_accuracy_mean,coral_gain_vs_standardized_accuracy_mean
+overall,papers improved / unchanged / worsened in CORAL accuracy vs uncorrected,22 / 24 / 19,,,,,,,,
+overall,Spearman rho: paper rows vs CORAL accuracy gain over uncorrected,0.11798126213857495,0.3492661830172049,,,,,,,
+overall,Spearman rho: paper rows vs CORAL macro-F1 gain over uncorrected,0.08399235126589945,0.5059189596387113,,,,,,,
+paper-size bucket,2-4 rows,,,2-4 rows,34.0,101.0,0.34068627450980393,0.11993464052287581,-0.06127450980392156,0.017156862745098044
+paper-size bucket,1 row (CORAL identity fallback),,,1 row (CORAL identity fallback),5.0,5.0,0.2,0.06666666666666667,0.0,-0.4
+paper-size bucket,5+ rows,,,5+ rows,26.0,236.0,0.3977806915306915,0.17807846299749133,0.13406315906315905,0.0619554057054057
