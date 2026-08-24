@@ -85,9 +85,16 @@ That last command must print **random 0.728, grouped 0.316, corrected 0.345**. *
 
 ### What changed
 
-You were originally assigned CORAL, implemented from scratch. Use **DEBIAS-M** instead. It is a pip-installable package built for exactly this setting, it is benchmarked against ComBat and other methods in the paper, and it handles the unseen-batch case that broke our ComBat attempt. Less implementation risk, better method, and a citation for why it beats the alternatives.
+DEBIAS-M was evaluated and found structurally incompatible with this table: it
+requires non-negative compositional abundance features that are normalized to
+sum to one, and it fits its own linear classifier. Our data mix physical
+measurements and categorical variables, so that transformation would not be
+scientifically interpretable. Document this finding in
+`docs/method_compatibility.md`; it is not an empirical DEBIAS-M result.
 
-CORAL becomes an optional simpler comparison if you have time.
+Use **CORAL** (CORrelation ALignment), implemented in `scripts/05_adaptation.py`.
+CORAL aligns source and unlabeled target feature covariances and is appropriate
+for general tabular feature vectors.
 
 ### Step 1. Reproduce the baseline (Monday)
 
@@ -95,7 +102,9 @@ Run `scripts/01_grouped_cv.py`. Confirm grouped = 0.316. If you get something el
 
 ### Step 2. Read (Monday)
 
-Austin et al. 2025, DOI 10.1038/s41564-025-01954-4. Methods section and the leave-one-study-out benchmark. Package and docs: `github.com/korem-lab/DEBIAS-M`
+Sun, Feng, and Saenko 2016, DOI 10.1609/aaai.v30i1.10306. Read the CORAL
+method and its source-to-unlabeled-target covariance alignment. Also read the
+DEBIAS-M compatibility note so its exclusion is stated precisely.
 
 The key idea: train on studies 1 through N-1, hold out study N entirely, use study N's **features** to learn correction factors, never touch study N's labels, then predict.
 
@@ -104,27 +113,31 @@ The key idea: train on studies 1 through N-1, hold out study N entirely, use stu
 Create `scripts/05_adaptation.py`. Copy the pipeline structure from `01_grouped_cv.py`.
 
 - `Ref` (forward-filled) is the batch or study label
-- Wrap DEBIAS-M so it runs **inside** each CV fold, refit every time
+- Fit CORAL **inside** each CV fold, refit every time
 - Evaluate with `GroupKFold(5)` on `Ref`
 - The held-out fold's features may be used for correction. Its labels may not. Assert this in code.
 
 ### Step 4. Report (Tuesday)
 
-Accuracy and macro F1 for: uncorrected, within-paper standardized, DEBIAS-M. Plus CORAL if you got to it.
+Accuracy and macro F1 for: uncorrected, within-paper standardized, and CORAL.
+Report each score relative to the majority-class baseline as well as raw
+accuracy.
 
 **Verification. Do not report until all five pass:**
 
 | Check | Expected | If it fails |
 | --- | --- | --- |
 | Uncorrected grouped accuracy | **0.316** | Your pipeline differs from ours. Fix before comparing. |
-| Adapted grouped accuracy | 0.30 to 0.50 | Above 0.55 means labels leaked. Confirm `y` never enters the transformer. |
+| CORAL grouped accuracy | 0.30 to 0.50 is plausible | Above 0.55 means labels may have leaked. Confirm `y` never enters CORAL. |
 | Shuffled-label control (`scripts/03_permutation.py`) | ~0.32 random, ~0.41 grouped, both near the 0.418 baseline | Higher means something is leaking |
 | Papers with a single row | Handled without crashing | Covariance and variance are undefined for n=1. Fall back to centering. |
 | Per-fold accuracy reported | Five numbers, not just a mean | |
 
 **Report per-fold accuracy, not only the mean.** If adaptation helps on some papers and hurts on others, that is a more honest and more interesting result than the average, and it tells us when adaptation works.
 
-**Done when:** `scripts/05_adaptation.py` committed on branch `matthew/debias`, `outputs/tables/adaptation_comparison.csv` exists, PR opened, and you have posted the numbers with the verification checks confirmed.
+**Done when:** `scripts/05_adaptation.py`, `docs/method_compatibility.md`, and
+their output CSVs are committed on branch `matthew/debias`, PR opened, and you
+have posted the numbers with the verification checks confirmed.
 
 **Due Tuesday August 12.** Not blocking the proposal. If you need an extra day, flag it Sunday rather than going quiet.
 
