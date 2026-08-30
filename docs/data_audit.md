@@ -37,13 +37,15 @@ Table 3: ZnO-TOP NPs
 Table 4: ZnS NPs
 
 Each table reports MIC values for the same 10 microorganisms:
-9 bacterial strains and 1 fungus (C. albicans).
+9 bacterial strains and 1 fungus (C. albicans). The released dataset
+contains 18 rows for this DOI, split evenly between the two materials,
+but its nine rows per material contain 8 bacteria and C. albicans.
+Therefore, the dataset does not reproduce all 10 table organisms and
+the earlier shorthand "9 bacterial strains × 2" was inaccurate.
 
-The dataset contains 18 rows for this DOI, corresponding to
-9 bacterial strains × 2 nanoparticle materials. Thus, the shared
-DOI between the ZnS and ZnO-TOP rows is correct and is supported
-by the original paper. The forward-fill of Ref did not incorrectly
-merge two different studies.
+The paper nevertheless establishes that ZnS and ZnO-TOP were tested
+within the same study. The shared DOI is therefore supported, and the
+forward-fill of Ref did not merge two different studies.
 
 Evidence: Bouasla et al. (2024), DOI 10.1002/cbdv.202400724,
 Tables 3–4, pages 3–4.
