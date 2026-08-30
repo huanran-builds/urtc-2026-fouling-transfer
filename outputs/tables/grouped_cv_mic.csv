@@ -1,3 +1,3 @@
 metric,random_mean,random_std,grouped_mean,grouped_std,grouped_corrected_mean,grouped_corrected_std,leakage_drop,correction_gain,majority_baseline,n_rows,n_papers,model
-accuracy,0.7279,0.0426,0.3162,0.1222,0.3454,0.0617,0.4118,0.0293,0.4181,342,65,XGBClassifier
-f1_macro,0.7077,0.0483,0.2725,0.1291,0.3064,0.0576,0.4351,0.0339,0.4181,342,65,XGBClassifier
+accuracy,0.7309,0.0343,0.3362,0.0633,0.3656,0.1058,0.3948,0.0295,0.4181,342,65,XGBClassifier
+f1_macro,0.7104,0.0406,0.3032,0.053,0.3385,0.0945,0.4072,0.0353,0.4181,342,65,XGBClassifier
