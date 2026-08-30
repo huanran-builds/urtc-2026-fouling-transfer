@@ -31,6 +31,7 @@ N_SPLITS = 5
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "data/external/chen2026_nanoparticles/Nanoparticles_MIC_with_class.csv"
 OUTPUT_DIR = ROOT / "outputs/tables"
+FINAL_OUT = ROOT / "results/magpie_ablation_final.csv"
 SUMMARY_OUT = OUTPUT_DIR / "magpie_ablation_summary.csv"
 FOLDS_OUT = OUTPUT_DIR / "magpie_ablation_fold_metrics.csv"
 OOF_OUT = OUTPUT_DIR / "magpie_ablation_oof_predictions.csv"
@@ -62,8 +63,9 @@ def pipeline(numeric: list[str], categorical: list[str]) -> Pipeline:
 
 
 def main() -> None:
-    frame = pd.read_csv(INPUT).rename(columns={"zeta potential": "zeta_binary"})
+    frame = pd.read_csv(INPUT)
     frame["Ref"] = frame["Ref"].ffill()
+    frame = frame.rename(columns={"zeta potential": "zeta_binary"})
     magpie = [c for c in frame if c.startswith("MagpieData")]
     numeric = ["size (nm)", "zeta_binary", "duration", "temperature"]
     categorical = ["Shape", "bacteria", "gram stain", "motility", "Oxygen Requirement", "Shape.1", "Arrangement"]
@@ -71,10 +73,14 @@ def main() -> None:
     assert all(c in frame for c in numeric + categorical)
     labels = LabelEncoder().fit(frame["MIC_class"])
     y = pd.Series(labels.transform(frame["MIC_class"]), index=frame.index)
-    groups = frame["Ref"].astype(str)
+    groups = frame["Ref"]
     X_full = frame[magpie + numeric + categorical]
     X_ablated = frame[numeric + categorical]
-    assert len(frame) == 342 and groups.nunique() == 65 and set(y.unique()) == {0, 1, 2}
+    assert len(frame) == 342 and groups.nunique() == 65 and groups.isna().sum() == 0
+    assert set(y.unique()) == {0, 1, 2}
+    assert X_full.shape[1] - X_ablated.shape[1] == 22
+    print(f"Full-feature input columns: {X_full.shape[1]}")
+    print(f"No-Magpie input columns: {X_ablated.shape[1]}")
 
     fold_rows, oof_rows = [], []
     coverage = {"full_features": np.zeros(len(frame), int), "without_magpie": np.zeros(len(frame), int)}
@@ -107,7 +113,36 @@ def main() -> None:
     summary["input_sha256"] = sha256(INPUT); summary["python_version"] = platform.python_version(); summary["sklearn_version"] = sklearn.__version__; summary["xgboost_version"] = xgboost.__version__
     assert np.isfinite(summary.select_dtypes(include=np.number).to_numpy()).all()
     folds.to_csv(FOLDS_OUT, index=False); oof.to_csv(OOF_OUT, index=False); summary.to_csv(SUMMARY_OUT, index=False)
+    FINAL_OUT.parent.mkdir(exist_ok=True)
+    platform_label = "arm-macos" if platform.machine().lower() in {"arm64", "aarch64"} else "x86-windows"
+    final = pd.DataFrame({
+        "config": ["full_features", "no_magpie"],
+        "n_features": [X_full.shape[1], X_ablated.shape[1]],
+        "grouped_accuracy": [
+            summary.loc[summary["evaluation"] == "full_features", "accuracy_mean"].iloc[0],
+            summary.loc[summary["evaluation"] == "without_magpie", "accuracy_mean"].iloc[0],
+        ],
+        "grouped_accuracy_std": [
+            summary.loc[summary["evaluation"] == "full_features", "accuracy_std"].iloc[0],
+            summary.loc[summary["evaluation"] == "without_magpie", "accuracy_std"].iloc[0],
+        ],
+        "grouped_macro_f1": [
+            summary.loc[summary["evaluation"] == "full_features", "macro_f1_mean"].iloc[0],
+            summary.loc[summary["evaluation"] == "without_magpie", "macro_f1_mean"].iloc[0],
+        ],
+        "grouped_macro_f1_std": [
+            summary.loc[summary["evaluation"] == "full_features", "macro_f1_std"].iloc[0],
+            summary.loc[summary["evaluation"] == "without_magpie", "macro_f1_std"].iloc[0],
+        ],
+        "majority_baseline": [baseline, baseline],
+        "script": ["scripts/09_magpie_ablation.py", "scripts/09_magpie_ablation.py"],
+        "platform": [platform_label, platform_label],
+    })
+    final.iloc[:, 2:8] = final.iloc[:, 2:8].round(4)
+    assert len(final) == 2 and final["n_features"].iloc[0] - final["n_features"].iloc[1] == 22
+    final.to_csv(FINAL_OUT, index=False)
     print(summary[["evaluation", "accuracy_mean", "macro_f1_mean", "accuracy_minus_majority_baseline"]].to_string(index=False))
+    print(f"Saved final table to {FINAL_OUT.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

@@ -39,3 +39,23 @@ No configuration difference among the six pre-specified checks explains the
 of the canonical 0.3162 result, and that the residual difference reflects
 cross-platform or library-version variation in XGBoost rather than a changed
 feature set, grouping, split, or model specification.
+
+## Result
+
+The matched rerun produced a full-feature grouped accuracy of **0.3362** and
+macro-F1 of **0.3032**. Running `scripts/01_grouped_cv.py` in the same
+environment produced the same grouped accuracy and macro-F1, establishing
+that the ablation’s full-feature arm now matches the canonical script exactly.
+This value is 0.0200 above the historical 0.3162 result (within the stated
+plus-or-minus-0.02 tolerance, to unrounded precision).
+
+The no-Magpie arm produced grouped accuracy **0.3476** and macro-F1
+**0.3178**. Relative to the reconciled full-feature run, removing the 22
+Magpie descriptors changes accuracy by **+0.0114** and macro-F1 by
+**+0.0146**. Both configurations remain below the 0.4181 majority-class
+baseline. The earlier 0.3044/0.2647 ablation and the historical 0.3162/0.2725
+canonical result were generated under Python 3.14.0, scikit-learn 1.9.0, and
+XGBoost 3.4.0; the reconciled Windows run used Python 3.13.5, scikit-learn
+1.6.1, and XGBoost 3.2.0. This software-stack difference, not a data or
+configuration difference, is the supported explanation for the residual
+cross-run variation.
