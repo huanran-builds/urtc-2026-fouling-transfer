@@ -16,7 +16,7 @@ They split train and test randomly. One source paper contributes between 5 and 1
 
 That matters because a model that cannot handle an unseen paper is useless to the person who would want to use it. If you are designing a new particle, you *are* a new paper.
 
-Differences between papers are a **batch effect**, the same problem genomics has when data comes from different labs. Dr. Jun (Edward's dad, biostatistician at UTHealth) confirmed the approach: we may use a new paper's input features to estimate a correction, but never its labels. That is **semi-supervised learning**. A crude version, standardizing each paper's features within that paper, already moved us from 0.316 to 0.345.
+Differences between papers are a **batch effect**, analogous to cross-lab effects in genomics. A faculty consultant in epidemiology advised that adaptation may use a held-out paper's input features but never its labels. This is **unlabeled target-study adaptation**: labeled source data are used for training, while the target paper contributes features only. A simple within-paper standardization moved grouped accuracy from 0.316 to 0.345.
 
 **Deliverable:** poster at IEEE MIT URTC, October 9 to 11, MIT.
 
@@ -44,7 +44,7 @@ Three papers have landed near this. Read this section before you assume anything
 
 1. **Every number you report is committed to the repo with the script or document that produced it.** No numbers in chat without something behind them.
 2. **Use Codex freely, but you own whether the output is correct.** Codex will hand you a script that runs clean and returns a wrong number. Every task below has a verification block. Check against it before you post anything.
-3. **Every citation must resolve.** Click the DOI. We got burned once on bad references and it nearly cost us Dr. Jun.
+3. **Every citation must resolve.** Click the DOI before citing it.
 4. **Branch, then PR. Do not push to main.** Branch names: `ezra/mbc`, `matthew/debias`, `stephen/lit`, `edward/audit`. Push the branch, open a pull request, Henry reviews and merges. Commit scripts and their output CSVs together.
 5. **If you are blocked, say so and name the person who can unblock you.** "Blocked" with no name is not a report.
 
@@ -205,7 +205,7 @@ At least one real, resolving citation per point. This becomes the opening of the
 
 # EDWARD — The materials side and the dataset audit
 
-**Why you.** Half the feature set is materials: composition, size, shape, synthesis route, surface charge, plus 20 elemental descriptors from the Magpie database. You are the only one who can judge whether those descriptors are physically sensible. You also work on surface coatings, and everything here is a surface interacting with a biological medium.
+**Why you.** Half the feature set is materials: composition, size, shape, synthesis route, surface charge, plus 22 elemental descriptors from the Magpie database. You are the only one who can judge whether those descriptors are physically sensible. You also work on surface coatings, and everything here is a surface interacting with a biological medium.
 
 **You own:** the nanoparticle half of the feature set, and data integrity.
 
