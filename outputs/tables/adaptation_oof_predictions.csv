@@ -12,7 +12,7 @@ uncorrected,1,20,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724
 uncorrected,1,21,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
 uncorrected,1,22,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
 uncorrected,1,23,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
-uncorrected,1,24,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,moderate,True
+uncorrected,1,24,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,weak,False
 uncorrected,1,25,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
 uncorrected,1,26,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,weak,False
 uncorrected,1,27,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,weak,False
@@ -58,7 +58,7 @@ uncorrected,1,259,10.1590/0103-6440202003897,strong,strong,True
 uncorrected,1,260,10.1590/0103-6440202003897,moderate,moderate,True
 uncorrected,1,269,https://doi.org/10.3390/molecules29133027,strong,moderate,False
 uncorrected,1,270,https://doi.org/10.3390/molecules29133027,strong,strong,True
-uncorrected,1,271,https://doi.org/10.3390/molecules29133027,strong,moderate,False
+uncorrected,1,271,https://doi.org/10.3390/molecules29133027,strong,strong,True
 uncorrected,1,272,https://doi.org/10.3390/molecules29133027,strong,strong,True
 uncorrected,1,305,10.1007/s11274-019-2787-6,moderate,weak,False
 uncorrected,1,306,10.1007/s11274-019-2787-6,moderate,weak,False
@@ -80,7 +80,7 @@ standardized,1,19,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.20240072
 standardized,1,20,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,moderate,True
 standardized,1,21,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
 standardized,1,22,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,moderate,False
-standardized,1,23,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
+standardized,1,23,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,moderate,False
 standardized,1,24,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,moderate,True
 standardized,1,25,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
 standardized,1,26,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,moderate,True
@@ -91,7 +91,7 @@ standardized,1,51,10.1088/1748-605X/acd03f,weak,weak,True
 standardized,1,52,10.1088/1748-605X/acd03f,weak,weak,True
 standardized,1,53,10.1088/1748-605X/acd03f,weak,weak,True
 standardized,1,54,10.1088/1748-605X/acd03f,weak,weak,True
-standardized,1,55,10.1088/1748-605X/acd03f,weak,weak,True
+standardized,1,55,10.1088/1748-605X/acd03f,weak,moderate,False
 standardized,1,56,10.1088/1748-605X/acd03f,weak,weak,True
 standardized,1,57,10.1088/1748-605X/acd03f,weak,weak,True
 standardized,1,64,https://doi.org/10.1016/j.jrras.2015.10.002,weak,moderate,False
@@ -137,11 +137,11 @@ standardized,1,324,https://doi.org/10.1007/s11274-017-2406-3,weak,weak,True
 standardized,1,325,https://doi.org/10.1007/s11274-017-2406-3,moderate,strong,False
 standardized,1,326,https://doi.org/10.1007/s11274-017-2406-3,weak,moderate,False
 standardized,1,327,https://doi.org/10.1007/s11274-017-2406-3,moderate,strong,False
-coral,1,11,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
+coral,1,11,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,moderate,False
 coral,1,12,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,weak,False
 coral,1,13,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,weak,False
-coral,1,14,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
-coral,1,15,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
+coral,1,14,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,strong,True
+coral,1,15,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,moderate,False
 coral,1,16,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
 coral,1,17,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,weak,False
 coral,1,18,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,weak,False
@@ -150,28 +150,28 @@ coral,1,20,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moder
 coral,1,21,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
 coral,1,22,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
 coral,1,23,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
-coral,1,24,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,weak,False
+coral,1,24,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,moderate,True
 coral,1,25,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
 coral,1,26,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,weak,False
 coral,1,27,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,moderate,weak,False
 coral,1,28,https://onlinelibrary.wiley.com/doi/epdf/10.1002/cbdv.202400724,strong,weak,False
 coral,1,50,10.1088/1748-605X/acd03f,weak,weak,True
-coral,1,51,10.1088/1748-605X/acd03f,weak,moderate,False
+coral,1,51,10.1088/1748-605X/acd03f,weak,weak,True
 coral,1,52,10.1088/1748-605X/acd03f,weak,weak,True
 coral,1,53,10.1088/1748-605X/acd03f,weak,weak,True
 coral,1,54,10.1088/1748-605X/acd03f,weak,weak,True
 coral,1,55,10.1088/1748-605X/acd03f,weak,weak,True
 coral,1,56,10.1088/1748-605X/acd03f,weak,weak,True
 coral,1,57,10.1088/1748-605X/acd03f,weak,weak,True
-coral,1,64,https://doi.org/10.1016/j.jrras.2015.10.002,weak,strong,False
+coral,1,64,https://doi.org/10.1016/j.jrras.2015.10.002,weak,moderate,False
 coral,1,65,https://doi.org/10.1016/j.jrras.2015.10.002,weak,moderate,False
 coral,1,66,https://doi.org/10.1515/ntrev-2016-0064,moderate,weak,False
 coral,1,67,https://doi.org/10.1515/ntrev-2016-0064,weak,weak,True
 coral,1,84,10.1038/s41598-020-73497-z,weak,weak,True
 coral,1,85,10.1038/s41598-020-73497-z,weak,weak,True
-coral,1,114,https://doi.org/10.1016/j.heliyon.2023.e15265,strong,weak,False
+coral,1,114,https://doi.org/10.1016/j.heliyon.2023.e15265,strong,strong,True
 coral,1,115,https://doi.org/10.1016/j.heliyon.2023.e15265,strong,strong,True
-coral,1,116,https://doi.org/10.1016/j.heliyon.2023.e15265,strong,weak,False
+coral,1,116,https://doi.org/10.1016/j.heliyon.2023.e15265,strong,strong,True
 coral,1,117,https://doi.org/10.1016/j.heliyon.2023.e15265,strong,weak,False
 coral,1,118,10.1007/s12010-022-04120-2,strong,weak,False
 coral,1,119,10.1007/s12010-022-04120-2,strong,weak,False
@@ -185,10 +185,10 @@ coral,1,193,10.1186/s12866-023-02971-1,weak,weak,True
 coral,1,194,10.1186/s12866-023-02971-1,weak,weak,True
 coral,1,195,10.1186/s12866-023-02971-1,weak,weak,True
 coral,1,251,10.1590/0103-6440202003897,strong,moderate,False
-coral,1,252,10.1590/0103-6440202003897,strong,weak,False
-coral,1,253,10.1590/0103-6440202003897,strong,weak,False
-coral,1,254,10.1590/0103-6440202003897,strong,weak,False
-coral,1,255,10.1590/0103-6440202003897,moderate,weak,False
+coral,1,252,10.1590/0103-6440202003897,strong,moderate,False
+coral,1,253,10.1590/0103-6440202003897,strong,moderate,False
+coral,1,254,10.1590/0103-6440202003897,strong,moderate,False
+coral,1,255,10.1590/0103-6440202003897,moderate,moderate,True
 coral,1,256,10.1590/0103-6440202003897,strong,moderate,False
 coral,1,257,10.1590/0103-6440202003897,strong,moderate,False
 coral,1,258,10.1590/0103-6440202003897,strong,moderate,False
@@ -201,7 +201,7 @@ coral,1,272,https://doi.org/10.3390/molecules29133027,strong,weak,False
 coral,1,305,10.1007/s11274-019-2787-6,moderate,weak,False
 coral,1,306,10.1007/s11274-019-2787-6,moderate,weak,False
 coral,1,307,10.1007/s11274-019-2787-6,weak,weak,True
-coral,1,323,https://doi.org/10.1007/s11274-017-2406-3,moderate,moderate,True
+coral,1,323,https://doi.org/10.1007/s11274-017-2406-3,moderate,weak,False
 coral,1,324,https://doi.org/10.1007/s11274-017-2406-3,weak,weak,True
 coral,1,325,https://doi.org/10.1007/s11274-017-2406-3,moderate,weak,False
 coral,1,326,https://doi.org/10.1007/s11274-017-2406-3,weak,weak,True
@@ -215,11 +215,11 @@ uncorrected,2,5,https://doi.org/10.1016/j.saa.2012.12.083,moderate,weak,False
 uncorrected,2,29,https://doi.org/10.1002/jbm.b.35197,weak,strong,False
 uncorrected,2,30,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 uncorrected,2,31,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
-uncorrected,2,32,https://doi.org/10.1002/jbm.b.35197,weak,strong,False
-uncorrected,2,33,https://doi.org/10.1002/jbm.b.35197,weak,strong,False
+uncorrected,2,32,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
+uncorrected,2,33,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 uncorrected,2,34,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 uncorrected,2,35,https://doi.org/10.1002/jbm.b.35197,weak,strong,False
-uncorrected,2,36,https://doi.org/10.1002/jbm.b.35197,weak,strong,False
+uncorrected,2,36,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 uncorrected,2,37,https://doi.org/10.1002/jbm.b.35197,weak,strong,False
 uncorrected,2,38,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 uncorrected,2,39,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
@@ -239,7 +239,7 @@ uncorrected,2,88,10.1007/s42770-022-00868-1,moderate,moderate,True
 uncorrected,2,89,10.1007/s42770-022-00868-1,strong,weak,False
 uncorrected,2,90,10.1007/s42770-022-00868-1,strong,moderate,False
 uncorrected,2,91,10.1007/s42770-022-00868-1,strong,weak,False
-uncorrected,2,92,10.1007/s42770-022-00868-1,strong,moderate,False
+uncorrected,2,92,10.1007/s42770-022-00868-1,strong,weak,False
 uncorrected,2,93,10.1007/s42770-022-00868-1,strong,moderate,False
 uncorrected,2,94,10.1007/s42770-022-00868-1,strong,weak,False
 uncorrected,2,95,10.1007/s42770-022-00868-1,moderate,moderate,True
@@ -261,7 +261,7 @@ uncorrected,2,229,http://dx.doi.org/10.1016/j.colsurfb.2015.02.009,strong,modera
 uncorrected,2,230,http://dx.doi.org/10.1016/j.colsurfb.2015.02.009,strong,moderate,False
 uncorrected,2,261,https://doi.org/10.1038/s41598-018-34567-5,weak,strong,False
 uncorrected,2,262,https://doi.org/10.1038/s41598-018-34567-5,weak,moderate,False
-uncorrected,2,263,https://doi.org/10.1038/s41598-018-34567-5,weak,strong,False
+uncorrected,2,263,https://doi.org/10.1038/s41598-018-34567-5,weak,moderate,False
 uncorrected,2,264,https://doi.org/10.1038/s41598-018-34567-5,weak,strong,False
 uncorrected,2,265,https://doi.org/10.1038/s41598-018-34567-5,weak,strong,False
 uncorrected,2,266,https://doi.org/10.1038/s41598-018-34567-5,weak,strong,False
@@ -302,10 +302,10 @@ standardized,2,46,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,strong,weak,Fa
 standardized,2,47,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,strong,weak,False
 standardized,2,48,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,strong,weak,False
 standardized,2,49,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,strong,moderate,False
-standardized,2,86,10.1007/s42770-022-00868-1,moderate,strong,False
+standardized,2,86,10.1007/s42770-022-00868-1,moderate,moderate,True
 standardized,2,87,10.1007/s42770-022-00868-1,moderate,strong,False
 standardized,2,88,10.1007/s42770-022-00868-1,moderate,strong,False
-standardized,2,89,10.1007/s42770-022-00868-1,strong,moderate,False
+standardized,2,89,10.1007/s42770-022-00868-1,strong,strong,True
 standardized,2,90,10.1007/s42770-022-00868-1,strong,weak,False
 standardized,2,91,10.1007/s42770-022-00868-1,strong,strong,True
 standardized,2,92,10.1007/s42770-022-00868-1,strong,moderate,False
@@ -345,18 +345,18 @@ standardized,2,320,https://doi.org/10.1016/j.talanta.2019.120243,weak,strong,Fal
 standardized,2,321,https://doi.org/10.1016/j.talanta.2019.120243,weak,moderate,False
 standardized,2,322,https://doi.org/10.1016/j.talanta.2019.120243,weak,moderate,False
 coral,2,0,https://doi.org/10.1016/j.saa.2012.12.083,moderate,weak,False
-coral,2,1,https://doi.org/10.1016/j.saa.2012.12.083,moderate,strong,False
+coral,2,1,https://doi.org/10.1016/j.saa.2012.12.083,moderate,weak,False
 coral,2,2,https://doi.org/10.1016/j.saa.2012.12.083,moderate,weak,False
 coral,2,3,https://doi.org/10.1016/j.saa.2012.12.083,strong,weak,False
-coral,2,4,https://doi.org/10.1016/j.saa.2012.12.083,strong,strong,True
-coral,2,5,https://doi.org/10.1016/j.saa.2012.12.083,moderate,strong,False
+coral,2,4,https://doi.org/10.1016/j.saa.2012.12.083,strong,weak,False
+coral,2,5,https://doi.org/10.1016/j.saa.2012.12.083,moderate,weak,False
 coral,2,29,https://doi.org/10.1002/jbm.b.35197,weak,strong,False
 coral,2,30,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 coral,2,31,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 coral,2,32,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 coral,2,33,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 coral,2,34,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
-coral,2,35,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
+coral,2,35,https://doi.org/10.1002/jbm.b.35197,weak,strong,False
 coral,2,36,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 coral,2,37,https://doi.org/10.1002/jbm.b.35197,weak,strong,False
 coral,2,38,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
@@ -366,8 +366,8 @@ coral,2,41,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 coral,2,42,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 coral,2,43,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
 coral,2,44,https://doi.org/10.1002/jbm.b.35197,weak,moderate,False
-coral,2,45,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,strong,moderate,False
-coral,2,46,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,strong,strong,True
+coral,2,45,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,strong,weak,False
+coral,2,46,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,strong,moderate,False
 coral,2,47,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,strong,moderate,False
 coral,2,48,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,strong,moderate,False
 coral,2,49,https://pubs.acs.org/doi/10.1021/acsabm.3c00090,strong,strong,True
@@ -459,7 +459,7 @@ uncorrected,3,240,https://doi.org/10.1186/s13568-024-01707-2,weak,strong,False
 uncorrected,3,241,https://doi.org/10.1186/s13568-024-01707-2,moderate,strong,False
 uncorrected,3,242,https://doi.org/10.1016/j.sjbs.2017.07.001,moderate,strong,False
 uncorrected,3,243,https://doi.org/10.1016/j.sjbs.2017.07.001,weak,moderate,False
-uncorrected,3,244,https://doi.org/10.1016/j.sjbs.2017.07.001,weak,moderate,False
+uncorrected,3,244,https://doi.org/10.1016/j.sjbs.2017.07.001,weak,strong,False
 uncorrected,3,245,https://doi.org/10.1016/j.sjbs.2017.07.001,weak,moderate,False
 uncorrected,3,246,https://doi.org/10.1016/j.sjbs.2017.07.001,weak,moderate,False
 uncorrected,3,285,Â 10.1016/j.jbiotec.2021.11.003,moderate,weak,False
@@ -467,13 +467,13 @@ uncorrected,3,286,Â 10.1016/j.jbiotec.2021.11.003,strong,weak,False
 uncorrected,3,293,https://doi.org/10.1038/s41598-017-18590-6,weak,moderate,False
 uncorrected,3,294,https://doi.org/10.1038/s41598-017-18590-6,weak,moderate,False
 uncorrected,3,295,https://doi.org/10.1038/s41598-017-18590-6,weak,moderate,False
-uncorrected,3,296,https://doi.org/10.1038/s41598-017-18590-6,weak,strong,False
+uncorrected,3,296,https://doi.org/10.1038/s41598-017-18590-6,weak,moderate,False
 uncorrected,3,297,https://doi.org/10.1038/s41598-017-18590-6,weak,moderate,False
-uncorrected,3,298,https://doi.org/10.1038/s41598-017-18590-6,weak,moderate,False
+uncorrected,3,298,https://doi.org/10.1038/s41598-017-18590-6,weak,strong,False
 uncorrected,3,299,https://doi.org/10.1038/s41598-017-18590-6,weak,moderate,False
 uncorrected,3,300,https://doi.org/10.1038/s41598-017-18590-6,weak,strong,False
 uncorrected,3,301,https://doi.org/10.1038/s41598-017-18590-6,weak,strong,False
-uncorrected,3,302,https://doi.org/10.1038/s41598-017-18590-6,weak,moderate,False
+uncorrected,3,302,https://doi.org/10.1038/s41598-017-18590-6,weak,strong,False
 uncorrected,3,303,https://doi.org/10.1111/jfd.14003,weak,strong,False
 uncorrected,3,332,https://doi.org/10.1039/c8tx00267c,weak,weak,True
 uncorrected,3,333,https://doi.org/10.1039/c8tx00267c,weak,weak,True
@@ -491,8 +491,8 @@ standardized,3,167,10.1111/1751-7915.12374,weak,weak,True
 standardized,3,168,10.1016/j.chemosphere.2021.132676,moderate,moderate,True
 standardized,3,169,10.1016/j.chemosphere.2021.132676,moderate,moderate,True
 standardized,3,170,10.1016/j.chemosphere.2021.132676,moderate,moderate,True
-standardized,3,171,10.1016/j.chemosphere.2021.132676,moderate,moderate,True
-standardized,3,172,10.1016/j.chemosphere.2021.132676,weak,weak,True
+standardized,3,171,10.1016/j.chemosphere.2021.132676,moderate,weak,False
+standardized,3,172,10.1016/j.chemosphere.2021.132676,weak,moderate,False
 standardized,3,173,10.1016/j.chemosphere.2021.132676,weak,weak,True
 standardized,3,174,10.1016/j.chemosphere.2021.132676,weak,weak,True
 standardized,3,175,10.1016/j.chemosphere.2021.132676,weak,weak,True
@@ -500,7 +500,7 @@ standardized,3,176,10.1016/j.chemosphere.2021.132676,weak,weak,True
 standardized,3,177,10.1016/j.chemosphere.2021.132676,weak,weak,True
 standardized,3,178,10.1016/j.chemosphere.2021.132676,weak,weak,True
 standardized,3,179,10.1016/j.chemosphere.2021.132676,moderate,weak,False
-standardized,3,180,10.1016/j.chemosphere.2021.132676,weak,moderate,False
+standardized,3,180,10.1016/j.chemosphere.2021.132676,weak,weak,True
 standardized,3,181,10.1016/j.chemosphere.2021.132676,weak,weak,True
 standardized,3,182,10.1016/j.chemosphere.2021.132676,weak,weak,True
 standardized,3,183,10.1016/j.chemosphere.2021.132676,weak,weak,True
@@ -549,8 +549,8 @@ standardized,3,334,https://doi.org/10.1039/c8tx00267c,weak,weak,True
 standardized,3,335,https://doi.org/10.1039/c8tx00267c,weak,moderate,False
 standardized,3,340,https://doi.org/10.1038/s41598-024-62868-5,strong,moderate,False
 standardized,3,341,https://doi.org/10.1038/s41598-024-62868-5,strong,moderate,False
-coral,3,132,Â 10.1021/acsinfecdis.4c00860,strong,weak,False
-coral,3,133,Â 10.1021/acsinfecdis.4c00860,strong,weak,False
+coral,3,132,Â 10.1021/acsinfecdis.4c00860,strong,strong,True
+coral,3,133,Â 10.1021/acsinfecdis.4c00860,strong,strong,True
 coral,3,134,Â 10.1021/acsinfecdis.4c00860,strong,weak,False
 coral,3,135,Â 10.1021/acsinfecdis.4c00860,strong,weak,False
 coral,3,165,10.1111/1751-7915.12374,weak,weak,True
@@ -568,10 +568,10 @@ coral,3,176,10.1016/j.chemosphere.2021.132676,weak,moderate,False
 coral,3,177,10.1016/j.chemosphere.2021.132676,weak,moderate,False
 coral,3,178,10.1016/j.chemosphere.2021.132676,weak,moderate,False
 coral,3,179,10.1016/j.chemosphere.2021.132676,moderate,moderate,True
-coral,3,180,10.1016/j.chemosphere.2021.132676,weak,moderate,False
-coral,3,181,10.1016/j.chemosphere.2021.132676,weak,moderate,False
-coral,3,182,10.1016/j.chemosphere.2021.132676,weak,moderate,False
-coral,3,183,10.1016/j.chemosphere.2021.132676,weak,moderate,False
+coral,3,180,10.1016/j.chemosphere.2021.132676,weak,weak,True
+coral,3,181,10.1016/j.chemosphere.2021.132676,weak,weak,True
+coral,3,182,10.1016/j.chemosphere.2021.132676,weak,weak,True
+coral,3,183,10.1016/j.chemosphere.2021.132676,weak,weak,True
 coral,3,184,10.3390/jof9020133,moderate,moderate,True
 coral,3,185,10.3390/jof9020133,moderate,moderate,True
 coral,3,201,https://doi.org/10.3390/antiox13070865,moderate,weak,False
@@ -606,7 +606,7 @@ coral,3,295,https://doi.org/10.1038/s41598-017-18590-6,weak,weak,True
 coral,3,296,https://doi.org/10.1038/s41598-017-18590-6,weak,weak,True
 coral,3,297,https://doi.org/10.1038/s41598-017-18590-6,weak,weak,True
 coral,3,298,https://doi.org/10.1038/s41598-017-18590-6,weak,weak,True
-coral,3,299,https://doi.org/10.1038/s41598-017-18590-6,weak,moderate,False
+coral,3,299,https://doi.org/10.1038/s41598-017-18590-6,weak,weak,True
 coral,3,300,https://doi.org/10.1038/s41598-017-18590-6,weak,weak,True
 coral,3,301,https://doi.org/10.1038/s41598-017-18590-6,weak,weak,True
 coral,3,302,https://doi.org/10.1038/s41598-017-18590-6,weak,weak,True
@@ -645,7 +645,7 @@ uncorrected,4,127,https://link.springer.com/article/10.1007/s00449-023-02905-1#S
 uncorrected,4,128,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,weak,weak,True
 uncorrected,4,130,10.1038/s41598-024-82332-8,strong,moderate,False
 uncorrected,4,131,10.1038/s41598-024-82332-8,strong,moderate,False
-uncorrected,4,136,DOI: 10.1002/smll.202104160,moderate,weak,False
+uncorrected,4,136,DOI: 10.1002/smll.202104160,moderate,moderate,True
 uncorrected,4,137,DOI: 10.1002/smll.202104160,moderate,moderate,True
 uncorrected,4,138,DOI: 10.1002/smll.202104160,moderate,moderate,True
 uncorrected,4,139,DOI: 10.1002/smll.202104160,moderate,moderate,True
@@ -659,8 +659,8 @@ uncorrected,4,147,https://doi.org/10.1038/s41598-022-17929-y,moderate,weak,False
 uncorrected,4,148,10.1021/acsomega.2c06789,weak,moderate,False
 uncorrected,4,149,10.1021/acsomega.2c06789,weak,weak,True
 uncorrected,4,150,10.1021/acsomega.2c06789,weak,weak,True
-uncorrected,4,151,10.1021/acsomega.2c06789,weak,moderate,False
-uncorrected,4,152,10.1021/acsomega.2c06789,weak,moderate,False
+uncorrected,4,151,10.1021/acsomega.2c06789,weak,weak,True
+uncorrected,4,152,10.1021/acsomega.2c06789,weak,weak,True
 uncorrected,4,153,10.1021/acsomega.2c06789,weak,weak,True
 uncorrected,4,154,10.1021/acsomega.2c06789,moderate,moderate,True
 uncorrected,4,155,10.1021/acsomega.2c06789,weak,moderate,False
@@ -670,7 +670,7 @@ uncorrected,4,158,10.1021/acsomega.2c06789,weak,weak,True
 uncorrected,4,159,10.1021/acsomega.2c06789,weak,weak,True
 uncorrected,4,160,10.1080/21691401.2023.2268167,strong,weak,False
 uncorrected,4,161,10.1080/21691401.2023.2268167,strong,weak,False
-uncorrected,4,162,10.1080/21691401.2023.2268167,strong,weak,False
+uncorrected,4,162,10.1080/21691401.2023.2268167,strong,moderate,False
 uncorrected,4,247,https://doi.org/10.1016/j.sdentj.2018.10.004,moderate,moderate,True
 uncorrected,4,248,https://doi.org/10.1016/j.sdentj.2018.10.004,moderate,moderate,True
 uncorrected,4,249,https://doi.org/10.1016/j.sdentj.2018.10.004,moderate,moderate,True
@@ -707,13 +707,13 @@ standardized,4,107,10.14202/vetworld.2023.1301-1311,moderate,weak,False
 standardized,4,108,10.14202/vetworld.2023.1301-1311,moderate,weak,False
 standardized,4,109,10.14202/vetworld.2023.1301-1311,strong,weak,False
 standardized,4,110,10.14202/vetworld.2023.1301-1311,moderate,weak,False
-standardized,4,125,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,weak,weak,True
+standardized,4,125,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,weak,moderate,False
 standardized,4,126,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,weak,weak,True
 standardized,4,127,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,weak,moderate,False
 standardized,4,128,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,weak,moderate,False
 standardized,4,130,10.1038/s41598-024-82332-8,strong,moderate,False
 standardized,4,131,10.1038/s41598-024-82332-8,strong,weak,False
-standardized,4,136,DOI: 10.1002/smll.202104160,moderate,weak,False
+standardized,4,136,DOI: 10.1002/smll.202104160,moderate,moderate,True
 standardized,4,137,DOI: 10.1002/smll.202104160,moderate,moderate,True
 standardized,4,138,DOI: 10.1002/smll.202104160,moderate,moderate,True
 standardized,4,139,DOI: 10.1002/smll.202104160,moderate,weak,False
@@ -780,19 +780,19 @@ coral,4,126,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,w
 coral,4,127,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,weak,weak,True
 coral,4,128,https://link.springer.com/article/10.1007/s00449-023-02905-1#Sec21,weak,weak,True
 coral,4,130,10.1038/s41598-024-82332-8,strong,weak,False
-coral,4,131,10.1038/s41598-024-82332-8,strong,weak,False
+coral,4,131,10.1038/s41598-024-82332-8,strong,moderate,False
 coral,4,136,DOI: 10.1002/smll.202104160,moderate,strong,False
 coral,4,137,DOI: 10.1002/smll.202104160,moderate,strong,False
 coral,4,138,DOI: 10.1002/smll.202104160,moderate,strong,False
 coral,4,139,DOI: 10.1002/smll.202104160,moderate,strong,False
 coral,4,140,https://doi.org/10.1038/s41598-022-24514-w,moderate,strong,False
-coral,4,142,https://doi.org/10.1038/s41598-022-17929-y,moderate,moderate,True
-coral,4,143,https://doi.org/10.1038/s41598-022-17929-y,moderate,weak,False
-coral,4,144,https://doi.org/10.1038/s41598-022-17929-y,strong,moderate,False
-coral,4,145,https://doi.org/10.1038/s41598-022-17929-y,moderate,weak,False
-coral,4,146,https://doi.org/10.1038/s41598-022-17929-y,strong,moderate,False
-coral,4,147,https://doi.org/10.1038/s41598-022-17929-y,moderate,weak,False
-coral,4,148,10.1021/acsomega.2c06789,weak,weak,True
+coral,4,142,https://doi.org/10.1038/s41598-022-17929-y,moderate,weak,False
+coral,4,143,https://doi.org/10.1038/s41598-022-17929-y,moderate,moderate,True
+coral,4,144,https://doi.org/10.1038/s41598-022-17929-y,strong,weak,False
+coral,4,145,https://doi.org/10.1038/s41598-022-17929-y,moderate,moderate,True
+coral,4,146,https://doi.org/10.1038/s41598-022-17929-y,strong,weak,False
+coral,4,147,https://doi.org/10.1038/s41598-022-17929-y,moderate,moderate,True
+coral,4,148,10.1021/acsomega.2c06789,weak,moderate,False
 coral,4,149,10.1021/acsomega.2c06789,weak,weak,True
 coral,4,150,10.1021/acsomega.2c06789,weak,weak,True
 coral,4,151,10.1021/acsomega.2c06789,weak,weak,True
@@ -806,20 +806,20 @@ coral,4,158,10.1021/acsomega.2c06789,weak,weak,True
 coral,4,159,10.1021/acsomega.2c06789,weak,weak,True
 coral,4,160,10.1080/21691401.2023.2268167,strong,weak,False
 coral,4,161,10.1080/21691401.2023.2268167,strong,weak,False
-coral,4,162,10.1080/21691401.2023.2268167,strong,weak,False
-coral,4,247,https://doi.org/10.1016/j.sdentj.2018.10.004,moderate,weak,False
+coral,4,162,10.1080/21691401.2023.2268167,strong,moderate,False
+coral,4,247,https://doi.org/10.1016/j.sdentj.2018.10.004,moderate,moderate,True
 coral,4,248,https://doi.org/10.1016/j.sdentj.2018.10.004,moderate,weak,False
 coral,4,249,https://doi.org/10.1016/j.sdentj.2018.10.004,moderate,weak,False
 coral,4,250,https://doi.org/10.1016/j.sdentj.2018.10.004,moderate,weak,False
 coral,4,308,https://doi.org/10.1038/s41598-019-50906-6,moderate,weak,False
 coral,4,309,https://doi.org/10.1038/s41598-019-50906-6,moderate,weak,False
 coral,4,312,https://doi.org/10.1038/s41598-019-54025-0,weak,weak,True
-coral,4,313,https://doi.org/10.1038/s41598-019-54025-0,weak,weak,True
+coral,4,313,https://doi.org/10.1038/s41598-019-54025-0,weak,strong,False
 coral,4,314,https://doi.org/10.1038/s41598-019-54025-0,weak,weak,True
 coral,4,315,https://doi.org/10.1038/s41598-019-54025-0,weak,weak,True
 coral,4,316,https://doi.org/10.1038/s41598-019-54025-0,weak,strong,False
 coral,4,317,https://doi.org/10.1038/s41598-019-54025-0,weak,strong,False
-coral,4,318,https://doi.org/10.1038/s41598-019-54025-0,weak,weak,True
+coral,4,318,https://doi.org/10.1038/s41598-019-54025-0,weak,strong,False
 coral,4,319,https://doi.org/10.1038/s41598-019-54025-0,weak,weak,True
 uncorrected,5,6,https://doi.org/10.1016/j.saa.2012.01.011,moderate,moderate,True
 uncorrected,5,7,https://doi.org/10.1016/j.saa.2012.01.011,moderate,moderate,True
@@ -829,7 +829,7 @@ uncorrected,5,10,https://doi.org/10.1016/j.saa.2012.01.011,moderate,moderate,Tru
 uncorrected,5,68,https://link.springer.com/article/10.1007/s13204-015-0460-4,moderate,moderate,True
 uncorrected,5,69,https://link.springer.com/article/10.1007/s13204-015-0460-4,moderate,weak,False
 uncorrected,5,72,https://doi.org/10.1016/j.jallcom.2021.163073,weak,weak,True
-uncorrected,5,73,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,weak,False
+uncorrected,5,73,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,strong,False
 uncorrected,5,74,https://doi.org/10.1016/j.jallcom.2021.163073,weak,moderate,False
 uncorrected,5,75,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,moderate,True
 uncorrected,5,76,https://doi.org/10.1016/j.jallcom.2021.163073,weak,moderate,False
@@ -864,7 +864,7 @@ www.ietdl.org",strong,strong,True
 uncorrected,5,221,"10.1049/iet-nbt.2014.0068
 www.ietdl.org",moderate,strong,False
 uncorrected,5,222,"10.1049/iet-nbt.2014.0068
-www.ietdl.org",moderate,strong,False
+www.ietdl.org",moderate,weak,False
 uncorrected,5,223,"10.1049/iet-nbt.2014.0068
 www.ietdl.org",strong,weak,False
 uncorrected,5,224,"10.1049/iet-nbt.2014.0068
@@ -872,7 +872,7 @@ www.ietdl.org",strong,strong,True
 uncorrected,5,225,"10.1049/iet-nbt.2014.0068
 www.ietdl.org",strong,weak,False
 uncorrected,5,226,"10.1049/iet-nbt.2014.0068
-www.ietdl.org",moderate,strong,False
+www.ietdl.org",moderate,weak,False
 uncorrected,5,227,"10.1049/iet-nbt.2014.0068
 www.ietdl.org",moderate,weak,False
 uncorrected,5,228,"10.1049/iet-nbt.2014.0068
@@ -886,7 +886,7 @@ uncorrected,5,278,10.2147/IJN.S258319,strong,moderate,False
 uncorrected,5,279,10.2147/IJN.S258319,moderate,moderate,True
 uncorrected,5,280,10.2147/IJN.S258319,strong,moderate,False
 uncorrected,5,281,10.2147/IJN.S258319,weak,moderate,False
-uncorrected,5,282,10.1038/s41598-020-64127-9,weak,strong,False
+uncorrected,5,282,10.1038/s41598-020-64127-9,weak,weak,True
 uncorrected,5,283,10.1038/s41598-020-64127-9,weak,strong,False
 uncorrected,5,284,10.1038/s41598-020-64127-9,weak,moderate,False
 uncorrected,5,287,10.1038/s41598-021-85584-,strong,weak,False
@@ -923,9 +923,9 @@ standardized,5,83,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,weak,Fa
 standardized,5,141,https://doi.org/10.1038/s41598-022-18379-2,moderate,moderate,True
 standardized,5,186,10.3390/jfb14020112,strong,weak,False
 standardized,5,187,10.3390/jfb14020112,moderate,strong,False
-standardized,5,188,10.3390/jfb14020112,strong,strong,True
+standardized,5,188,10.3390/jfb14020112,strong,weak,False
 standardized,5,189,10.3390/jfb14020112,strong,weak,False
-standardized,5,209,10.1007/s00430-017-0525-y,weak,weak,True
+standardized,5,209,10.1007/s00430-017-0525-y,weak,strong,False
 standardized,5,210,10.1007/s00430-017-0525-y,weak,strong,False
 standardized,5,211,10.1007/s00430-017-0525-y,weak,weak,True
 standardized,5,212,10.1007/s00430-017-0525-y,weak,weak,True
@@ -988,18 +988,18 @@ coral,5,9,https://doi.org/10.1016/j.saa.2012.01.011,weak,strong,False
 coral,5,10,https://doi.org/10.1016/j.saa.2012.01.011,moderate,strong,False
 coral,5,68,https://link.springer.com/article/10.1007/s13204-015-0460-4,moderate,moderate,True
 coral,5,69,https://link.springer.com/article/10.1007/s13204-015-0460-4,moderate,moderate,True
-coral,5,72,https://doi.org/10.1016/j.jallcom.2021.163073,weak,weak,True
+coral,5,72,https://doi.org/10.1016/j.jallcom.2021.163073,weak,moderate,False
 coral,5,73,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,moderate,True
 coral,5,74,https://doi.org/10.1016/j.jallcom.2021.163073,weak,weak,True
 coral,5,75,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,weak,False
-coral,5,76,https://doi.org/10.1016/j.jallcom.2021.163073,weak,moderate,False
+coral,5,76,https://doi.org/10.1016/j.jallcom.2021.163073,weak,weak,True
 coral,5,77,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,moderate,True
 coral,5,78,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,weak,False
 coral,5,79,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,weak,False
 coral,5,80,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,moderate,True
 coral,5,81,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,moderate,True
-coral,5,82,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,weak,False
-coral,5,83,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,weak,False
+coral,5,82,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,moderate,True
+coral,5,83,https://doi.org/10.1016/j.jallcom.2021.163073,moderate,moderate,True
 coral,5,141,https://doi.org/10.1038/s41598-022-18379-2,moderate,weak,False
 coral,5,186,10.3390/jfb14020112,strong,weak,False
 coral,5,187,10.3390/jfb14020112,moderate,weak,False
@@ -1014,13 +1014,13 @@ coral,5,214,10.1007/s00430-017-0525-y,weak,moderate,False
 coral,5,215,10.1007/s00430-017-0525-y,weak,moderate,False
 coral,5,216,10.1007/s00430-017-0525-y,weak,moderate,False
 coral,5,217,"10.1049/iet-nbt.2014.0068
-www.ietdl.org",moderate,weak,False
+www.ietdl.org",moderate,moderate,True
 coral,5,218,"10.1049/iet-nbt.2014.0068
-www.ietdl.org",moderate,weak,False
+www.ietdl.org",moderate,moderate,True
 coral,5,219,"10.1049/iet-nbt.2014.0068
-www.ietdl.org",moderate,weak,False
+www.ietdl.org",moderate,moderate,True
 coral,5,220,"10.1049/iet-nbt.2014.0068
-www.ietdl.org",strong,weak,False
+www.ietdl.org",strong,moderate,False
 coral,5,221,"10.1049/iet-nbt.2014.0068
 www.ietdl.org",moderate,moderate,True
 coral,5,222,"10.1049/iet-nbt.2014.0068
@@ -1037,15 +1037,15 @@ coral,5,227,"10.1049/iet-nbt.2014.0068
 www.ietdl.org",moderate,moderate,True
 coral,5,228,"10.1049/iet-nbt.2014.0068
 www.ietdl.org",strong,moderate,False
-coral,5,273,10.2147/IJN.S258319,moderate,weak,False
-coral,5,274,10.2147/IJN.S258319,weak,weak,True
-coral,5,275,10.2147/IJN.S258319,moderate,weak,False
+coral,5,273,10.2147/IJN.S258319,moderate,moderate,True
+coral,5,274,10.2147/IJN.S258319,weak,moderate,False
+coral,5,275,10.2147/IJN.S258319,moderate,moderate,True
 coral,5,276,10.2147/IJN.S258319,moderate,weak,False
 coral,5,277,10.2147/IJN.S258319,strong,weak,False
 coral,5,278,10.2147/IJN.S258319,strong,weak,False
 coral,5,279,10.2147/IJN.S258319,moderate,weak,False
 coral,5,280,10.2147/IJN.S258319,strong,weak,False
-coral,5,281,10.2147/IJN.S258319,weak,weak,True
+coral,5,281,10.2147/IJN.S258319,weak,moderate,False
 coral,5,282,10.1038/s41598-020-64127-9,weak,weak,True
 coral,5,283,10.1038/s41598-020-64127-9,weak,weak,True
 coral,5,284,10.1038/s41598-020-64127-9,weak,weak,True
