@@ -6,10 +6,10 @@ mic_grouped_macro_f1,0.2725,0.1291,MIC,scripts/01_grouped_cv.py,2600365,arm-maco
 mic_majority_baseline,0.4181,,MIC,scripts/01_grouped_cv.py,2600365,arm-macos,
 mic_standardized_accuracy,0.3454,0.0617,MIC,scripts/05_adaptation.py,2600365,arm-macos,within-paper z-score; agrees with 01_grouped_cv.py
 mic_standardized_macro_f1,0.3064,0.0576,MIC,scripts/05_adaptation.py,2600365,arm-macos,
-mic_coral_accuracy,0.3987,0.1794,MIC,scripts/05_adaptation.py,2600365,arm-macos,ridge 1.0 default; large fold spread
-mic_coral_macro_f1,0.3133,0.1440,MIC,scripts/05_adaptation.py,2600365,arm-macos,
-mic_no_magpie_accuracy,0.3601,0.1258,MIC,scripts/09_magpie_ablation.py,2600365,arm-macos,22 descriptors removed
-mic_no_magpie_macro_f1,0.3107,0.1372,MIC,scripts/09_magpie_ablation.py,2600365,arm-macos,
+mic_coral_accuracy,0.3987,0.1789,MIC,scripts/05_adaptation.py,2600365,arm-macos,ridge 1.0 default; large fold spread
+mic_coral_macro_f1,0.3133,0.1439,MIC,scripts/05_adaptation.py,2600365,arm-macos,
+mic_no_magpie_accuracy,0.3601,0.1126,MIC,scripts/09_magpie_ablation.py,2600365,arm-macos,22 descriptors removed
+mic_no_magpie_macro_f1,0.3107,0.1227,MIC,scripts/09_magpie_ablation.py,2600365,arm-macos,
 magpie_ablation_delta_accuracy,0.0440,,MIC,scripts/09_magpie_ablation.py,2600365,arm-macos,paired single run
 mbc_random_accuracy,0.7738,0.0689,MBC,scripts/04_mbc.py,2600365,arm-macos,
 mbc_random_macro_f1,0.7371,0.0995,MBC,scripts/04_mbc.py,2600365,arm-macos,
