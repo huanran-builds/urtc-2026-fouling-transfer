@@ -177,9 +177,9 @@ def main() -> None:
         fold_table.groupby("ridge", as_index=False)
         .agg(
             accuracy_mean=("accuracy", "mean"),
-            accuracy_std=("accuracy", "std"),
+            accuracy_std=("accuracy", lambda values: values.std(ddof=0)),
             macro_f1_mean=("macro_f1", "mean"),
-            macro_f1_std=("macro_f1", "std"),
+            macro_f1_std=("macro_f1", lambda values: values.std(ddof=0)),
             n_rows=("n_test_rows", "sum"),
             n_papers=("n_test_papers", "sum"),
         )
