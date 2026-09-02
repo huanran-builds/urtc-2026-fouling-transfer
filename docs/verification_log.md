@@ -2,12 +2,13 @@
 
 ## Verdict
 
-**FAIL pending correction of `results/canonical_results.csv`.**
+**PASS after correction and recheck at `c1fb700`.**
 
-The fresh-environment recomputation and both input-integrity checks pass. The
-canonical table does not yet pass the hostile traceability read: four standard
-deviations disagree with the committed outputs produced by their named scripts,
-and four dataset-count rows lack script, commit, and platform provenance.
+The fresh-environment recomputation, both input-integrity checks, and the final
+28-row canonical-table traceability read pass. The initial read at `3bee080`
+failed because four standard deviations disagreed with their committed source
+outputs and four dataset-count rows lacked provenance. Those findings are
+retained below as the audit trail; `2ae9823` and `c1fb700` corrected them.
 
 No Windows-regenerated output is proposed for commit. ARM macOS remains the
 project's canonical reporting platform.
@@ -15,10 +16,13 @@ project's canonical reporting platform.
 ## Frozen state and environment
 
 - Expected analysis snapshot from the handoff: `2600365de5334813198f6b1101e830d299e0c977`
-- Audited `main`: `3bee08030382078de6292a4dbd8fee6e2231d354`
-- Reason for the extra commit: `3bee080` adds the final canonical-results table
-  that Z3 requires; `2600365` is its parent and remains the snapshot cited by
-  the populated table rows.
+- Initial audited `main`: `3bee08030382078de6292a4dbd8fee6e2231d354`
+- Final audited `main`: `c1fb700d184683490f95f3f063dd181d24656d07`
+- `3bee080` added the canonical-results table. `2ae9823` added count-row
+  provenance and identified the sweep maximum as a derived endpoint. `c1fb700`
+  corrected the four stale standard deviations.
+- Every row cites `2600365` as the canonical source snapshot containing the
+  mutually consistent scripts and outputs. It is not the table revision SHA.
 - Fresh clone: separate from all prior working copies
 - Python: 3.13.14
 - NumPy: 2.4.6
@@ -51,7 +55,9 @@ metric.
 
 The MIC rerun read 342 rows from 65 source papers. The MBC rerun read and
 analyzed all 133 rows from 24 source papers, dropped zero rows, and confirmed
-zero source-paper overlap in every grouped fold.
+zero source-paper overlap in every grouped fold. No input, script, or generated
+analysis artifact changed between source snapshot `2600365` and final recheck
+`c1fb700`, so the Z2 recomputation remains valid.
 
 ## Z3 — hostile read of all 28 canonical rows
 
@@ -63,11 +69,10 @@ Global structural checks:
   `2600365`: PASS.
 - Populated SHA `2600365` resolves to a commit and is an ancestor of audited
   `main`: PASS.
-- Four rows have no script/SHA/platform to check: FAIL.
-- One estimate is represented twice under different identifiers: review
-  required. `mic_coral_accuracy` and `coral_ridge_sweep_accuracy_max` are both
-  the ridge-1.0 CORAL accuracy of 0.3987. The latter is a derived range endpoint,
-  not an independent result.
+- All 28 rows have populated script, SHA, and platform provenance: PASS.
+- `mic_coral_accuracy` and `coral_ridge_sweep_accuracy_max` both contain the
+  ridge-1.0 CORAL accuracy of 0.3987. The sweep row now identifies itself as a
+  derived range endpoint and not an independent result: PASS.
 
 The row-level check compares the canonical table with the committed artifact
 produced by the named script. “PASS” means the reported value and any populated
@@ -82,10 +87,10 @@ standard deviation match after four-decimal rounding.
 | 5 | `mic_majority_baseline` | `outputs/tables/grouped_cv_mic.csv` | PASS |
 | 6 | `mic_standardized_accuracy` | `outputs/tables/adaptation_comparison.csv` | PASS |
 | 7 | `mic_standardized_macro_f1` | `outputs/tables/adaptation_comparison.csv` | PASS |
-| 8 | `mic_coral_accuracy` | `outputs/tables/adaptation_comparison.csv` | **FAIL: std 0.1794; source rounds to 0.1789** |
-| 9 | `mic_coral_macro_f1` | `outputs/tables/adaptation_comparison.csv` | **FAIL: std 0.1440; source rounds to 0.1439** |
-| 10 | `mic_no_magpie_accuracy` | `outputs/tables/magpie_ablation_summary.csv` | **FAIL: std 0.1258; source is 0.1126** |
-| 11 | `mic_no_magpie_macro_f1` | `outputs/tables/magpie_ablation_summary.csv` | **FAIL: std 0.1372; source is 0.1227** |
+| 8 | `mic_coral_accuracy` | `outputs/tables/adaptation_comparison.csv` | PASS: std corrected from 0.1794 to 0.1789 |
+| 9 | `mic_coral_macro_f1` | `outputs/tables/adaptation_comparison.csv` | PASS: std corrected from 0.1440 to 0.1439 |
+| 10 | `mic_no_magpie_accuracy` | `outputs/tables/magpie_ablation_summary.csv` | PASS: std corrected from 0.1258 to 0.1126 |
+| 11 | `mic_no_magpie_macro_f1` | `outputs/tables/magpie_ablation_summary.csv` | PASS: std corrected from 0.1372 to 0.1227 |
 | 12 | `magpie_ablation_delta_accuracy` | Difference of paired grouped-CV means | PASS: 0.0439898 → 0.0440 |
 | 13 | `mbc_random_accuracy` | `outputs/tables/04_mbc_summary.csv` | PASS |
 | 14 | `mbc_random_macro_f1` | `outputs/tables/04_mbc_summary.csv` | PASS |
@@ -96,29 +101,36 @@ standard deviation match after four-decimal rounding.
 | 19 | `species_delta_5to20` | `outputs/tables/06_species_analysis_bucket_performance.csv` | PASS |
 | 20 | `species_delta_lt5` | `outputs/tables/06_species_analysis_bucket_performance.csv` | PASS |
 | 21 | `coral_ridge_sweep_accuracy_min` | `outputs/tables/coral_ridge_sensitivity.csv` | PASS |
-| 22 | `coral_ridge_sweep_accuracy_max` | `outputs/tables/coral_ridge_sensitivity.csv` | PASS; duplicate underlying ridge-1 estimate noted above |
+| 22 | `coral_ridge_sweep_accuracy_max` | `outputs/tables/coral_ridge_sensitivity.csv` | PASS: explicitly labeled as a derived ridge-1 range endpoint |
 | 23 | `combat_status` | `outputs/tables/combat_comparison.csv` | PASS as prose status; warning: blank machine-readable value |
 | 24 | `magpie_constancy_papers` | `results/magpie_constancy.csv` | PASS: 55 of 65 references |
-| 25 | `mic_n_rows` | No script/SHA/platform named | **FAIL provenance; count 342 is correct** |
-| 26 | `mic_n_papers` | No script/SHA/platform named | **FAIL provenance; count 65 is correct** |
-| 27 | `mbc_n_rows` | No script/SHA/platform named | **FAIL provenance; count 133 is correct** |
-| 28 | `mbc_n_papers` | No script/SHA/platform named | **FAIL provenance; count 24 is correct** |
+| 25 | `mic_n_rows` | `outputs/tables/grouped_cv_mic.csv` | PASS: 342 with complete provenance |
+| 26 | `mic_n_papers` | `outputs/tables/grouped_cv_mic.csv` | PASS: 65 with complete provenance |
+| 27 | `mbc_n_rows` | `outputs/tables/04_mbc_summary.csv` | PASS: 133 with complete provenance |
+| 28 | `mbc_n_papers` | `outputs/tables/04_mbc_summary.csv` | PASS: 24 with complete provenance |
 
-### Corrections required before Z3 can pass
+### Initial failures and their resolution
 
-1. Replace the four stale/misrounded standard deviations:
-   - CORAL accuracy: `0.1789`
-   - CORAL macro-F1: `0.1439`
-   - no-Magpie accuracy: `0.1126`
-   - no-Magpie macro-F1: `0.1227`
-2. Add provenance to all four count rows. MIC counts are produced by
-   `scripts/01_grouped_cv.py`; MBC counts are produced by `scripts/04_mbc.py`.
-   Record an explicit commit and platform designation.
-3. Make the CORAL sweep-maximum row explicitly a derived sensitivity-range
-   endpoint, or remove it, so the same ridge-1 estimate cannot be interpreted
-   as two independent results.
-4. Prefer a categorical status field/value for `combat_status` if this table
-   is intended for machine consumption.
+1. The initial audit found four stale/misrounded standard deviations. Commit
+   `c1fb700` corrected them to CORAL accuracy `0.1789`, CORAL macro-F1 `0.1439`,
+   no-Magpie accuracy `0.1126`, and no-Magpie macro-F1 `0.1227`.
+2. The initial audit found missing provenance on all four dataset-count rows.
+   Commit `2ae9823` linked MIC counts to `scripts/01_grouped_cv.py`, MBC counts
+   to `scripts/04_mbc.py`, snapshot `2600365`, and platform `arm-macos`.
+3. Commit `2ae9823` marked the CORAL sweep maximum as a derived range endpoint
+   containing the same ridge-1.0 estimate as `mic_coral_accuracy`.
+4. `combat_status` remains encoded in the note rather than a categorical value.
+   This is a nonblocking machine-readability warning, not a traceability failure.
+
+### Source snapshot semantics
+
+Keep `2600365` as the uniform reproducibility anchor, but interpret the column
+as a source-snapshot SHA rather than the literal commit that first generated
+each artifact. The snapshot contains all mutually consistent scripts and
+outputs, resolves from current `main`, and is unchanged by later table-only
+corrections. Using the table commit would describe table revision rather than
+analysis provenance and would create a self-reference problem. A future schema
+revision may rename `commit_sha` to `source_snapshot_sha` to make this explicit.
 
 ## CORAL interpretation
 
@@ -153,8 +165,8 @@ across five folds, not uncertainty in the mean.
 ## Gate status
 
 - Z2: **PASS**
-- Z3: **FAIL pending the corrections above**
-- Overall verification gate: **FAIL**
+- Z3: **PASS**
+- Overall verification gate: **PASS**
 
-After the canonical table is corrected, repeat the row-level comparison and
-update this log rather than changing the present failure record silently.
+The original failure and its corrections remain documented above rather than
+being removed from the verification record.
