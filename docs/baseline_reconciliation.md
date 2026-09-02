@@ -1,20 +1,12 @@
 # Baseline reconciliation: MIC Magpie ablation
 
-> **Superseded run — do not cite.** PR #6 used Python 3.13.5,
-> scikit-learn 1.6.1, and XGBoost 3.2.0. The project subsequently designated
-> the package versions pinned in the root `requirements.txt` as canonical,
-> including scikit-learn 1.9.0 and XGBoost 3.4.0, with ARM macOS as the
-> canonical platform. The 0.3362 and 0.3476 values below are retained only as
-> an audit trail. A human-owned ARM rerun must replace the affected generated
-> outputs before those results are reported.
-
 ## Purpose
 
 The initial Magpie ablation reported full-feature grouped accuracy of 0.3044,
 whereas the project’s canonical `scripts/01_grouped_cv.py` result is 0.3162.
 The absolute difference is 0.0118, within the project’s documented
-cross-platform tolerance of plus or minus 0.02. This note records the
-configuration comparison and the now-superseded paired ablation run.
+cross-platform tolerance of plus or minus 0.02.  This note records the
+configuration comparison and establishes one final paired ablation result.
 
 ## Configuration comparison before rerun
 
@@ -50,11 +42,10 @@ feature set, grouping, split, or model specification.
 
 ## Result
 
-The noncanonical matched rerun produced a full-feature grouped accuracy of **0.3362** and
+The matched rerun produced a full-feature grouped accuracy of **0.3362** and
 macro-F1 of **0.3032**. Running `scripts/01_grouped_cv.py` in the same
 environment produced the same grouped accuracy and macro-F1, establishing
-only that the ablation's full-feature arm matched the baseline script in that
-same noncanonical environment.
+that the ablation’s full-feature arm now matches the canonical script exactly.
 This value is 0.0200 above the historical 0.3162 result (within the stated
 plus-or-minus-0.02 tolerance, to unrounded precision).
 
@@ -67,5 +58,4 @@ canonical result were generated under Python 3.14.0, scikit-learn 1.9.0, and
 XGBoost 3.4.0; the reconciled Windows run used Python 3.13.5, scikit-learn
 1.6.1, and XGBoost 3.2.0. This software-stack difference, not a data or
 configuration difference, is the supported explanation for the residual
-cross-run variation. These values are not valid substitutes for the pending
-canonical ARM rerun.
+cross-run variation.

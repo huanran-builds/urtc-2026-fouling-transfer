@@ -18,7 +18,6 @@ from __future__ import annotations
 import hashlib
 import platform
 import sys
-import warnings
 from pathlib import Path
 
 import numpy as np
@@ -311,22 +310,13 @@ def main() -> None:
 
     uncorrected_accuracy = float(summary.loc[summary["evaluation"].eq("uncorrected"), "accuracy_mean"].iloc[0])
     coral_accuracy = float(summary.loc[summary["evaluation"].eq("coral"), "accuracy_mean"].iloc[0])
-    if abs(uncorrected_accuracy - EXPECTED_GROUPED_ACCURACY) > REPLICATION_TOLERANCE:
-        warnings.warn(
-            f"Uncorrected grouped accuracy {uncorrected_accuracy:.3f} is outside the "
-            f"+/- {REPLICATION_TOLERANCE:.2f} replication tolerance around "
-            f"{EXPECTED_GROUPED_ACCURACY:.3f}; reporting the result unchanged.",
-            RuntimeWarning,
-            stacklevel=2,
-        )
-    if coral_accuracy >= MAX_ADAPTED_ACCURACY:
-        warnings.warn(
-            f"CORAL grouped accuracy {coral_accuracy:.3f} is above the "
-            f"{MAX_ADAPTED_ACCURACY:.2f} diagnostic threshold; inspect for "
-            "leakage and report the result unchanged.",
-            RuntimeWarning,
-            stacklevel=2,
-        )
+    assert abs(uncorrected_accuracy - EXPECTED_GROUPED_ACCURACY) <= REPLICATION_TOLERANCE, (
+        f"Uncorrected grouped accuracy {uncorrected_accuracy:.3f} is outside the "
+        f"+/- {REPLICATION_TOLERANCE:.2f} replication tolerance around {EXPECTED_GROUPED_ACCURACY:.3f}"
+    )
+    assert coral_accuracy < MAX_ADAPTED_ACCURACY, (
+        f"CORAL grouped accuracy {coral_accuracy:.3f} is implausibly high; inspect leakage."
+    )
     assert np.isfinite(summary.select_dtypes(include=np.number).to_numpy()).all()
 
     # Do not create result files until all checks above pass.
