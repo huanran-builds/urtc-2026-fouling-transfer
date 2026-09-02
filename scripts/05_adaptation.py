@@ -99,9 +99,7 @@ def within_study_zscore(frame: pd.DataFrame, cols: list[str]) -> pd.DataFrame:
     for column in cols:
         grouped = out.groupby("Ref")[column]
         mean = grouped.transform("mean")
-        std = grouped.transform(lambda values: values.std(ddof=0)).where(
-            lambda values: values > 0, 1.0
-        )
+        std = grouped.transform("std").where(lambda values: values > 0, 1.0)
         out[column] = (out[column] - mean) / std.fillna(1.0)
     return out
 
