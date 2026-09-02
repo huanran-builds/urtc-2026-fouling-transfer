@@ -106,7 +106,12 @@ def main() -> None:
     assert folds.groupby("evaluation").size().eq(N_SPLITS).all()
     assert folds["n_shared_papers"].eq(0).all() and all(np.all(x == 1) for x in coverage.values())
     baseline = frame["MIC_class"].value_counts(normalize=True).max()
-    summary = folds.groupby("evaluation", as_index=False).agg(accuracy_mean=("accuracy", "mean"), accuracy_std=("accuracy", "std"), macro_f1_mean=("macro_f1", "mean"), macro_f1_std=("macro_f1", "std"))
+    summary = folds.groupby("evaluation", as_index=False).agg(
+        accuracy_mean=("accuracy", "mean"),
+        accuracy_std=("accuracy", lambda values: values.std(ddof=0)),
+        macro_f1_mean=("macro_f1", "mean"),
+        macro_f1_std=("macro_f1", lambda values: values.std(ddof=0)),
+    )
     summary["majority_baseline"] = baseline
     summary["accuracy_minus_majority_baseline"] = summary["accuracy_mean"] - baseline
     summary["n_rows"] = len(frame); summary["n_papers"] = groups.nunique(); summary["n_magpie_features_removed"] = 22
