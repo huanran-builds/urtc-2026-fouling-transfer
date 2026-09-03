@@ -269,11 +269,16 @@ for metric in SCORING:
             "cv_majority_accuracy_mean": round(grouped_cv_majority.mean(), 4),
             "cv_majority_accuracy_std": round(grouped_cv_majority.std(), 4),
             "overall_majority_baseline": round(overall_majority_baseline, 4),
-            "accuracy_delta_over_cv_majority": round(
-                g.mean() - grouped_cv_majority.mean(), 4
+            # Accuracy is comparable with an accuracy baseline; macro F1 is not.
+            "accuracy_delta_over_cv_majority": (
+                round(g.mean() - grouped_cv_majority.mean(), 4)
+                if metric == "accuracy"
+                else np.nan
             ),
-            "corrected_accuracy_delta_over_cv_majority": round(
-                c.mean() - grouped_cv_majority.mean(), 4
+            "corrected_accuracy_delta_over_cv_majority": (
+                round(c.mean() - grouped_cv_majority.mean(), 4)
+                if metric == "accuracy"
+                else np.nan
             ),
             "n_rows": len(df),
             "n_papers": int(groups.nunique()),
