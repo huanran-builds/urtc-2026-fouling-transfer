@@ -195,10 +195,35 @@ grouped_corr = cross_validate(
     cv=GroupKFold(N_SPLITS),
 )
 
+
+def grouped_train_majority_scores(target, paper_groups):
+    """Score the majority class learned separately in each grouped training fold.
+
+    Unlike the overall class prevalence, this baseline never uses labels from
+    the held-out papers to choose its predicted class.  It mirrors the
+    fold-trained majority calculation in ``scripts/04_mbc.py``.
+    """
+    scores = []
+    coverage = np.zeros(len(target), dtype=int)
+    for fold, (train_index, test_index) in enumerate(
+        GroupKFold(N_SPLITS).split(X_raw, target, paper_groups), start=1
+    ):
+        train_papers = set(paper_groups.iloc[train_index])
+        test_papers = set(paper_groups.iloc[test_index])
+        assert not train_papers & test_papers, f"Fold {fold} has paper overlap"
+
+        train_majority = target.iloc[train_index].value_counts().idxmax()
+        scores.append((target.iloc[test_index] == train_majority).mean())
+        coverage[test_index] += 1
+
+    assert np.all(coverage == 1), "Each row must be tested exactly once"
+    return np.asarray(scores, dtype=float)
+
 # ======================================================================
 # Report
 # ======================================================================
-baseline = df["MIC_class"].value_counts(normalize=True).max()
+overall_majority_baseline = df["MIC_class"].value_counts(normalize=True).max()
+grouped_cv_majority = grouped_train_majority_scores(y, groups)
 vc = groups.value_counts()
 
 print()
@@ -207,7 +232,11 @@ print(f"  rows              : {len(df)}")
 print(f"  source papers     : {groups.nunique()}")
 print(f"  rows per paper    : mean {vc.mean():.1f}, median {vc.median():.0f}, max {vc.max()}")
 print(f"  classes           : {dict(df['MIC_class'].value_counts())}")
-print(f"  majority baseline : {baseline:.3f}")
+print(f"  overall majority prevalence : {overall_majority_baseline:.3f}")
+print(
+    "  grouped train-majority baseline: "
+    f"{grouped_cv_majority.mean():.3f} +/- {grouped_cv_majority.std():.3f}"
+)
 print("  paper reports     : 0.79 +/- 0.02 accuracy (XGBoost, random 80/20)")
 print()
 
@@ -234,7 +263,18 @@ for metric in SCORING:
             "grouped_corrected_std": round(c.std(), 4),
             "leakage_drop": round(r.mean() - g.mean(), 4),
             "correction_gain": round(c.mean() - g.mean(), 4),
-            "majority_baseline": round(baseline, 4),
+            # Keep the historical name as the fold-trained, deployable
+            # comparator used by downstream result and figure scripts.
+            "majority_baseline": round(grouped_cv_majority.mean(), 4),
+            "cv_majority_accuracy_mean": round(grouped_cv_majority.mean(), 4),
+            "cv_majority_accuracy_std": round(grouped_cv_majority.std(), 4),
+            "overall_majority_baseline": round(overall_majority_baseline, 4),
+            "accuracy_delta_over_cv_majority": round(
+                g.mean() - grouped_cv_majority.mean(), 4
+            ),
+            "corrected_accuracy_delta_over_cv_majority": round(
+                c.mean() - grouped_cv_majority.mean(), 4
+            ),
             "n_rows": len(df),
             "n_papers": int(groups.nunique()),
             "model": "XGBClassifier",
