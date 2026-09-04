@@ -87,6 +87,10 @@ def main() -> None:
     for fold, (train, test) in enumerate(GroupKFold(N_SPLITS).split(X_full, y, groups), 1):
         train_papers, test_papers = set(groups.iloc[train]), set(groups.iloc[test])
         assert not train_papers & test_papers, f"Fold {fold} has paper overlap"
+        train_majority = y.iloc[train].value_counts().idxmax()
+        majority_accuracy = accuracy_score(
+            y.iloc[test], np.full(len(test), train_majority, dtype=int)
+        )
         for name, X, nums in (("full_features", X_full, magpie + numeric), ("without_magpie", X_ablated, numeric)):
             model = pipeline(nums, categorical)
             model.fit(X.iloc[train], y.iloc[train])
@@ -96,6 +100,7 @@ def main() -> None:
                 "evaluation": name, "fold": fold, "n_train_rows": len(train), "n_test_rows": len(test),
                 "n_train_papers": len(train_papers), "n_test_papers": len(test_papers),
                 "n_shared_papers": len(train_papers & test_papers), "accuracy": accuracy_score(y.iloc[test], pred),
+                "majority_accuracy": majority_accuracy,
                 "macro_f1": f1_score(y.iloc[test], pred, average="macro", zero_division=0),
             })
             oof_rows.extend({"evaluation": name, "fold": fold, "row_index": int(i), "Ref": groups.iloc[i],
@@ -105,15 +110,20 @@ def main() -> None:
     folds, oof = pd.DataFrame(fold_rows), pd.DataFrame(oof_rows)
     assert folds.groupby("evaluation").size().eq(N_SPLITS).all()
     assert folds["n_shared_papers"].eq(0).all() and all(np.all(x == 1) for x in coverage.values())
-    baseline = frame["MIC_class"].value_counts(normalize=True).max()
+    overall_majority_baseline = frame["MIC_class"].value_counts(normalize=True).max()
     summary = folds.groupby("evaluation", as_index=False).agg(
         accuracy_mean=("accuracy", "mean"),
         accuracy_std=("accuracy", lambda values: values.std(ddof=0)),
+        cv_majority_accuracy_mean=("majority_accuracy", "mean"),
+        cv_majority_accuracy_std=("majority_accuracy", lambda values: values.std(ddof=0)),
         macro_f1_mean=("macro_f1", "mean"),
         macro_f1_std=("macro_f1", lambda values: values.std(ddof=0)),
     )
-    summary["majority_baseline"] = baseline
-    summary["accuracy_minus_majority_baseline"] = summary["accuracy_mean"] - baseline
+    summary["majority_baseline"] = summary["cv_majority_accuracy_mean"]
+    summary["overall_majority_baseline"] = overall_majority_baseline
+    summary["accuracy_minus_majority_baseline"] = (
+        summary["accuracy_mean"] - summary["cv_majority_accuracy_mean"]
+    )
     summary["n_rows"] = len(frame); summary["n_papers"] = groups.nunique(); summary["n_magpie_features_removed"] = 22
     summary["input_sha256"] = sha256(INPUT); summary["python_version"] = platform.python_version(); summary["sklearn_version"] = sklearn.__version__; summary["xgboost_version"] = xgboost.__version__
     assert np.isfinite(summary.select_dtypes(include=np.number).to_numpy()).all()
@@ -139,7 +149,8 @@ def main() -> None:
             summary.loc[summary["evaluation"] == "full_features", "macro_f1_std"].iloc[0],
             summary.loc[summary["evaluation"] == "without_magpie", "macro_f1_std"].iloc[0],
         ],
-        "majority_baseline": [baseline, baseline],
+        "majority_baseline": summary["cv_majority_accuracy_mean"].tolist(),
+        "overall_majority_baseline": [overall_majority_baseline, overall_majority_baseline],
         "script": ["scripts/09_magpie_ablation.py", "scripts/09_magpie_ablation.py"],
         "platform": [platform_label, platform_label],
     })

@@ -58,7 +58,7 @@ def endpoint_figure() -> None:
         "MBC\n133 rows, 24 papers": {
             "values": [mbc_random["accuracy_mean"], mbc_grouped["accuracy_mean"]],
             "errors": [mbc_random["accuracy_std"], mbc_grouped["accuracy_std"]],
-            "baseline": mbc_grouped["overall_majority_baseline"],
+            "baseline": mbc_grouped["cv_majority_accuracy_mean"],
         },
     }
 
@@ -109,18 +109,15 @@ def species_figure() -> None:
         for row in species.itertuples(index=False)
     ]
     x = np.arange(len(species))
-    width = 0.36
 
     fig, ax = plt.subplots(figsize=(8.6, 5.1))
-    model = ax.bar(x - width / 2, species["accuracy"], width, color=TEAL, label="Grouped out-of-fold accuracy")
-    baseline = ax.bar(x + width / 2, species["majority_baseline"], width, color=SLATE, label="Stratum majority baseline")
-    for bars in (model, baseline):
-        for bar in bars:
-            ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.014, f"{bar.get_height():.3f}", ha="center", va="bottom", fontsize=10, weight="bold")
+    model = ax.bar(x, species["accuracy"], 0.56, color=TEAL, label="Grouped out-of-fold accuracy")
+    for bar in model:
+        ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.014, f"{bar.get_height():.3f}", ha="center", va="bottom", fontsize=10, weight="bold")
     ax.set_xticks(x, labels, fontsize=10)
     ax.set_ylabel("Accuracy", fontsize=11)
     ax.set_ylim(0, 0.58)
-    ax.set_title("Performance declines as species become rarer", fontsize=15, weight="bold", pad=12)
+    ax.set_title("Grouped OOF accuracy by species-frequency stratum", fontsize=15, weight="bold", pad=12)
     ax.legend(frameon=False, loc="upper right")
     style_axes(ax)
     ax.text(
@@ -137,10 +134,15 @@ def species_figure() -> None:
 def magpie_figure() -> None:
     """How often the 22 Magpie descriptors are constant within a paper."""
     constancy = pd.read_csv(RESULTS / "magpie_constancy.csv")
+    ablation = pd.read_csv(RESULTS / "magpie_ablation_final.csv").set_index("config")
     all_constant = int(constancy["all_constant"].sum())
     total = len(constancy)
     variable = total - all_constant
     fraction = all_constant / total
+    full = ablation.loc["full_features"]
+    no_magpie = ablation.loc["no_magpie"]
+    accuracy_gain = no_magpie["grouped_accuracy"] - full["grouped_accuracy"]
+    macro_f1_gain = no_magpie["grouped_macro_f1"] - full["grouped_macro_f1"]
 
     fig, ax = plt.subplots(figsize=(8.6, 3.9))
     ax.barh([0], [all_constant], color=NAVY, height=0.52, label="All 22 descriptors constant")
@@ -161,6 +163,14 @@ def magpie_figure() -> None:
         -0.72,
         "Within 55 of 65 source papers, all 22 composition-derived Magpie descriptors are identical across rows.",
         fontsize=10,
+        color=SLATE,
+    )
+    ax.text(
+        0,
+        -0.99,
+        f"Removing them raised grouped accuracy by {accuracy_gain:+.4f} and macro F1 by {macro_f1_gain:+.4f}; "
+        f"accuracy remained below the {no_magpie['majority_baseline']:.4f} fold-trained majority baseline.",
+        fontsize=9.5,
         color=SLATE,
     )
     save(fig, "figure_3_magpie_within_paper_constancy.png")
