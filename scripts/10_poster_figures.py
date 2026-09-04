@@ -11,9 +11,15 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import matplotlib
+
+# Generate PNGs reproducibly without requiring an interactive desktop backend.
+matplotlib.use("Agg")
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import seaborn as sns
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,10 +29,34 @@ FIGURES = ROOT / "outputs" / "figures"
 DPI = 450
 
 NAVY = "#1F4E79"
-TEAL = "#1B998B"
-GOLD = "#E9B44C"
-SLATE = "#5B6770"
-LIGHT_GRAY = "#E8EDF1"
+TEAL = "#169B8C"
+GOLD = "#E7B13E"
+INK = "#1F2933"
+MUTED = "#667481"
+GRID = "#DCE3E8"
+
+
+def apply_theme() -> None:
+    """Use one restrained, colorblind-friendly poster style across all figures."""
+    sns.set_theme(
+        style="whitegrid",
+        context="talk",
+        font_scale=0.9,
+        rc={
+            "axes.edgecolor": INK,
+            "axes.labelcolor": INK,
+            "axes.titleweight": "bold",
+            "axes.labelsize": 13,
+            "axes.titlesize": 15,
+            "figure.facecolor": "white",
+            "axes.facecolor": "white",
+            "grid.color": GRID,
+            "grid.linewidth": 0.8,
+            "xtick.color": INK,
+            "ytick.color": INK,
+            "legend.frameon": False,
+        },
+    )
 
 
 def save(fig: plt.Figure, name: str) -> None:
@@ -37,7 +67,9 @@ def save(fig: plt.Figure, name: str) -> None:
 
 def style_axes(ax: plt.Axes) -> None:
     ax.spines[["top", "right"]].set_visible(False)
-    ax.grid(axis="y", color=LIGHT_GRAY, linewidth=0.8)
+    ax.spines[["left", "bottom"]].set_color(INK)
+    ax.grid(axis="y")
+    ax.grid(axis="x", visible=False)
     ax.set_axisbelow(True)
 
 
@@ -62,37 +94,50 @@ def endpoint_figure() -> None:
         },
     }
 
-    fig, axes = plt.subplots(1, 2, figsize=(9.2, 4.9), sharey=True)
+    fig, axes = plt.subplots(1, 2, figsize=(10.8, 5.6), sharey=True)
     labels = ["Random\nrow split", "Grouped\nby paper"]
     colors = [NAVY, TEAL]
     for ax, (endpoint, data) in zip(axes, endpoints.items()):
         x = np.arange(2)
-        ax.bar(
-            x,
-            data["values"],
-            yerr=data["errors"],
-            capsize=5,
-            color=colors,
-            edgecolor="white",
-            linewidth=1.2,
+        plot_data = pd.DataFrame({"evaluation": labels, "accuracy": data["values"]})
+        sns.barplot(
+            data=plot_data,
+            x="evaluation",
+            y="accuracy",
+            hue="evaluation",
+            palette=colors,
+            legend=False,
+            errorbar=None,
+            ax=ax,
         )
+        ax.errorbar(x, data["values"], yerr=data["errors"], fmt="none", ecolor=INK, capsize=5, linewidth=1.8)
         ax.axhline(data["baseline"], color=GOLD, linestyle="--", linewidth=2)
         for xpos, value in zip(x, data["values"]):
-            ax.text(xpos, value + 0.035, f"{value:.3f}", ha="center", va="bottom", fontsize=11, weight="bold")
-        ax.text(1.43, data["baseline"] + 0.012, f"majority\n{data['baseline']:.3f}", color=SLATE, fontsize=8.5, ha="right")
-        ax.set_title(endpoint, fontsize=13, weight="bold", pad=10)
-        ax.set_xticks(x, labels, fontsize=10)
+            ax.text(xpos, value + 0.038, f"{value:.3f}", ha="center", va="bottom", fontsize=13, weight="bold", color=INK)
+        ax.text(
+            0.03,
+            0.96,
+            f"Fold-trained majority baseline = {data['baseline']:.3f}",
+            transform=ax.transAxes,
+            ha="left",
+            va="top",
+            fontsize=9.5,
+            color=MUTED,
+        )
+        ax.set_title(endpoint, pad=22)
+        ax.set_xlabel("")
         ax.set_ylim(0, 0.9)
         style_axes(ax)
-    axes[0].set_ylabel("Five-fold CV accuracy (mean ± fold SD)", fontsize=11)
-    fig.suptitle("Random splits overstate cross-publication performance", fontsize=15, weight="bold", y=1.02)
+    axes[0].set_ylabel("Accuracy (five-fold CV mean ± fold SD)")
+    fig.suptitle("Random row splits overstate publication-grouped performance", fontsize=18, weight="bold", color=INK, y=1.03)
     fig.legend(
         [plt.Rectangle((0, 0), 1, 1, color=NAVY), plt.Rectangle((0, 0), 1, 1, color=TEAL), plt.Line2D([0], [0], color=GOLD, linestyle="--", linewidth=2)],
         ["Random row split", "Paper-grouped split", "Majority-class baseline"],
         loc="lower center",
         ncol=3,
         frameon=False,
-        bbox_to_anchor=(0.5, -0.10),
+        bbox_to_anchor=(0.5, -0.08),
+        fontsize=10.5,
     )
     save(fig, "figure_1_endpoint_random_vs_grouped.png")
 
@@ -110,23 +155,33 @@ def species_figure() -> None:
     ]
     x = np.arange(len(species))
 
-    fig, ax = plt.subplots(figsize=(8.6, 5.1))
-    model = ax.bar(x, species["accuracy"], 0.56, color=TEAL, label="Grouped out-of-fold accuracy")
-    for bar in model:
+    fig, ax = plt.subplots(figsize=(9.2, 5.4))
+    model = sns.barplot(
+        data=species,
+        x="frequency_bucket",
+        y="accuracy",
+        order=order,
+        color=TEAL,
+        errorbar=None,
+        width=0.56,
+        ax=ax,
+    )
+    for bar in model.patches:
         ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.014, f"{bar.get_height():.3f}", ha="center", va="bottom", fontsize=10, weight="bold")
-    ax.set_xticks(x, labels, fontsize=10)
-    ax.set_ylabel("Accuracy", fontsize=11)
-    ax.set_ylim(0, 0.58)
-    ax.set_title("Grouped OOF accuracy by species-frequency stratum", fontsize=15, weight="bold", pad=12)
-    ax.legend(frameon=False, loc="upper right")
+    ax.set_xticks(x, labels, fontsize=11)
+    ax.set_ylabel("Grouped out-of-fold accuracy")
+    ax.set_xlabel("Species frequency in the released MIC dataset")
+    ax.set_ylim(0, 0.46)
+    ax.set_title("Grouped OOF accuracy by species-frequency stratum", fontsize=17, weight="bold", pad=16, color=INK)
     style_axes(ax)
     ax.text(
-        0.01,
-        -0.22,
-        "Single paper-grouped MIC model; strata are evaluated from its out-of-fold predictions.",
+        0.5,
+        -0.21,
+        "Descriptive out-of-fold stratification from one paper-grouped MIC model; not a causal rarity test.",
         transform=ax.transAxes,
-        fontsize=9,
-        color=SLATE,
+        ha="center",
+        fontsize=9.5,
+        color=MUTED,
     )
     save(fig, "figure_2_species_frequency_strata.png")
 
@@ -144,39 +199,58 @@ def magpie_figure() -> None:
     accuracy_gain = no_magpie["grouped_accuracy"] - full["grouped_accuracy"]
     macro_f1_gain = no_magpie["grouped_macro_f1"] - full["grouped_macro_f1"]
 
-    fig, ax = plt.subplots(figsize=(8.6, 3.9))
-    ax.barh([0], [all_constant], color=NAVY, height=0.52, label="All 22 descriptors constant")
-    ax.barh([0], [variable], left=[all_constant], color=GOLD, height=0.52, label="At least one descriptor varies")
-    ax.text(all_constant / 2, 0, f"{all_constant} papers\n({fraction:.1%})", ha="center", va="center", color="white", fontsize=14, weight="bold")
-    ax.text(all_constant + variable / 2, 0, f"{variable}\npapers", ha="center", va="center", color="#303030", fontsize=12, weight="bold")
-    ax.set_xlim(0, total)
-    ax.set_xticks(np.arange(0, total + 1, 10))
-    ax.set_xlabel("Source papers (n = 65)", fontsize=11)
-    ax.set_yticks([])
-    ax.set_title("Magpie composition descriptors are often paper-constant", fontsize=15, weight="bold", pad=12)
-    ax.legend(ncol=2, frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.18))
-    ax.spines[["top", "right", "left"]].set_visible(False)
-    ax.grid(axis="x", color=LIGHT_GRAY, linewidth=0.8)
-    ax.set_axisbelow(True)
+    fig, ax = plt.subplots(figsize=(9.2, 4.8))
+    fig.subplots_adjust(left=0.08, right=0.99, top=0.82, bottom=0.34)
+    ax.barh([0], [all_constant], color=NAVY, height=0.48)
+    ax.barh([0], [variable], left=[all_constant], color=GOLD, height=0.48)
     ax.text(
+        all_constant / 2,
         0,
-        -0.72,
-        "Within 55 of 65 source papers, all 22 composition-derived Magpie descriptors are identical across rows.",
-        fontsize=10,
-        color=SLATE,
+        f"{all_constant} papers\nall 22 constant\n({fraction:.1%})",
+        ha="center",
+        va="center",
+        color="white",
+        fontsize=14,
+        weight="bold",
     )
     ax.text(
+        all_constant + variable / 2,
         0,
-        -0.99,
+        f"{variable} papers\n≥1 descriptor varies",
+        ha="center",
+        va="center",
+        color=INK,
+        fontsize=11.5,
+        weight="bold",
+    )
+    ax.set_xlim(0, total)
+    ax.set_xticks(np.arange(0, total + 1, 10))
+    ax.set_xlabel("Source publications (n = 65)")
+    ax.set_yticks([])
+    ax.set_title("Magpie composition descriptors are often paper-constant", fontsize=17, weight="bold", pad=16, color=INK)
+    ax.spines[["top", "right", "left"]].set_visible(False)
+    ax.grid(axis="x", color=GRID, linewidth=0.8)
+    ax.set_axisbelow(True)
+    fig.text(
+        0.08,
+        0.12,
+        "Within 55 of 65 source papers, all 22 composition-derived Magpie descriptors are identical across rows.",
+        fontsize=10.5,
+        color=MUTED,
+    )
+    fig.text(
+        0.08,
+        0.055,
         f"Removing them raised grouped accuracy by {accuracy_gain:+.4f} and macro F1 by {macro_f1_gain:+.4f}; "
         f"accuracy remained below the {no_magpie['majority_baseline']:.4f} fold-trained majority baseline.",
-        fontsize=9.5,
-        color=SLATE,
+        fontsize=10.5,
+        color=MUTED,
     )
     save(fig, "figure_3_magpie_within_paper_constancy.png")
 
 
 def main() -> None:
+    apply_theme()
     endpoint_figure()
     species_figure()
     magpie_figure()
