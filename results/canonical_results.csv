@@ -1,29 +1,31 @@
 metric,value,std,endpoint,script,commit_sha,platform,note
-mic_random_accuracy,0.7279,0.0426,MIC,scripts/01_grouped_cv.py,2600365,arm-macos,
-mic_random_macro_f1,0.7077,0.0483,MIC,scripts/01_grouped_cv.py,2600365,arm-macos,
-mic_grouped_accuracy,0.3162,0.1222,MIC,scripts/01_grouped_cv.py,2600365,arm-macos,canonical full-feature value
-mic_grouped_macro_f1,0.2725,0.1291,MIC,scripts/01_grouped_cv.py,2600365,arm-macos,
-mic_majority_baseline,0.4181,,MIC,scripts/01_grouped_cv.py,2600365,arm-macos,
-mic_standardized_accuracy,0.3454,0.0617,MIC,scripts/05_adaptation.py,2600365,arm-macos,within-paper z-score; agrees with 01_grouped_cv.py
-mic_standardized_macro_f1,0.3064,0.0576,MIC,scripts/05_adaptation.py,2600365,arm-macos,
-mic_coral_accuracy,0.3987,0.1789,MIC,scripts/05_adaptation.py,2600365,arm-macos,ridge 1.0 default; large fold spread
-mic_coral_macro_f1,0.3133,0.1439,MIC,scripts/05_adaptation.py,2600365,arm-macos,
-mic_no_magpie_accuracy,0.3601,0.1126,MIC,scripts/09_magpie_ablation.py,2600365,arm-macos,22 descriptors removed
-mic_no_magpie_macro_f1,0.3107,0.1227,MIC,scripts/09_magpie_ablation.py,2600365,arm-macos,
-magpie_ablation_delta_accuracy,0.0440,,MIC,scripts/09_magpie_ablation.py,2600365,arm-macos,paired single run
-mbc_random_accuracy,0.7738,0.0689,MBC,scripts/04_mbc.py,2600365,arm-macos,
-mbc_random_macro_f1,0.7371,0.0995,MBC,scripts/04_mbc.py,2600365,arm-macos,
-mbc_grouped_accuracy,0.5051,0.1515,MBC,scripts/04_mbc.py,2600365,arm-macos,
-mbc_grouped_macro_f1,0.3609,0.0960,MBC,scripts/04_mbc.py,2600365,arm-macos,
-mbc_majority_baseline,0.4887,,MBC,scripts/04_mbc.py,2600365,arm-macos,
-species_delta_gt20,-0.0226,,MIC,scripts/06_species_analysis.py,2600365,arm-macos,177 rows 3 species
-species_delta_5to20,-0.1237,,MIC,scripts/06_species_analysis.py,2600365,arm-macos,97 rows 12 species
-species_delta_lt5,-0.2794,,MIC,scripts/06_species_analysis.py,2600365,arm-macos,68 rows 31 species
-coral_ridge_sweep_accuracy_min,0.3398,,MIC,scripts/08_coral_ridge_sensitivity.py,2600365,arm-macos,ridge 100; exploratory sweep no selected winner
-coral_ridge_sweep_accuracy_max,0.3987,,MIC,scripts/08_coral_ridge_sensitivity.py,2600365,arm-macos,derived range endpoint; same ridge-1.0 estimate as mic_coral_accuracy
-combat_status,,,MIC,scripts/02_combat.py,2600365,arm-macos,dependency error not empirical failure
-magpie_constancy_papers,55,,MIC,scripts/07_dataset_audit.py,2600365,arm-macos,of 65 references
-mic_n_rows,342,,MIC,scripts/01_grouped_cv.py,2600365,arm-macos,
-mic_n_papers,65,,MIC,scripts/01_grouped_cv.py,2600365,arm-macos,
-mbc_n_rows,133,,MBC,scripts/04_mbc.py,2600365,arm-macos,
-mbc_n_papers,24,,MBC,scripts/04_mbc.py,2600365,arm-macos,
+mic_random_accuracy,0.7279,0.0426,MIC,scripts/01_grouped_cv.py,2227f44,arm-macos,
+mic_random_macro_f1,0.7077,0.0483,MIC,scripts/01_grouped_cv.py,2227f44,arm-macos,
+mic_grouped_accuracy,0.3162,0.1222,MIC,scripts/01_grouped_cv.py,2227f44,arm-macos,canonical full-feature value
+mic_grouped_macro_f1,0.2725,0.1291,MIC,scripts/01_grouped_cv.py,2227f44,arm-macos,
+mic_fold_trained_majority_baseline,0.4190,0.1030,MIC,scripts/01_grouped_cv.py,2227f44,arm-macos,majority class learned within each training fold
+mic_overall_majority_prevalence,0.4181,,MIC,scripts/01_grouped_cv.py,2227f44,arm-macos,descriptive class prevalence; not a deployable baseline
+mic_standardized_accuracy,0.3454,0.0617,MIC,scripts/05_adaptation.py,2227f44,arm-macos,within-paper z-score; agrees with 01_grouped_cv.py
+mic_standardized_macro_f1,0.3064,0.0576,MIC,scripts/05_adaptation.py,2227f44,arm-macos,
+mic_coral_accuracy,0.3987,0.1794,MIC,scripts/05_adaptation.py,2227f44,arm-macos,ridge 1.0 default; wide fold dispersion
+mic_coral_macro_f1,0.3133,0.1439,MIC,scripts/05_adaptation.py,2227f44,arm-macos,
+mic_no_magpie_accuracy,0.3601,0.1126,MIC,scripts/09_magpie_ablation.py,2227f44,arm-macos,22 descriptors removed
+mic_no_magpie_macro_f1,0.3107,0.1227,MIC,scripts/09_magpie_ablation.py,2227f44,arm-macos,
+magpie_ablation_delta_accuracy,0.0440,,MIC,scripts/09_magpie_ablation.py,2227f44,arm-macos,paired single run
+mbc_random_accuracy,0.7738,0.0689,MBC,scripts/04_mbc.py,2227f44,arm-macos,
+mbc_random_macro_f1,0.7371,0.0995,MBC,scripts/04_mbc.py,2227f44,arm-macos,
+mbc_grouped_accuracy,0.5051,0.1515,MBC,scripts/04_mbc.py,2227f44,arm-macos,
+mbc_grouped_macro_f1,0.3609,0.0960,MBC,scripts/04_mbc.py,2227f44,arm-macos,
+mbc_fold_trained_majority_baseline,0.4897,0.1677,MBC,scripts/04_mbc.py,2227f44,arm-macos,majority class learned within each training fold
+mbc_overall_majority_prevalence,0.4887,,MBC,scripts/04_mbc.py,2227f44,arm-macos,descriptive class prevalence; not a deployable baseline
+species_delta_gt20,-0.0226,,MIC,scripts/06_species_analysis.py,2227f44,arm-macos,descriptive; stratum prevalence not a deployable baseline
+species_delta_5to20,-0.1237,,MIC,scripts/06_species_analysis.py,2227f44,arm-macos,descriptive; stratum prevalence not a deployable baseline
+species_delta_lt5,-0.2794,,MIC,scripts/06_species_analysis.py,2227f44,arm-macos,descriptive; stratum prevalence not a deployable baseline
+coral_ridge_sweep_accuracy_min,0.3398,,MIC,scripts/08_coral_ridge_sensitivity.py,2227f44,arm-macos,ridge 100; exploratory sweep no selected winner
+coral_ridge_sweep_accuracy_max,0.3987,,MIC,scripts/08_coral_ridge_sensitivity.py,2227f44,arm-macos,derived range endpoint; same ridge-1.0 estimate as mic_coral_accuracy
+combat_status,,,MIC,scripts/02_combat.py,2227f44,arm-macos,structurally inapplicable; no per-batch parameters for an unseen publication
+magpie_constancy_papers,55,,MIC,scripts/07_dataset_audit.py,2227f44,arm-macos,of 65 references
+mic_n_rows,342,,MIC,scripts/01_grouped_cv.py,2227f44,arm-macos,
+mic_n_papers,65,,MIC,scripts/01_grouped_cv.py,2227f44,arm-macos,
+mbc_n_rows,133,,MBC,scripts/04_mbc.py,2227f44,arm-macos,
+mbc_n_papers,24,,MBC,scripts/04_mbc.py,2227f44,arm-macos,
