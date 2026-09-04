@@ -121,7 +121,7 @@ def main() -> None:
     target = pd.Series(labels.transform(frame["MIC_class"]), index=frame.index)
     features = frame[num + cat]
     groups = frame["Ref"].astype(str)
-    baseline = frame["MIC_class"].value_counts(normalize=True).max()
+    overall_majority_baseline = frame["MIC_class"].value_counts(normalize=True).max()
     assert len(frame) == 342 and groups.nunique() == 65 and set(target.unique()) == {0, 1, 2}
 
     rows: list[dict[str, object]] = []
@@ -134,6 +134,10 @@ def main() -> None:
         assert not train_groups & test_groups, f"Fold {fold} has paper overlap"
         train_target = target.iloc[train_index].to_numpy()
         test_target = target.iloc[test_index].to_numpy()
+        train_majority = pd.Series(train_target).value_counts().idxmax()
+        majority_accuracy = accuracy_score(
+            test_target, np.full(len(test_index), train_majority, dtype=int)
+        )
 
         preprocessor = make_preprocessor(num, cat)
         train_encoded = np.asarray(preprocessor.fit_transform(features.iloc[train_index]), dtype=float)
@@ -163,6 +167,7 @@ def main() -> None:
                     "n_test_papers": len(test_groups),
                     "n_shared_papers": len(train_groups & test_groups),
                     "accuracy": accuracy_score(test_target, predictions),
+                    "majority_accuracy": majority_accuracy,
                     "macro_f1": f1_score(test_target, predictions, average="macro", zero_division=0),
                 }
             )
@@ -178,14 +183,19 @@ def main() -> None:
         .agg(
             accuracy_mean=("accuracy", "mean"),
             accuracy_std=("accuracy", lambda values: values.std(ddof=0)),
+            cv_majority_accuracy_mean=("majority_accuracy", "mean"),
+            cv_majority_accuracy_std=("majority_accuracy", lambda values: values.std(ddof=0)),
             macro_f1_mean=("macro_f1", "mean"),
             macro_f1_std=("macro_f1", lambda values: values.std(ddof=0)),
             n_rows=("n_test_rows", "sum"),
             n_papers=("n_test_papers", "sum"),
         )
     )
-    summary["majority_baseline"] = baseline
-    summary["accuracy_minus_majority_baseline"] = summary["accuracy_mean"] - baseline
+    summary["majority_baseline"] = summary["cv_majority_accuracy_mean"]
+    summary["overall_majority_baseline"] = overall_majority_baseline
+    summary["accuracy_minus_majority_baseline"] = (
+        summary["accuracy_mean"] - summary["cv_majority_accuracy_mean"]
+    )
     summary["input_sha256"] = file_sha256(INPUT)
 
     # Outputs exist only if every fixed-grid run and leakage check passed.

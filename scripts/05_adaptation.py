@@ -190,7 +190,7 @@ def main() -> None:
     groups = frame["Ref"].astype(str)
     group_sizes = groups.value_counts()
     single_row_papers = set(group_sizes[group_sizes.eq(1)].index)
-    baseline = frame["MIC_class"].value_counts(normalize=True).max()
+    overall_majority_baseline = frame["MIC_class"].value_counts(normalize=True).max()
 
     assert len(frame) == 342
     assert groups.nunique() == 65
@@ -210,6 +210,10 @@ def main() -> None:
 
         train_target = target.iloc[train_index].to_numpy()
         test_target = target.iloc[test_index].to_numpy()
+        train_majority = pd.Series(train_target).value_counts().idxmax()
+        majority_accuracy = accuracy_score(
+            test_target, np.full(len(test_index), train_majority, dtype=int)
+        )
 
         # Uncorrected baseline: identical preprocessing/model structure to script 01.
         raw_model = Pipeline([("prep", make_preprocessor(num, cat)), ("clf", make_classifier())])
@@ -263,6 +267,7 @@ def main() -> None:
                     "no_paper_overlap": not bool(train_groups & test_groups),
                     "n_single_row_test_papers": len(test_groups & single_row_papers),
                     "accuracy": accuracy_score(test_target, predictions),
+                    "majority_accuracy": majority_accuracy,
                     "macro_f1": f1_score(test_target, predictions, average="macro", zero_division=0),
                 }
             )
@@ -291,6 +296,8 @@ def main() -> None:
         .agg(
             accuracy_mean=("accuracy", "mean"),
             accuracy_std=("accuracy", lambda values: values.std(ddof=0)),
+            cv_majority_accuracy_mean=("majority_accuracy", "mean"),
+            cv_majority_accuracy_std=("majority_accuracy", lambda values: values.std(ddof=0)),
             macro_f1_mean=("macro_f1", "mean"),
             macro_f1_std=("macro_f1", lambda values: values.std(ddof=0)),
             n_rows=("n_test_rows", "sum"),
@@ -299,8 +306,11 @@ def main() -> None:
         )
         .reset_index()
     )
-    summary["majority_baseline"] = baseline
-    summary["accuracy_minus_majority_baseline"] = summary["accuracy_mean"] - baseline
+    summary["majority_baseline"] = summary["cv_majority_accuracy_mean"]
+    summary["overall_majority_baseline"] = overall_majority_baseline
+    summary["accuracy_minus_majority_baseline"] = (
+        summary["accuracy_mean"] - summary["cv_majority_accuracy_mean"]
+    )
     summary["input_sha256"] = file_sha256(INPUT)
     summary["python_version"] = platform.python_version()
     summary["numpy_version"] = np.__version__
@@ -336,12 +346,13 @@ def main() -> None:
 
     print("Chen et al. 2026, MIC cross-study adaptation")
     print(f"  rows / papers      : {len(frame)} / {groups.nunique()}")
-    print(f"  majority baseline  : {baseline:.3f}")
+    print(f"  overall prevalence : {overall_majority_baseline:.3f}")
     print(f"  singleton papers   : {len(single_row_papers)} (CORAL uses identity fallback)")
     for row in summary.itertuples(index=False):
         print(
             f"  {row.evaluation:<12} acc {row.accuracy_mean:.3f} +/- {row.accuracy_std:.3f}"
             f"  f1 {row.macro_f1_mean:.3f} +/- {row.macro_f1_std:.3f}"
+            f"  cv-majority {row.cv_majority_accuracy_mean:.3f}"
             f"  delta {row.accuracy_minus_majority_baseline:+.3f}"
         )
     print(f"Saved {SUMMARY_OUT.relative_to(ROOT)}, {FOLDS_OUT.relative_to(ROOT)}, and {PREDICTIONS_OUT.relative_to(ROOT)}")
