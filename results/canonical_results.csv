@@ -23,7 +23,7 @@ species_delta_5to20,-0.1237,,MIC,scripts/06_species_analysis.py,2227f44,arm-maco
 species_delta_lt5,-0.2794,,MIC,scripts/06_species_analysis.py,2227f44,arm-macos,descriptive; stratum prevalence not a deployable baseline
 coral_ridge_sweep_accuracy_min,0.3398,,MIC,scripts/08_coral_ridge_sensitivity.py,2227f44,arm-macos,ridge 100; exploratory sweep no selected winner
 coral_ridge_sweep_accuracy_max,0.3987,,MIC,scripts/08_coral_ridge_sensitivity.py,2227f44,arm-macos,derived range endpoint; same ridge-1.0 estimate as mic_coral_accuracy
-combat_status,,,MIC,scripts/02_combat.py,2227f44,arm-macos,implementation failed against pinned environment; also structurally inapplicable, no per-batch parameters for an unseen publication
+combat_status,,,MIC,scripts/02_combat.py,2227f44,arm-macos,implementation failed against pinned environment; no empirical ComBat result
 magpie_constancy_papers,55,,MIC,scripts/07_dataset_audit.py,2227f44,arm-macos,of 65 references
 mic_n_rows,342,,MIC,scripts/01_grouped_cv.py,2227f44,arm-macos,
 mic_n_papers,65,,MIC,scripts/01_grouped_cv.py,2227f44,arm-macos,
